@@ -1,0 +1,5622 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet7",
+ "title": "Submission/Sheet7",
+ "description": "RM1-RM2 Area Field Device",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 7
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "B2": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEVICE NAME | RM FIELD ELECTRICAL INSPECTION CHECKLIST"
+    },
+    "D4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | MOUNTING / RM1"
+    },
+    "E4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | LEAKAGE / RM1"
+    },
+    "F4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | Cable & Conduit / RM1"
+    },
+    "G4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | JB/TB / RM1"
+    },
+    "H4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | MOUNTING / RM2"
+    },
+    "I4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | LEAKAGE / RM2"
+    },
+    "J4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | Cable & Conduit / RM2"
+    },
+    "K4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | JB/TB / RM2"
+    },
+    "L4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | REMARKS / RM FIELD ELECTRICAL INSPECTION CHECKLIST"
+    },
+    "D5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | MOUNTING / RM1"
+    },
+    "E5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | LEAKAGE / RM1"
+    },
+    "F5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | Cable & Conduit / RM1"
+    },
+    "G5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | JB/TB / RM1"
+    },
+    "H5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | MOUNTING / RM2"
+    },
+    "I5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | LEAKAGE / RM2"
+    },
+    "J5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | Cable & Conduit / RM2"
+    },
+    "K5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | JB/TB / RM2"
+    },
+    "L5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | REMARKS / RM FIELD ELECTRICAL INSPECTION CHECKLIST"
+    },
+    "D6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | MOUNTING / RM1"
+    },
+    "E6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | LEAKAGE / RM1"
+    },
+    "F6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | Cable & Conduit / RM1"
+    },
+    "G6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | JB/TB / RM1"
+    },
+    "H6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | MOUNTING / RM2"
+    },
+    "I6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | LEAKAGE / RM2"
+    },
+    "J6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | Cable & Conduit / RM2"
+    },
+    "K6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | JB/TB / RM2"
+    },
+    "L6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | REMARKS"
+    },
+    "H7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | MOUNTING"
+    },
+    "I7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | LEAKAGE"
+    },
+    "J7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | Cable & Conduit"
+    },
+    "K7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | JB/TB"
+    },
+    "L7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | REMARKS"
+    },
+    "H8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "I8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "J8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "K8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "L8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "F9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "H9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "I9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "J9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "K9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "L9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "D10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "F10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "G10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "H10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "I10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "J10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "K10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "L10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "F11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "H11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "I11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "J11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "K11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "L11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "F12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS | NA"
+    },
+    "H12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "I12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "J12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "K12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "L12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "F13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "H13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "I13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "J13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "K13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "L13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "F14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "J14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "K14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "L14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ZOES EOL PS"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "F26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "G26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "H26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "I26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "J26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "K26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "L26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC PT"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "E34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "F34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "G34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "H34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "I34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "J34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "K34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "L34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EDGER-1 & 2 AWC LPT"
+    },
+    "D35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "E35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "F35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "G35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "H35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "I35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "J35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "K35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "L35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOES"
+    },
+    "D36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "E36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "F36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "G36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "H36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "I36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "J36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "K36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "L36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "D37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "E37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "F37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "G37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "H37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "I37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "J37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "K37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "L37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "D38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "E38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "F38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "G38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "H38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "I38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "J38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "K38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "L38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "D39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "E39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "F39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "G39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "H39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "I39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "J39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "K39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "L39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC PT"
+    },
+    "D40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "E40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "F40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "G40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "H40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "I40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "J40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "K40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "L40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "D41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "E41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "F41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "G41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "H41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "I41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "J41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "K41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "L41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "D42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "E42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "F42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "G42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "H42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "I42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "J42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "K42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "L42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "D43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "E43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "F43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "G43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "H43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "I43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "J43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "K43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "L43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 SG LPT"
+    },
+    "D44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "E44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "F44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "G44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "H44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "I44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "J44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "K44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "L44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "D45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "E45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "F45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "G45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "H45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "I45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "J45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "K45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "L45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "D46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "E46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "F46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "G46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "H46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "I46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "J46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "K46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "L46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "D47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "E47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "F47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "G47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "H47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "I47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "J47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "K47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "L47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Edger & Rougher SG PT"
+    },
+    "D48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "E48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "F48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "G48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "H48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "I48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "J48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "K48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "L48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "D49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "E49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "F49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "G49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "H49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "I49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "J49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "K49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "L49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "D50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "E50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "F50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "G50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "H50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "I50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "J50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "K50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "L50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "D51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "E51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "F51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "G51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "H51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "I51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "J51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "K51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "L51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HGC LPT"
+    },
+    "B52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "C52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT | HGC LPT"
+    },
+    "D52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "E52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "F52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "G52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "H52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "I52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "J52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "K52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "L52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2OS ENTRY LPT"
+    },
+    "B53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "C53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT | HGC LPT"
+    },
+    "D53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "E53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "F53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "G53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "H53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "I53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "J53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "K53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "L53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 OS EXIT LPT"
+    },
+    "B54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "C54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT | HGC LPT"
+    },
+    "D54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "E54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "F54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "G54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "H54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "I54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "J54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "K54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "L54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 DS ENTRY LPT"
+    },
+    "B55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "C55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT | HGC LPT"
+    },
+    "D55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "E55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "F55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "G55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "H55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "I55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "J55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "K55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "L55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2DS EXIT LPT"
+    },
+    "D56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L57": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "E68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "F68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "G68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "H68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "I68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "J68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "K68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "L68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RCH"
+    },
+    "D69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "E69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "F69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "G69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "H69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "I69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "J69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "K69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "L69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 RCH ENCODER"
+    },
+    "C70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER | R1 & R2 RCH ENCODER"
+    },
+    "D70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "E70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "F70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "G70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "H70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "I70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "J70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "K70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "L70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 RCH CYLINDER ENCODER"
+    },
+    "D71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L74": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L75": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L76": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L77": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "D78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "E78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "F78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "G78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "H78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "I78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "J78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "K78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "L78": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 HMD"
+    },
+    "B79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ENTRY PYRO | ROLLING"
+    },
+    "D79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "E79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "F79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "G79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "H79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "I79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "J79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "K79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "L79": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "B80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EXIT PYRO | ROLLING"
+    },
+    "D80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "E80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "F80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "G80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "H80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "I80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "J80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "K80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    },
+    "L80": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 & R2 PYRO"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

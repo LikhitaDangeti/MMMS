@@ -1,0 +1,143 @@
+# SHEET: Sheet3  dims=A1:BI96
+# merged ranges (45):
+#   A1:AE2
+#   A3:B3
+#   C3:E3
+#   F3:T3
+#   U3:AE3
+#   A4:A6
+#   B4:B6
+#   C4:C6
+#   D4:AE4
+#   D5:J5
+#   K5:Q5
+#   R5:X5
+#   Y5:AE5
+#   C7:C12
+#   C13:C14
+#   C15:C23
+#   C24:C27
+#   C28:C33
+#   C34:C45
+#   C46:C47
+#   C48:C51
+#   C52:C59
+#   C60:C63
+#   C64:C69
+#   H65:J65
+#   O65:Q65
+#   V65:X65
+#   AC65:AE65
+#   H68:J68
+#   O68:Q68
+#   V68:X68
+#   AC68:AE68
+#   C71:C76
+#   J71:J76
+#   Q71:Q76
+#   X71:X76
+#   AE71:AE76
+#   C77:C78
+#   D80:G81
+#   K80:N81
+#   R80:U81
+#   Y80:AB81
+#   C82:C89
+#   C90:C95
+#   A96:B96
+# --- cells ---
+A1='FM AREA FIELD DEVICE CHECK LIST'
+A3='SHIFT:' | C3='DATE:' | F3='CHECKED BY:' | U3='SIGN:'
+A4='SN' | B4='DEVICE  NAME' | C4='EQUIPMENT' | D4='WHAT TI CHECK: Visual Checking (OK/NOK)'
+D5='Mounting' | K5='LEAKAGE' | R5='Cable & Conduit' | Y5='JB/TB'
+D6='F1' | E6='F2' | F6='F3' | G6='F4' | H6='F5' | I6='F6' | J6='F7' | K6='F1' | L6='F2' | M6='F3' | N6='F4' | O6='F5' | P6='F6' | Q6='F7' | R6='F1' | S6='F2' | T6='F3' | U6='F4' | V6='F5' | W6='F6' | X6='F7' | Y6='F1' | Z6='F2' | AA6='F3' | AB6='F4' | AC6='F5' | AD6='F6' | AE6='F7'
+A7=1 | B7='LPT for width adjustment OS' | C7='ESG'
+A8=2 | B8='LPT for width adjustment DS'
+A9=3 | B9='Proximity for ENSG approach (main)'
+A10=4 | B10='Proximity for ENSG retract (main)'
+A11=5 | B11='Proximity for ENSG approach (Red)'
+A12=6 | B12='Proximity for ENSG retract (red)'
+A13=7 | B13='PS (Air) for approach' | C13='Wiper'
+A14=8 | B14='PS (Air) for retract'
+A15=9 | B15='Proximity for retract' | C15='KP'
+A16=10 | B16='Proximity for TN open'
+A17=11 | B17='Proximity for TN close'
+A18=12 | B18='Proximity for TX open'
+A19=13 | B19='Proximity for TX close'
+A20=14 | B20='Proximity for BN open'
+A21=15 | B21='Proximity for BN close'
+A22=16 | B22='Proximity for BX open'
+A23=17 | B23='Proximity for BX close'
+A24=18 | B24='Temposonic LPT for TN' | C24='CVC'
+A25=19 | B25='Temposonic LPT for TX'
+A26=20 | B26='Temposonic LPT for BN'
+A27=21 | B27='Temposonic LPT for BX'
+A28=22 | B28='PT for OS Piston (main)' | C28='WRB'
+A29=23 | B29='PT for DS Piston (main)'
+A30=24 | B30='PT for OS/DS rod (main)'
+A31=25 | B31='PT for OS Piston (red)'
+A32=26 | B32='PT for DS Piston (red)'
+A33=27 | B33='PT for OS/DS rod (red)'
+A34=28 | B34='Sony LPT for OSN' | C34='HGC'
+A35=29 | B35='Sony LPT for OSX'
+A36=30 | B36='Sony LPT for DSN'
+A37=31 | B37='Sony LPT for DSX'
+A38=32 | B38='PT for OS Piston (main)'
+A39=33 | B39='PT for DS Piston (main)'
+A40=34 | B40='PT for OS/DS rod (main)'
+A41=35 | B41='PT for OS Piston (red)'
+A42=36 | B42='PT for DS Piston (red)'
+A43=37 | B43='PTr for OS/DS rod (red)'
+A44=38 | B44='Proximity for OS collapse'
+A45=39 | B45='Proximity for DS collapse'
+A46=40 | B46='Pressure Transducer for Piston' | C46='BUR'
+A47=41 | B47='Temposonic LPT for lift/lower'
+A48=42 | B48='Proximity for EXSG approach (main)' | C48='SGX'
+A49=43 | B49='Proximity for EXSG retract (main)'
+A50=44 | B50='Proximity for EXSG approach (Red)'
+A51=45 | B51='Proximity for EXSG retract (Red)'
+A52=46 | B52='Proximity for TN open' | C52='Spindle Holder'
+A53=47 | B53='Proximity for TN close'
+A54=48 | B54='Proximity for TX open'
+A55=49 | B55='Proximity for TX close'
+A56=50 | B56='Proximity for BN open'
+A57=51 | B57='Proximity for BN close'
+A58=52 | B58='Proximity for BX open'
+A59=53 | B59='Proximity for BX close'
+A60=54 | B60='PS for End line pressure (Main)' | C60='BUR LUB '
+A61=55 | B61='PS for End line pressure (red)'
+A62=56 | B62='TS for End line pressure OS'
+A63=57 | B63='TS for End line pressure OS'
+A64=58 | B64='PS main gear box (Main)' | C64='Zoes PS'
+A65=59 | B65='PS pinion gear box (Main)' | H65='NA' | O65='NA' | V65='NA' | AC65='NA'
+A66=60 | B66='PS spindle gear box (Main)'
+A67=61 | B67='PS main gear box (Red)'
+A68=62 | B68='PS pinion gear box (Red)' | H68='NA' | O68='NA' | V68='NA' | AC68='NA'
+A69=63 | B69='PS spindle gear box (Red)'
+A70=64 | B70='LPT for THB position movement' | C70='THB'
+A71=65 | B71='TR encoder for angle DS' | C71='Looper' | J71='NA' | Q71='NA' | X71='NA' | AE71='NA'
+A72=66 | B72='TR encoder for angle OS'
+A73=67 | B73='PT for Piston (main)'
+A74=68 | B74='PT for Rod (main)'
+A75=69 | B75='PT for Piston (Red)'
+A76=70 | B76='PT for Rod (Red)'
+A77=71 | B77='TR encoder for position' | C77='WRCH CYL'
+A78=72 | B78='Proximity for home position'
+A79=73 | B79='Proximity for spindle spotting' | C79='Spindle Spot'
+A80=74 | B80='PS for lifting and lowering' | C80='Bot BUR' | D80='NA' | K80='NA' | R80='NA' | Y80='NA'
+A81=75 | B81='LPT for posioning' | C81='Step Wedge'
+A82=76 | B82='Looper Cooling FS' | C82='Cooling'
+B83='Looper Cooling valve coil/connector'
+A84=77 | B84='Anti peeling top FS'
+B85='Anti peeling top valve coil/connector'
+A86=78 | B86='Anti peeling bottom FS'
+B87='Anti peeling bottomvalve coil/connector'
+A88=79 | B88='WR cooing FS'
+B89='WR cooing valve coil/connector'
+A90=80 | B90='Proximity for RHF side stop (main)' | C90='Side Shift'
+A91=81 | B91='Proximity for RHF side slow down'
+A92=82 | B92='Proximity for DC side stop (main)'
+A93=83 | B93='Proximity for DC side slow down'
+A94=84 | B94='Proximity for RHF side stop (Red)'
+A95=85 | B95='Proximity for DC side stop (Red)'
+A96='REMARKS'

@@ -1,0 +1,3 @@
+# Python dependencies for the Excel stamper (stamp.py) and schema extractor (extract.py).
+# Install with:  pip install -r requirements.txt
+openpyxl==3.1.5

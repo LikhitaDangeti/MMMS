@@ -1,0 +1,46 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 antialiased selection:bg-brand selection:text-white;
+  }
+  
+  .dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
+
+/* Hide number spinners */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Dashboard Excel Grid */
+.xl-table { border-collapse: collapse; table-layout: fixed; font-size: 11px; line-height: 1.25; }
+.xl-table td { border: 1px solid #cbd5e1; padding: 2px 4px; vertical-align: middle; overflow: hidden; word-break: break-word; }
+.dark .xl-table td { border-color: #334155; }
+
+.xl-label { background: #f1f5f9; font-weight: 600; color: #0f172a; text-align: center; }
+.dark .xl-label { background: #1e293b; color: #f8fafc; }
+
+.xl-locked { background: #e2e8f0; color: #64748b; text-align: center; font-style: italic; }
+.dark .xl-locked { background: #0f172a; color: #475569; }
+
+.xl-empty { background: #ffffff; }
+.dark .xl-empty { background: #020617; }
+
+.xl-title { background: #0f172a; color: #ffffff; font-weight: 700; font-size: 12px; text-align: center; }
+.dark .xl-title { background: #000000; color: #f8fafc; }
+
+.xl-view-val { display: inline-block; min-width: 100%; text-align: center; color: #059669; font-weight: 700; }
+.dark .xl-view-val { color: #10b981; }
+
+.xl-view-nok { color: #dc2626; }
+.dark .xl-view-nok { color: #ef4444; }

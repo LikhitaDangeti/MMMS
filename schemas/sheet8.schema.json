@@ -1,0 +1,2190 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet8",
+ "title": "Submission/Sheet8",
+ "description": "RM Media",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 8
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "C4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / RM HP HYD SYSTEM"
+    },
+    "D4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / RM HP HYD SYSTEM"
+    },
+    "E4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / RM HP HYD SYSTEM"
+    },
+    "G4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | MOTOR STATUS / RM LP HYD SYSTEM"
+    },
+    "H4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / RM LP HYD SYSTEM"
+    },
+    "I4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / RM LP HYD SYSTEM"
+    },
+    "J4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / RM LP HYD SYSTEM"
+    },
+    "M4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / RM ZOES LUB SYSTEM"
+    },
+    "N4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / RM ZOES LUB SYSTEM"
+    },
+    "O4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / RM ZOES LUB SYSTEM"
+    },
+    "R4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / RM MOES LUB SYSTEM"
+    },
+    "S4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / RM MOES LUB SYSTEM"
+    },
+    "T4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / RM MOES LUB SYSTEM"
+    },
+    "C5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / RM HP HYD SYSTEM"
+    },
+    "D5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / RM HP HYD SYSTEM"
+    },
+    "E5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / RM HP HYD SYSTEM"
+    },
+    "G5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | MOTOR STATUS / RM LP HYD SYSTEM"
+    },
+    "H5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / RM LP HYD SYSTEM"
+    },
+    "I5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / RM LP HYD SYSTEM"
+    },
+    "J5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / RM LP HYD SYSTEM"
+    },
+    "M5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / RM ZOES LUB SYSTEM"
+    },
+    "N5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / RM ZOES LUB SYSTEM"
+    },
+    "O5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / RM ZOES LUB SYSTEM"
+    },
+    "R5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / RM MOES LUB SYSTEM"
+    },
+    "S5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / RM MOES LUB SYSTEM"
+    },
+    "T5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / RM MOES LUB SYSTEM"
+    },
+    "C6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / RM HP HYD SYSTEM"
+    },
+    "D6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | SOUND / VIBR / RM HP HYD SYSTEM"
+    },
+    "E6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | CABLE CONDITION / RM HP HYD SYSTEM"
+    },
+    "G6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | MOTOR STATUS / RM LP HYD SYSTEM"
+    },
+    "H6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / RM LP HYD SYSTEM"
+    },
+    "I6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | SOUND / VIBR / RM LP HYD SYSTEM"
+    },
+    "J6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | CABLE CONDITION / RM LP HYD SYSTEM"
+    },
+    "M6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / RM ZOES LUB SYSTEM"
+    },
+    "N6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | SOUND / VIBR / RM ZOES LUB SYSTEM"
+    },
+    "O6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | CABLE CONDITION / RM ZOES LUB SYSTEM"
+    },
+    "R6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | BODY TEMP. / RM MOES LUB SYSTEM"
+    },
+    "S6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | SOUND / VIBR / RM MOES LUB SYSTEM"
+    },
+    "T6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | CABLE CONDITION / RM MOES LUB SYSTEM"
+    },
+    "C7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | BODY TEMP."
+    },
+    "D7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | SOUND / VIBR"
+    },
+    "E7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | CABLE CONDITION"
+    },
+    "G7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | MOTOR STATUS"
+    },
+    "H7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | BODY TEMP."
+    },
+    "I7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | SOUND / VIBR"
+    },
+    "J7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | CABLE CONDITION"
+    },
+    "M7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | BODY TEMP."
+    },
+    "N7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | SOUND / VIBR"
+    },
+    "O7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | CABLE CONDITION"
+    },
+    "C8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "D8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "E8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "G8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "H8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "I8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "J8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "Q8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "R8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | DEVICE CONDN"
+    },
+    "S8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | CABLE"
+    },
+    "T8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | JB CONDITION"
+    },
+    "C9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP"
+    },
+    "H9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP"
+    },
+    "I9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP"
+    },
+    "J9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP"
+    },
+    "L9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "M9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | DEVICE CONDN"
+    },
+    "N9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | CABLE"
+    },
+    "O9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | JB CONDITION"
+    },
+    "Q9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "R9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "S9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | CABLE"
+    },
+    "T9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | JB CONDITION"
+    },
+    "C10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "D10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "L10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "M10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "N10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | CABLE"
+    },
+    "O10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | JB CONDITION"
+    },
+    "Q10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "R10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "S10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | CABLE"
+    },
+    "T10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | JB CONDITION"
+    },
+    "C11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 8"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 8"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 8"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | MOUNTING"
+    },
+    "H11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | DEVICE CONDN"
+    },
+    "I11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | CABLE"
+    },
+    "J11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | JB CONDITION"
+    },
+    "L11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "M11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "N11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | CABLE"
+    },
+    "O11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | JB CONDITION"
+    },
+    "Q11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | MOUNTING"
+    },
+    "R11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | DEVICE CONDN"
+    },
+    "S11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | CABLE"
+    },
+    "T11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | JB CONDITION"
+    },
+    "C12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 9"
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 9"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 9"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | MOUNTING"
+    },
+    "H12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | DEVICE CONDN"
+    },
+    "I12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | CABLE"
+    },
+    "J12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | JB CONDITION"
+    },
+    "L12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | MOUNTING"
+    },
+    "M12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "N12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | CABLE"
+    },
+    "O12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | JB CONDITION"
+    },
+    "Q12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "R12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "S12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "T12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "C13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 10"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 10"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 10"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | MOUNTING"
+    },
+    "H13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | DEVICE CONDN"
+    },
+    "I13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | CABLE"
+    },
+    "J13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | JB CONDITION"
+    },
+    "L13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "M13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "N13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "O13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "Q13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "R13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "S13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "T13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "C14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 11"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 11"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 11"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | MOUNTING"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | DEVICE CONDN"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | CABLE"
+    },
+    "J14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | JB CONDITION"
+    },
+    "L14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "M14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "N14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "O14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "Q14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "R14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "S14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "T14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "C15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 1"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 1"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 1"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "J15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "L15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "M15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "N15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "O15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "Q15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "R15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "S15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "T15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "C16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 2"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 2"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 2"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "J16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "L16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "M16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "N16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "O16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "Q16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "R16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "S16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "T16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "G17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "H17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "I17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "J17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "L17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "M17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "N17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "O17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "Q17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "R17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "S17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "T17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "B18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | MOUNTING / RECIR. PUMP 2"
+    },
+    "C18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | DEVICE CONDN"
+    },
+    "D18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | CABLE"
+    },
+    "E18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | JB CONDITION"
+    },
+    "G18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "H18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "I18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "J18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "L18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "M18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "N18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "O18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "Q18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "R18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "S18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "T18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "B19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | MOUNTING / RECIR. PUMP 2"
+    },
+    "C19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | DEVICE CONDN"
+    },
+    "D19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | CABLE"
+    },
+    "E19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | JB CONDITION"
+    },
+    "G19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "H19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "I19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "J19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "L19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "M19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "N19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "O19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "Q19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "R19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "S19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "T19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "B20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | MOUNTING / RECIR. PUMP 2"
+    },
+    "C20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | DEVICE CONDN"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | CABLE"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | JB CONDITION"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "J20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "L20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "M20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "N20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "O20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "Q20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "R20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "S20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "T20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "B21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | MOUNTING"
+    },
+    "C21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | DEVICE CONDN"
+    },
+    "D21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | CABLE"
+    },
+    "E21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | JB CONDITION"
+    },
+    "T21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "REMARKS"
+    },
+    "B22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "C22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "B23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "C23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "E23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "B24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "C24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "D24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "E24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "B25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "C25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "E25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "B26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "C26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "B27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "C27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "E27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "F27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "T27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "O28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DATE & TIME"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

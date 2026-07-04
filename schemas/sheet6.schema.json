@@ -1,0 +1,3534 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet6",
+ "title": "Submission/Sheet6",
+ "description": "RM Drive,VVVF Motors,TDC",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 6
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "U3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "S M 150 DRIVE | Date :-"
+    },
+    "B6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | STATOR / I R VALUE (BENDER)"
+    },
+    "C6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | ROTOR / I R VALUE (BENDER)"
+    },
+    "E6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | RADIAL DE / MOTOR BEARING TEMP"
+    },
+    "F6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | RADIAL NDE / MOTOR BEARING TEMP"
+    },
+    "G6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | RADIAL IS / MOTOR BEARING TEMP"
+    },
+    "H6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | CONDUCTIVITY / D M WATER STATUS"
+    },
+    "I6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 TOP | TEMPERATURE / D M WATER STATUS"
+    },
+    "K6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FLOW / D M WATER STATUS"
+    },
+    "L6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PRESSURE / D M WATER STATUS"
+    },
+    "M6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | LEAKAGE / D M WATER STATUS"
+    },
+    "N6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | IN / AIR TEMP"
+    },
+    "O6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | OUT / AIR TEMP"
+    },
+    "P6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | U – PHASE / WINDING TEMP"
+    },
+    "Q6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | V – PHASE / WINDING TEMP"
+    },
+    "R6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | W – PHASE / WINDING TEMP"
+    },
+    "S6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | TOUCH SCREEN / OP PANEL"
+    },
+    "T6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PUMP AUTO / OP PANEL"
+    },
+    "U6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FAN STATUS / EXC PANEL"
+    },
+    "B7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | STATOR / I R VALUE (BENDER)"
+    },
+    "C7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | ROTOR / I R VALUE (BENDER)"
+    },
+    "D7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | AXIAL NDE / MOTOR BEARING TEMP"
+    },
+    "E7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | RADIAL DE / MOTOR BEARING TEMP"
+    },
+    "F7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | RADIAL NDE / MOTOR BEARING TEMP"
+    },
+    "G7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | RADIAL IS / MOTOR BEARING TEMP"
+    },
+    "H7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | CONDUCTIVITY / D M WATER STATUS"
+    },
+    "I7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 1 BOT | TEMPERATURE / D M WATER STATUS"
+    },
+    "K7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FLOW / D M WATER STATUS"
+    },
+    "L7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PRESSURE / D M WATER STATUS"
+    },
+    "M7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | LEAKAGE / D M WATER STATUS"
+    },
+    "N7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | IN / AIR TEMP"
+    },
+    "O7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | OUT / AIR TEMP"
+    },
+    "P7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | U – PHASE / WINDING TEMP"
+    },
+    "Q7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | V – PHASE / WINDING TEMP"
+    },
+    "R7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | W – PHASE / WINDING TEMP"
+    },
+    "S7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | TOUCH SCREEN / OP PANEL"
+    },
+    "T7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PUMP AUTO / OP PANEL"
+    },
+    "U7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FAN STATUS / EXC PANEL"
+    },
+    "B8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | STATOR / I R VALUE (BENDER)"
+    },
+    "C8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | ROTOR / I R VALUE (BENDER)"
+    },
+    "D8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | AXIAL NDE / MOTOR BEARING TEMP"
+    },
+    "E8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | RADIAL DE / MOTOR BEARING TEMP"
+    },
+    "F8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | RADIAL NDE / MOTOR BEARING TEMP"
+    },
+    "G8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | RADIAL IS / MOTOR BEARING TEMP"
+    },
+    "H8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | CONDUCTIVITY / D M WATER STATUS"
+    },
+    "I8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 TOP | TEMPERATURE / D M WATER STATUS"
+    },
+    "K8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FLOW / D M WATER STATUS"
+    },
+    "L8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PRESSURE / D M WATER STATUS"
+    },
+    "M8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | LEAKAGE / D M WATER STATUS"
+    },
+    "N8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | IN / AIR TEMP"
+    },
+    "O8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | OUT / AIR TEMP"
+    },
+    "P8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | U – PHASE / WINDING TEMP"
+    },
+    "Q8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | V – PHASE / WINDING TEMP"
+    },
+    "R8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | W – PHASE / WINDING TEMP"
+    },
+    "S8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | TOUCH SCREEN / OP PANEL"
+    },
+    "T8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PUMP AUTO / OP PANEL"
+    },
+    "U8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FAN STATUS / EXC PANEL"
+    },
+    "B9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | STATOR"
+    },
+    "C9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | ROTOR"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | AXIAL NDE"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | RADIAL DE"
+    },
+    "F9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | RADIAL NDE"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | RADIAL IS"
+    },
+    "H9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | CONDUCTIVITY"
+    },
+    "I9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM # 2 BOT | TEMPERATURE"
+    },
+    "K9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FLOW"
+    },
+    "L9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PRESSURE"
+    },
+    "M9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | LEAKAGE"
+    },
+    "N9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | IN"
+    },
+    "O9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | OUT"
+    },
+    "P9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | U – PHASE"
+    },
+    "Q9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | V – PHASE"
+    },
+    "R9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | W – PHASE"
+    },
+    "S9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | TOUCH SCREEN"
+    },
+    "T9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | PUMP AUTO"
+    },
+    "U9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "/100 | FAN STATUS"
+    },
+    "B14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Pressure (30-80 bar) / JACKING UNIT (DE SIDE)"
+    },
+    "C14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Flow>3.5 L/min / JACKING UNIT (DE SIDE)"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (DE SIDE)"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Filter (Red / Green) / JACKING UNIT (DE SIDE)"
+    },
+    "F14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (DE SIDE)"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Leakage from (Bearing Area) (OK/NOK) / JACKING UNIT (DE SIDE)"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Pressure (30-80 bar) / JACKING UNIT (NDE SIDE)"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Flow>3.5 L/min / JACKING UNIT (NDE SIDE)"
+    },
+    "J14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (NDE SIDE)"
+    },
+    "K14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Filter (Red / Green) / JACKING UNIT (NDE SIDE)"
+    },
+    "L14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (NDE SIDE)"
+    },
+    "M14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Leakage from (Bearing Area) (OK/NOK) / JACKING UNIT (NDE SIDE)"
+    },
+    "N14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Pressure (30-80 bar) / JACKING UNIT (IS)"
+    },
+    "O14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Flow>3.5 L/min / JACKING UNIT (IS)"
+    },
+    "P14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (IS)"
+    },
+    "Q14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Filter (Red / Green) / JACKING UNIT (IS)"
+    },
+    "R14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (IS)"
+    },
+    "B15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Pressure (30-80 bar) / JACKING UNIT (DE SIDE)"
+    },
+    "C15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Flow>3.5 L/min / JACKING UNIT (DE SIDE)"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (DE SIDE)"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Filter (Red / Green) / JACKING UNIT (DE SIDE)"
+    },
+    "F15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (DE SIDE)"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Leakage from (Bearing Area) (OK/NOK) / JACKING UNIT (DE SIDE)"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Pressure (30-80 bar) / JACKING UNIT (NDE SIDE)"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Flow>3.5 L/min / JACKING UNIT (NDE SIDE)"
+    },
+    "J15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (NDE SIDE)"
+    },
+    "K15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Filter (Red / Green) / JACKING UNIT (NDE SIDE)"
+    },
+    "L15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (NDE SIDE)"
+    },
+    "M15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Leakage from (Bearing Area) (OK/NOK) / JACKING UNIT (NDE SIDE)"
+    },
+    "N15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Pressure (30-80 bar) / JACKING UNIT (IS)"
+    },
+    "O15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Flow>3.5 L/min / JACKING UNIT (IS)"
+    },
+    "P15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (IS)"
+    },
+    "Q15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Filter (Red / Green) / JACKING UNIT (IS)"
+    },
+    "R15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (IS)"
+    },
+    "B16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Pressure (30-80 bar) / JACKING UNIT (DE SIDE)"
+    },
+    "C16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Flow>3.5 L/min / JACKING UNIT (DE SIDE)"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (DE SIDE)"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Filter (Red / Green) / JACKING UNIT (DE SIDE)"
+    },
+    "F16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (DE SIDE)"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Leakage from (Bearing Area) (OK/NOK) / JACKING UNIT (DE SIDE)"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Pressure (30-80 bar) / JACKING UNIT (NDE SIDE)"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Flow>3.5 L/min / JACKING UNIT (NDE SIDE)"
+    },
+    "J16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (NDE SIDE)"
+    },
+    "K16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Filter (Red / Green) / JACKING UNIT (NDE SIDE)"
+    },
+    "L16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (NDE SIDE)"
+    },
+    "M16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Leakage from (Bearing Area) (OK/NOK) / JACKING UNIT (NDE SIDE)"
+    },
+    "N16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Pressure (30-80 bar) / JACKING UNIT (IS)"
+    },
+    "O16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Flow>3.5 L/min / JACKING UNIT (IS)"
+    },
+    "P16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Motor Sound / Vibration (OK/NOK) / JACKING UNIT (IS)"
+    },
+    "Q16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Filter (Red / Green) / JACKING UNIT (IS)"
+    },
+    "R16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Level at Center of glass window at NLoad (>50%) / JACKING UNIT (IS)"
+    },
+    "B17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Pressure (30-80 bar)"
+    },
+    "C17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Flow>3.5 L/min"
+    },
+    "D17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Motor Sound / Vibration (OK/NOK)"
+    },
+    "E17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Filter (Red / Green)"
+    },
+    "F17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Level at Center of glass window at NLoad (>50%)"
+    },
+    "G17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Leakage from (Bearing Area) (OK/NOK)"
+    },
+    "H17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Pressure (30-80 bar)"
+    },
+    "I17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Flow>3.5 L/min"
+    },
+    "J17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Motor Sound / Vibration (OK/NOK)"
+    },
+    "K17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Filter (Red / Green)"
+    },
+    "L17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Level at Center of glass window at NLoad (>50%)"
+    },
+    "M17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Leakage from (Bearing Area) (OK/NOK)"
+    },
+    "N17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Pressure (30-80 bar)"
+    },
+    "O17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Flow>3.5 L/min"
+    },
+    "P17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Motor Sound / Vibration (OK/NOK)"
+    },
+    "Q17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Filter (Red / Green)"
+    },
+    "R17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Level at Center of glass window at NLoad (>50%)"
+    },
+    "B20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Flow Radial L/min / OIL COOLER SYSTEM NDE"
+    },
+    "C20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Flow Axial1 L/min / OIL COOLER SYSTEM NDE"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Flow Axial2 L/min / OIL COOLER SYSTEM NDE"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil temp / OIL COOLER SYSTEM NDE"
+    },
+    "F20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil pressure / OIL COOLER SYSTEM NDE"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Filter (Red / Green) / OIL COOLER SYSTEM NDE"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Oil Filter selection / OIL COOLER SYSTEM NDE"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | M – 611 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "J20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | M – 612 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "K20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | M – 613 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "L20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | M – 614 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "M20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Encoder Mounting"
+    },
+    "N20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Chamber/Door"
+    },
+    "O20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Water Leakage From Roof/Pipeline"
+    },
+    "P20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Exc Chamber(Cable/Carbon Brush)"
+    },
+    "Q20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 TOP | Motor Room I/C Cable"
+    },
+    "B21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Flow Radial L/min / OIL COOLER SYSTEM NDE"
+    },
+    "C21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Flow Axial1 L/min / OIL COOLER SYSTEM NDE"
+    },
+    "D21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Flow Axial2 L/min / OIL COOLER SYSTEM NDE"
+    },
+    "E21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil temp / OIL COOLER SYSTEM NDE"
+    },
+    "F21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil pressure / OIL COOLER SYSTEM NDE"
+    },
+    "G21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Filter (Red / Green) / OIL COOLER SYSTEM NDE"
+    },
+    "H21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Oil Filter selection / OIL COOLER SYSTEM NDE"
+    },
+    "I21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | M – 611 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "J21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | M – 612 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "K21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | M – 613 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "L21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | M – 614 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "M21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Encoder Mounting"
+    },
+    "N21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Chamber/Door"
+    },
+    "O21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Water Leakage From Roof/Pipeline"
+    },
+    "P21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Exc Chamber(Cable/Carbon Brush)"
+    },
+    "Q21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#1 BOT | Motor Room I/C Cable"
+    },
+    "B22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Flow Radial L/min / OIL COOLER SYSTEM NDE"
+    },
+    "C22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Flow Axial1 L/min / OIL COOLER SYSTEM NDE"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Flow Axial2 L/min / OIL COOLER SYSTEM NDE"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil temp / OIL COOLER SYSTEM NDE"
+    },
+    "F22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil pressure / OIL COOLER SYSTEM NDE"
+    },
+    "G22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Filter (Red / Green) / OIL COOLER SYSTEM NDE"
+    },
+    "H22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Oil Filter selection / OIL COOLER SYSTEM NDE"
+    },
+    "I22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | M – 611 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "J22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | M – 612 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "K22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | M – 613 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "L22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | M – 614 (OK/NOK) / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "M22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Encoder Mounting"
+    },
+    "N22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Chamber/Door"
+    },
+    "O22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Water Leakage From Roof/Pipeline"
+    },
+    "P22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Exc Chamber(Cable/Carbon Brush)"
+    },
+    "Q22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 TOP | Motor Room I/C Cable"
+    },
+    "B23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Flow Radial L/min"
+    },
+    "C23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Flow Axial1 L/min"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Flow Axial2 L/min"
+    },
+    "E23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil temp"
+    },
+    "F23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil pressure"
+    },
+    "G23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Filter (Red / Green)"
+    },
+    "H23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Oil Filter selection"
+    },
+    "I23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | M – 611 (OK/NOK)"
+    },
+    "J23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | M – 612 (OK/NOK)"
+    },
+    "K23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | M – 613 (OK/NOK)"
+    },
+    "L23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | M – 614 (OK/NOK)"
+    },
+    "M23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Encoder Mounting"
+    },
+    "N23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Chamber/Door"
+    },
+    "O23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Water Leakage From Roof/Pipeline"
+    },
+    "P23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Exc Chamber(Cable/Carbon Brush)"
+    },
+    "Q23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R#2 BOT | Motor Room I/C Cable"
+    },
+    "I25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BLOWER STATUS | R M M O T O R S T A T U S"
+    },
+    "B26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (DS) | MOTOR TEMP IN OP / R M M O T O R S T A T U S"
+    },
+    "C26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (DS) | BEARING TEMP IN OP / R M M O T O R S T A T U S"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (DS) | MOTOR BODY TEMP / R M M O T O R S T A T U S"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (DS) | ABNORMAL SOUND / R M M O T O R S T A T U S"
+    },
+    "F26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (DS) | CABLE CONDITION / R M M O T O R S T A T U S"
+    },
+    "G26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (DS) | ENCODER MOUNTING / R M M O T O R S T A T U S"
+    },
+    "B27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (OS) | MOTOR TEMP IN OP / R M M O T O R S T A T U S"
+    },
+    "C27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (OS) | BEARING TEMP IN OP / R M M O T O R S T A T U S"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (OS) | MOTOR BODY TEMP / R M M O T O R S T A T U S"
+    },
+    "E27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (OS) | ABNORMAL SOUND / R M M O T O R S T A T U S"
+    },
+    "F27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (OS) | CABLE CONDITION / R M M O T O R S T A T U S"
+    },
+    "G27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 VE (OS) | ENCODER MOUNTING / R M M O T O R S T A T U S"
+    },
+    "D28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | MOTOR BODY TEMP / R M M O T O R S T A T U S"
+    },
+    "E28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | ABNORMAL SOUND / R M M O T O R S T A T U S"
+    },
+    "F28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | CABLE CONDITION / R M M O T O R S T A T U S"
+    },
+    "G28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | ENCODER MOUNTING / R M M O T O R S T A T U S"
+    },
+    "D29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | MOTOR BODY TEMP"
+    },
+    "E29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | ABNORMAL SOUND"
+    },
+    "F29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | CABLE CONDITION"
+    },
+    "G29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | ENCODER MOUNTING"
+    },
+    "D30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "E30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "F30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "G30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "H30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | T -"
+    },
+    "I30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | B -"
+    },
+    "D31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "E31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "F31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "G31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "H31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | T -"
+    },
+    "I31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "- | B -"
+    },
+    "A32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SD (OS) / R2 SD (DS)"
+    },
+    "B32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "C32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "D32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "T -"
+    },
+    "I32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "B -"
+    },
+    "J32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "_"
+    },
+    "K32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "_"
+    },
+    "A33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SD (OS) / R2 SD (DS)"
+    },
+    "B33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "C33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "D33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "T -"
+    },
+    "I33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "B -"
+    },
+    "J33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "_"
+    },
+    "K33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "_"
+    },
+    "A34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SD (OS) / R2 SD (DS)"
+    },
+    "B34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "C34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "D34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "I34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "J34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "L34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "M34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "N34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "O34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "P34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "Q34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "R34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "A35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SD (OS)"
+    },
+    "B35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "C35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "-"
+    },
+    "D35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "I35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "J35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "L35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "M35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "N35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "O35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "P35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "Q35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "R35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "A36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "B36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "C36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "D36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "I36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "J36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "L36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "M36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "N36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS / R2 SPINDLE HEAD LUB PS"
+    },
+    "O36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "P36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "Q36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "R36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "A37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "B37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "C37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "D37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "I37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "J37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "L37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS"
+    },
+    "M37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS"
+    },
+    "N37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 SPINDLE SPODE END LUB PS"
+    },
+    "O37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "P37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "Q37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "R37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "A38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "B38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "C38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "D38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "E38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "I38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "J38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "L38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "M38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "N38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "O38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "P38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "Q38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "R38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "L40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BLOWER CURRENT | T D C"
+    },
+    "P40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ANY RED LIGHT IN CARD | EXCITATION TRANSFORMER"
+    },
+    "U40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM TDC ROOM | ROOM TEMP/HUMIDITY"
+    },
+    "B41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.2 | I R (BENDER) / R M V V V F S T A T U S"
+    },
+    "C41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.2 | FAN STATUS / R M V V V F S T A T U S"
+    },
+    "F41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.2 | WATER LEAKAGE FROM FALSE CEILING / R M V V V F S T A T U S"
+    },
+    "G41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.2 | WATER LEAKAGE FROM FALSE CEILING / R M V V V F S T A T U S"
+    },
+    "H41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.2 | EXTERNAL BLOWER RUN STATUS / R M V V V F S T A T U S"
+    },
+    "J41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E1 OS | I R (BENDER) / R M V V V F S T A T U S"
+    },
+    "K41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E1 OS | BLOWER CURRENT / R M V V V F S T A T U S"
+    },
+    "M41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 STAND | FAN STATUS / T D C"
+    },
+    "N41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 STAND | PANEL LIGHT STATUS / T D C"
+    },
+    "O41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R1 STAND | ANY RED LIGHT IN CARD / T D C"
+    },
+    "Q41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM1 TOP | CH # 1 / EXCITATION TRANSFORMER"
+    },
+    "R41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM1 TOP | CH # 2 / EXCITATION TRANSFORMER"
+    },
+    "S41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM1 TOP | CH # 3 / EXCITATION TRANSFORMER"
+    },
+    "B42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.3 | I R (BENDER) / R M V V V F S T A T U S"
+    },
+    "C42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.3 | FAN STATUS / R M V V V F S T A T U S"
+    },
+    "F42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.3 | WATER LEAKAGE FROM FALSE CEILING / R M V V V F S T A T U S"
+    },
+    "G42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.3 | WATER LEAKAGE FROM FALSE CEILING / R M V V V F S T A T U S"
+    },
+    "H42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 1.3 | EXTERNAL BLOWER RUN STATUS / R M V V V F S T A T U S"
+    },
+    "J42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E1 DS | I R (BENDER) / R M V V V F S T A T U S"
+    },
+    "K42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E1 DS | BLOWER CURRENT / R M V V V F S T A T U S"
+    },
+    "M42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FU COMFU | FAN STATUS / T D C"
+    },
+    "N42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FU COMFU | PANEL LIGHT STATUS / T D C"
+    },
+    "O42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FU COMFU | ANY RED LIGHT IN CARD / T D C"
+    },
+    "Q42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM1 BOT | CH # 1 / EXCITATION TRANSFORMER"
+    },
+    "R42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM1 BOT | CH # 2 / EXCITATION TRANSFORMER"
+    },
+    "S42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM1 BOT | CH # 3 / EXCITATION TRANSFORMER"
+    },
+    "B43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.3 | I R (BENDER) / R M V V V F S T A T U S"
+    },
+    "C43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.3 | FAN STATUS / R M V V V F S T A T U S"
+    },
+    "F43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.3 | WATER LEAKAGE FROM FALSE CEILING / R M V V V F S T A T U S"
+    },
+    "G43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.3 | WATER LEAKAGE FROM FALSE CEILING / R M V V V F S T A T U S"
+    },
+    "H43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.3 | EXTERNAL BLOWER RUN STATUS / R M V V V F S T A T U S"
+    },
+    "J43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E2 OS | I R (BENDER) / R M V V V F S T A T U S"
+    },
+    "K43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E2 OS | BLOWER CURRENT / R M V V V F S T A T U S"
+    },
+    "M43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 STAND | FAN STATUS / T D C"
+    },
+    "N43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 STAND | PANEL LIGHT STATUS / T D C"
+    },
+    "O43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 STAND | ANY RED LIGHT IN CARD / T D C"
+    },
+    "Q43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM2 TOP | CH # 1 / EXCITATION TRANSFORMER"
+    },
+    "R43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM2 TOP | CH # 2 / EXCITATION TRANSFORMER"
+    },
+    "S43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM2 TOP | CH # 3 / EXCITATION TRANSFORMER"
+    },
+    "B44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.1 | I R (BENDER)"
+    },
+    "C44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.1 | FAN STATUS"
+    },
+    "F44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.1 | WATER LEAKAGE FROM FALSE CEILING"
+    },
+    "G44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.1 | WATER LEAKAGE FROM FALSE CEILING"
+    },
+    "H44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.1 | EXTERNAL BLOWER RUN STATUS"
+    },
+    "J44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E2 DS | I R (BENDER)"
+    },
+    "K44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E2 DS | BLOWER CURRENT"
+    },
+    "M44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 COMFU | FAN STATUS"
+    },
+    "N44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 COMFU | PANEL LIGHT STATUS"
+    },
+    "O44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "R2 COMFU | ANY RED LIGHT IN CARD"
+    },
+    "Q44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM2 TOP | CH # 1"
+    },
+    "R44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM2 TOP | CH # 2"
+    },
+    "S44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM2 TOP | CH # 3"
+    },
+    "B45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "C45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "F45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "G45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "H45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "I45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2 | E2 DS / E2 OS"
+    },
+    "J45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "K45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2"
+    },
+    "M45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MEDIA"
+    },
+    "N45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MEDIA"
+    },
+    "O45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MEDIA"
+    },
+    "A46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG 2.2 / PG 2.1"
+    },
+    "B46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "C46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "F46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "G46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "H46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "I46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E2 DS / E2 OS"
+    },
+    "J46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "M46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "GDM"
+    },
+    "N46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "GDM"
+    },
+    "O46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "GDM"
+    },
+    "R46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EXTERNAL FAN RUN | RM1 T/B"
+    },
+    "S46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "EXTERNAL FAN RUN | RM2 T/B"
+    },
+    "S47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TIME | RM2 T/B"
+    },
+    "T47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TIME | R2 SM150 ROOM / R1 SM150 ROOM"
+    },
+    "U47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TIME"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

@@ -1,0 +1,2206 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet10",
+ "title": "Submission/Sheet10",
+ "description": "DC Drive,VVVF Motors,TDC",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 10
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "D6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC1 / Mounting/Foundation"
+    },
+    "E6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Mounting/Foundation"
+    },
+    "F6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Mounting/Foundation"
+    },
+    "G6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC1 / Coupling"
+    },
+    "H6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Coupling"
+    },
+    "I6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Coupling"
+    },
+    "J6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC1 / Cable"
+    },
+    "K6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Cable"
+    },
+    "L6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Cable"
+    },
+    "M6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC1 / Sound"
+    },
+    "N6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Sound"
+    },
+    "O6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Sound"
+    },
+    "P6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC1 / Body temp"
+    },
+    "Q6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Body temp"
+    },
+    "R6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Body temp"
+    },
+    "T6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / DE Brg Temp from drive panel"
+    },
+    "U6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / DE Brg Temp from drive panel"
+    },
+    "W6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / NDE Brg Temp from drive panel"
+    },
+    "X6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / NDE Brg Temp from drive panel"
+    },
+    "Y6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC1 / Encoder Insp"
+    },
+    "Z6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / Encoder Insp"
+    },
+    "AA6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / Encoder Insp"
+    },
+    "AB6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DE / OIL LEVEL"
+    },
+    "AC6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NDE / OIL LEVEL"
+    },
+    "AD6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | Remark / WHAT TO CHECK: Visual Checking"
+    },
+    "E7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / Mounting/Foundation"
+    },
+    "F7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / Mounting/Foundation"
+    },
+    "H7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / Coupling"
+    },
+    "I7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / Coupling"
+    },
+    "K7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / Cable"
+    },
+    "L7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / Cable"
+    },
+    "N7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / Sound"
+    },
+    "O7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / Sound"
+    },
+    "Q7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC2 / Body temp"
+    },
+    "R7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | DC3 / Body temp"
+    },
+    "AD7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | Remark / WHAT TO CHECK: Visual Checking"
+    },
+    "D8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "E8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Mounting/Foundation"
+    },
+    "F8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Mounting/Foundation"
+    },
+    "G8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "H8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Coupling"
+    },
+    "I8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Coupling"
+    },
+    "J8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "K8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Cable"
+    },
+    "L8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Cable"
+    },
+    "M8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "N8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Sound"
+    },
+    "O8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Sound"
+    },
+    "P8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "Q8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2 / Body temp"
+    },
+    "R8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3 / Body temp"
+    },
+    "AD8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | Remark"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2"
+    },
+    "F9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "H9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2"
+    },
+    "I9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3"
+    },
+    "J9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "K9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2"
+    },
+    "L9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3"
+    },
+    "M9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "N9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2"
+    },
+    "O9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3"
+    },
+    "P9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA / DC1"
+    },
+    "Q9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC2"
+    },
+    "R9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | DC3"
+    },
+    "T9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC2"
+    },
+    "U9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC3"
+    },
+    "W9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC2"
+    },
+    "X9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC3"
+    },
+    "Y9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC1"
+    },
+    "Z9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC2"
+    },
+    "AA9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DC3"
+    },
+    "AB9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / DE"
+    },
+    "AC9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | NA / NDE"
+    },
+    "AD9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA | Remark"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "F10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "H10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "I10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "K10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "L10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "N10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "O10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "Q10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "R10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "AD10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "H11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "K11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "N11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "Q11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "AD11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "H12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "K12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "N12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "Q12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "S12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "T12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "U12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "V12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "W12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "X12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "Y12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "Z12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AA12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AB12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AC12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AD12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "H13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "K13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "N13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "Q13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "AD13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "K14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "N14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "Q14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "AD14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "K15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "N15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "Q15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "S15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "T15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "U15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "V15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "W15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "X15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AD15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "K16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "N16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "Q16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "S16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "T16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "U16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "V16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "W16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "X16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AD16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "D17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "E17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "F17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "G17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "H17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "I17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "J17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "K17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "L17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "M17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "N17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "O17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "P17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "Q17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "R17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER"
+    },
+    "S17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "T17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "U17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "V17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "W17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "X17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DOWN COILER | NA"
+    },
+    "AD17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "AD18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "AD19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NA"
+    },
+    "AB20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Winding temp form drive panel | NA"
+    },
+    "Y21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 TPR | Winding temp form drive panel / NA"
+    },
+    "Z21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 TPR | Winding temp form drive panel / NA"
+    },
+    "AA21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 TPR | Winding temp form drive panel / NA"
+    },
+    "AC21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 | TOP PR BLOWER CURRENT FORM DRIVE / NA"
+    },
+    "AD21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 | BOT PR BLOWER CURRENT FORM DRIVE"
+    },
+    "Y22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 BPR | Winding temp form drive panel"
+    },
+    "Z22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 BPR | Winding temp form drive panel"
+    },
+    "AA22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 BPR | Winding temp form drive panel"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ">150 | in KΩ / IR VALUE (BENDER)"
+    },
+    "Y23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 MANDREL | Winding temp form drive panel"
+    },
+    "Z23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 MANDREL | Winding temp form drive panel"
+    },
+    "AA23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC1 MANDREL | Winding temp form drive panel"
+    },
+    "D24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ">200 | in KΩ / IR VALUE (BENDER)"
+    },
+    "Y24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 TPR | Winding temp form drive panel"
+    },
+    "Z24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 TPR | Winding temp form drive panel"
+    },
+    "AA24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 TPR | Winding temp form drive panel"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ">200 | in KΩ / IR VALUE (BENDER)"
+    },
+    "Y25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 BPR"
+    },
+    "Z25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 BPR"
+    },
+    "AA25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 BPR"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ">150 | in KΩ"
+    },
+    "Y26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 MANDREL"
+    },
+    "Z26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 MANDREL"
+    },
+    "AA26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC2 MANDREL"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ">250"
+    },
+    "Y27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 TPR"
+    },
+    "Z27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 TPR"
+    },
+    "AA27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 TPR"
+    },
+    "D28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ">150"
+    },
+    "Y28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 BPR"
+    },
+    "Z28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 BPR"
+    },
+    "AA28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 BPR"
+    },
+    "B29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "24 | PG # 3.6 / PG # 3.5"
+    },
+    "C29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "24 | >150 / >250"
+    },
+    "D29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "24"
+    },
+    "Y29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 MANDREL"
+    },
+    "Z29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 MANDREL"
+    },
+    "AA29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC3 MANDREL"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

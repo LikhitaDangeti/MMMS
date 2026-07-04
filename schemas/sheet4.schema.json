@@ -1,0 +1,6542 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet4",
+ "title": "Submission/Sheet4",
+ "description": "FM Media(HP,LP,ZOS,MOS and Desc & IS Water System)",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 4
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "C9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / FM HP HYD SYSTEM"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / FM HP HYD SYSTEM"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / FM HP HYD SYSTEM"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / FM LP HYD SYSTEM"
+    },
+    "J9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / FM LP HYD SYSTEM"
+    },
+    "M9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / FM ZOS LUBE SYSTEM"
+    },
+    "N9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / FM ZOS LUBE SYSTEM"
+    },
+    "O9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | CABLE CONDITION / FM ZOS LUBE SYSTEM"
+    },
+    "Q9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | BODY TEMP. / FM MOES LUBE SYSTEM"
+    },
+    "R9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 1 | SOUND / VIBR / FM MOES LUBE SYSTEM"
+    },
+    "C10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / FM HP HYD SYSTEM"
+    },
+    "D10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / FM HP HYD SYSTEM"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / FM HP HYD SYSTEM"
+    },
+    "G10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / FM LP HYD SYSTEM"
+    },
+    "J10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / FM LP HYD SYSTEM"
+    },
+    "M10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / FM ZOS LUBE SYSTEM"
+    },
+    "N10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / FM ZOS LUBE SYSTEM"
+    },
+    "O10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | CABLE CONDITION / FM ZOS LUBE SYSTEM"
+    },
+    "Q10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | BODY TEMP. / FM MOES LUBE SYSTEM"
+    },
+    "R10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 2 | SOUND / VIBR / FM MOES LUBE SYSTEM"
+    },
+    "C11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / FM HP HYD SYSTEM"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | SOUND / VIBR / FM HP HYD SYSTEM"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | CABLE CONDITION / FM HP HYD SYSTEM"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / FM LP HYD SYSTEM"
+    },
+    "J11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | CABLE CONDITION / FM LP HYD SYSTEM"
+    },
+    "M11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / FM ZOS LUBE SYSTEM"
+    },
+    "N11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | SOUND / VIBR / FM ZOS LUBE SYSTEM"
+    },
+    "O11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | CABLE CONDITION / FM ZOS LUBE SYSTEM"
+    },
+    "Q11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | BODY TEMP. / FM MOES LUBE SYSTEM"
+    },
+    "R11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 3 | SOUND / VIBR / FM MOES LUBE SYSTEM"
+    },
+    "C12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | BODY TEMP."
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | SOUND / VIBR"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | CABLE CONDITION"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | BODY TEMP."
+    },
+    "J12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | CABLE CONDITION"
+    },
+    "M12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | BODY TEMP."
+    },
+    "N12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | SOUND / VIBR"
+    },
+    "O12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 4 | CABLE CONDITION"
+    },
+    "Q12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | BODY TEMP."
+    },
+    "R12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP | SOUND / VIBR"
+    },
+    "C13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "J13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 5"
+    },
+    "M13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP"
+    },
+    "N13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP"
+    },
+    "O13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEAT PUMP"
+    },
+    "C14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "J14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 6"
+    },
+    "Q14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | MOUNTING"
+    },
+    "R14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | DEVICE CONDN"
+    },
+    "S14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | CABLE"
+    },
+    "C15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "J15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 7"
+    },
+    "L15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | MOUNTING / HEAT PUMP"
+    },
+    "M15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | DEVICE CONDN"
+    },
+    "N15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | CABLE"
+    },
+    "O15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL PRESS TRANSDUSER | JB CONDN"
+    },
+    "Q15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | MOUNTING"
+    },
+    "R15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "S15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUSER | CABLE"
+    },
+    "C16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 8"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 8"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 8"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP"
+    },
+    "J16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP"
+    },
+    "L16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUCER | MOUNTING / HEAT PUMP"
+    },
+    "M16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUCER | DEVICE CONDN"
+    },
+    "N16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUCER | CABLE"
+    },
+    "O16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC OIL TEMP TRANSDUCER | JB CONDN"
+    },
+    "Q16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | MOUNTING"
+    },
+    "R16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "S16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUSER | CABLE"
+    },
+    "C17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 9"
+    },
+    "D17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 9"
+    },
+    "E17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 9"
+    },
+    "L17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUCER | MOUNTING / HEAT PUMP"
+    },
+    "M17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUCER | DEVICE CONDN"
+    },
+    "N17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUCER | CABLE"
+    },
+    "O17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL OIL TEMP TRANSDUCER | JB CONDN"
+    },
+    "Q17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | MOUNTING"
+    },
+    "R17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | DEVICE CONDN"
+    },
+    "S17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT TEMP TRANS | CABLE"
+    },
+    "C18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 10"
+    },
+    "D18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 10"
+    },
+    "E18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN PUMP # 10"
+    },
+    "G18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | MOUNTING"
+    },
+    "H18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | DEVICE CONDN"
+    },
+    "I18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | CABLE"
+    },
+    "J18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | JB CONDN"
+    },
+    "L18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | MOUNTING"
+    },
+    "M18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | DEVICE CONDN"
+    },
+    "N18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | CABLE"
+    },
+    "O18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WATER TEMP TRANSDUSER | JB CONDN"
+    },
+    "Q18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "R18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "S18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "C19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 1"
+    },
+    "D19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 1"
+    },
+    "E19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 1"
+    },
+    "G19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | MOUNTING"
+    },
+    "H19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | DEVICE CONDN"
+    },
+    "I19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | CABLE"
+    },
+    "J19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | JB CONDN"
+    },
+    "L19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "M19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "N19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "O19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W"
+    },
+    "Q19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "R19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "S19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK 1 OIL LEVEL S/W"
+    },
+    "C20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 2"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 2"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIR. PUMP 2"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | MOUNTING"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | DEVICE CONDN"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | CABLE"
+    },
+    "J20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | JB CONDN"
+    },
+    "L20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "M20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "N20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "O20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "Q20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "R20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "S20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(PIC)"
+    },
+    "G21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | MOUNTING"
+    },
+    "H21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | DEVICE CONDN"
+    },
+    "I21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | CABLE"
+    },
+    "J21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | JB CONDN"
+    },
+    "L21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "M21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "N21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "O21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "Q21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "R21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "S21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ARCA(TIC)"
+    },
+    "B22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | MOUNTING / RECIR. PUMP 2"
+    },
+    "C22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | DEVICE CONDN"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | CABLE"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MAIN LINE PRESS S/W | JB CONDN"
+    },
+    "G22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "H22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "I22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "J22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "L22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "M22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "N22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "O22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "Q22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "R22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "S22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "B23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | MOUNTING / RECIR. PUMP 2"
+    },
+    "C23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | DEVICE CONDN"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | CABLE"
+    },
+    "E23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RECIRC LINE PRESS S/W | JB CONDN"
+    },
+    "G23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "H23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "I23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "J23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "L23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "M23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "N23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "O23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "Q23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "R23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "S23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "B24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | MOUNTING / RECIR. PUMP 2"
+    },
+    "C24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | DEVICE CONDN"
+    },
+    "D24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | CABLE"
+    },
+    "E24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TEMP S/W | JB CONDN"
+    },
+    "G24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "H24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "I24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "J24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "L24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "M24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "N24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "O24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "Q24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "R24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "S24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "B25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | MOUNTING"
+    },
+    "C25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | DEVICE CONDN"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | CABLE"
+    },
+    "E25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TNK OIL LEVEL S/W | JB CONDN"
+    },
+    "G25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "H25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "I25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "J25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "L25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "M25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "N25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "O25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMUL LEVEL S/W"
+    },
+    "Q25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "R25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "S25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ACCUMULATOR LEVEL S/W"
+    },
+    "B26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "C26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TANK OIL LVL TRANSMITTER"
+    },
+    "G26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "H26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "I26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "J26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "L26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "M26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "N26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "O26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "Q26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "R26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "S26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HEATER"
+    },
+    "B27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "C27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "E27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL PROXYMITY S/W"
+    },
+    "G27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "H27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "I27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "J27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "B28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "C28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "D28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "E28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP FILTER CLOG"
+    },
+    "J28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "REMARKS"
+    },
+    "Q28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | MOUNTING"
+    },
+    "R28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | DEVICE CONDN"
+    },
+    "S28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | CABLE"
+    },
+    "B29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "C29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "D29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "E29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LINE FILTER CLOG"
+    },
+    "L29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 1 | BODY TEMP. / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "M29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 1 | SOUND / VIBR / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "N29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 1 | CABLE CONDITION / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "O29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 1 | DRIVE CONDITION / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "Q29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 WAT FLOW TRANS 1&2 | MOUNTING"
+    },
+    "R29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 WAT FLOW TRANS 1&2 | DEVICE CONDN"
+    },
+    "S29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 WAT FLOW TRANS 1&2 | CABLE"
+    },
+    "B30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "C30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "D30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "E30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RETURN LINE FILTER CLOG"
+    },
+    "L30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 2 | BODY TEMP. / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "M30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 2 | SOUND / VIBR / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "N30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 2 | CABLE CONDITION / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "O30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 METERING PUMP 2 | DRIVE CONDITION / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "Q30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | MOUNTING"
+    },
+    "R30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | DEVICE CONDN"
+    },
+    "S30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | CABLE"
+    },
+    "B31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "C31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "D31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "E31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "L31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 1 | BODY TEMP. / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "M31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 1 | SOUND / VIBR / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "N31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 1 | CABLE CONDITION / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "O31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 1 | DRIVE CONDITION / RGL & WATER BOOSTER SYSTEM STATUS"
+    },
+    "Q31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | MOUNTING"
+    },
+    "R31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | DEVICE CONDN"
+    },
+    "S31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2 | CABLE"
+    },
+    "L32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 2 | BODY TEMP."
+    },
+    "M32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 2 | SOUND / VIBR"
+    },
+    "N32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 2 | CABLE CONDITION"
+    },
+    "O32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F3 METERING PUMP 2 | DRIVE CONDITION"
+    },
+    "Q32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2"
+    },
+    "R32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2"
+    },
+    "S32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2"
+    },
+    "L33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 1"
+    },
+    "M33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 1"
+    },
+    "N33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 1"
+    },
+    "O33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 1"
+    },
+    "Q33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2"
+    },
+    "R33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2"
+    },
+    "S33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F2 OIL FLOW TRANS 1&2"
+    },
+    "L34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 2"
+    },
+    "M34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 2"
+    },
+    "N34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 2"
+    },
+    "O34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "F4 METERING PUMP 2"
+    },
+    "Q34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER LEVEL S/W"
+    },
+    "R34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER LEVEL S/W"
+    },
+    "S34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER LEVEL S/W"
+    },
+    "L35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 1"
+    },
+    "M35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 1"
+    },
+    "N35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 1"
+    },
+    "O35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 1"
+    },
+    "Q35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PRESS S/W"
+    },
+    "R35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PRESS S/W"
+    },
+    "S35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PRESS S/W"
+    },
+    "L36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 2"
+    },
+    "M36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 2"
+    },
+    "N36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 2"
+    },
+    "O36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOOSTER PUMP 2"
+    },
+    "Q36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "R36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "S36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR"
+    },
+    "A38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "B40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | MOUNTING / DESCALING PUMP 1"
+    },
+    "C40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | DEVICE CONDN / DESCALING PUMP 1"
+    },
+    "D40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | CABLE / DESCALING PUMP 1"
+    },
+    "E40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | JB CONDN / DESCALING PUMP 1"
+    },
+    "F40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | MOUNTING / DESCALING PUMP 2"
+    },
+    "G40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | DEVICE CONDN / DESCALING PUMP 2"
+    },
+    "H40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | CABLE / DESCALING PUMP 2"
+    },
+    "I40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | JB CONDN / DESCALING PUMP 2"
+    },
+    "J40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | MOUNTING / DESCALING PUMP 3"
+    },
+    "K40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | DEVICE CONDN / DESCALING PUMP 3"
+    },
+    "L40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | CABLE / DESCALING PUMP 3"
+    },
+    "M40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | JB CONDN / DESCALING PUMP 3"
+    },
+    "N40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | MOUNTING / DESCALING PUMP 4"
+    },
+    "O40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | DEVICE CONDN / DESCALING PUMP 4"
+    },
+    "P40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | CABLE / DESCALING PUMP 4"
+    },
+    "Q40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | JB CONDN / DESCALING PUMP 4"
+    },
+    "R40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | MOUNTING / DESCALING PUMP 5"
+    },
+    "S40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | DEVICE CONDN / DESCALING PUMP 5"
+    },
+    "T40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | CABLE / DESCALING PUMP 5"
+    },
+    "U40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD | JB CONDN / DESCALING PUMP 5"
+    },
+    "B41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | MOUNTING / DESCALING PUMP 1"
+    },
+    "C41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | DEVICE CONDN / DESCALING PUMP 1"
+    },
+    "D41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | CABLE / DESCALING PUMP 1"
+    },
+    "E41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | JB CONDN / DESCALING PUMP 1"
+    },
+    "F41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | MOUNTING / DESCALING PUMP 2"
+    },
+    "G41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | DEVICE CONDN / DESCALING PUMP 2"
+    },
+    "H41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | CABLE / DESCALING PUMP 2"
+    },
+    "I41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | JB CONDN / DESCALING PUMP 2"
+    },
+    "J41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | MOUNTING / DESCALING PUMP 3"
+    },
+    "K41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | DEVICE CONDN / DESCALING PUMP 3"
+    },
+    "L41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | CABLE / DESCALING PUMP 3"
+    },
+    "M41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | JB CONDN / DESCALING PUMP 3"
+    },
+    "N41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | MOUNTING / DESCALING PUMP 4"
+    },
+    "O41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | DEVICE CONDN / DESCALING PUMP 4"
+    },
+    "P41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | CABLE / DESCALING PUMP 4"
+    },
+    "Q41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | JB CONDN / DESCALING PUMP 4"
+    },
+    "R41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | MOUNTING / DESCALING PUMP 5"
+    },
+    "S41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | DEVICE CONDN / DESCALING PUMP 5"
+    },
+    "T41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | CABLE / DESCALING PUMP 5"
+    },
+    "U41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD | JB CONDN / DESCALING PUMP 5"
+    },
+    "B42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / DESCALING PUMP 1"
+    },
+    "C42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / DESCALING PUMP 1"
+    },
+    "D42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / DESCALING PUMP 1"
+    },
+    "E42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / DESCALING PUMP 1"
+    },
+    "F42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / DESCALING PUMP 2"
+    },
+    "G42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / DESCALING PUMP 2"
+    },
+    "H42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / DESCALING PUMP 2"
+    },
+    "I42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / DESCALING PUMP 2"
+    },
+    "J42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / DESCALING PUMP 3"
+    },
+    "K42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / DESCALING PUMP 3"
+    },
+    "L42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / DESCALING PUMP 3"
+    },
+    "M42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / DESCALING PUMP 3"
+    },
+    "N42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / DESCALING PUMP 4"
+    },
+    "O42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / DESCALING PUMP 4"
+    },
+    "P42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / DESCALING PUMP 4"
+    },
+    "Q42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / DESCALING PUMP 4"
+    },
+    "R42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / DESCALING PUMP 5"
+    },
+    "S42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / DESCALING PUMP 5"
+    },
+    "T42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / DESCALING PUMP 5"
+    },
+    "U42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / DESCALING PUMP 5"
+    },
+    "B43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "C43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "D43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "E43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "F43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "G43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "H43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "I43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "J43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "K43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "L43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "M43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "N43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "O43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "P43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "Q43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "R43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "S43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "T43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "U43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "B44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "C44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "D44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "E44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "F44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "G44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "H44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "I44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "J44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "K44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "L44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "M44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "N44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "O44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "P44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "Q44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "R44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "S44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "T44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "U44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "B45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "C45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "D45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "E45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "F45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "G45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "H45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "I45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "J45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "K45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "L45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "M45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "N45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "O45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "P45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "Q45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "R45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "S45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "T45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "U45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "B46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "C46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "D46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "E46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "F46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "G46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "H46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "I46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "J46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "K46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "L46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "M46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "N46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "O46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "P46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "Q46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "R46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "S46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "T46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "U46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "B47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "C47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "D47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "E47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "F47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "G47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "H47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "I47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "J47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "K47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "L47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "M47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "N47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "O47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "P47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "Q47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "R47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "S47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "T47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "U47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "B48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "C48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "D48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "E48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "F48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "G48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "H48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "I48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "J48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "K48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "L48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "M48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "N48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "O48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "P48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "Q48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "R48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "S48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "T48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "U48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "B49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "C49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "D49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "E49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "F49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "G49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "H49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "I49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "J49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "K49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "L49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "M49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "N49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "O49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "P49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "Q49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "R49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "S49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "T49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "U49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "B50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "C50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "D50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "E50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "F50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "G50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "H50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "I50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "J50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "K50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "L50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "M50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "N50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "O50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "P50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "Q50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "R50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "S50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "T50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "U50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "B51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "C51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "D51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "E51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "F51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "G51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "H51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "I51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "J51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "K51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "L51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "M51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "N51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "O51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "P51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "Q51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "R51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "S51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "T51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "U51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "B52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "C52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "D52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "E52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "F52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "G52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "H52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "I52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "J52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "K52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "L52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "M52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "N52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "O52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "P52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "Q52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "R52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "S52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "T52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "U52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "B53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "C53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "D53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "E53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "F53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "G53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "H53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "I53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "J53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "K53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "L53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "M53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "N53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "O53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "P53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "Q53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "R53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "S53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "T53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "U53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "B54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "C54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "D54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "E54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "F54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "G54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "H54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "I54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "J54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "K54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "L54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "M54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "N54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "O54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "P54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "Q54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "R54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "S54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "T54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "U54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL TEMP S/W"
+    },
+    "B55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "C55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "D55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "E55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "F55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "G55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "H55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "I55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "J55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "K55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "L55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "M55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "N55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "O55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "P55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "Q55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "R55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "S55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "T55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "U55": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3"
+    },
+    "A56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DESC SOV MOV 1,2&3 / LUBE OIL TEMP S/W"
+    },
+    "J56": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "INTERSTAND PUMP 2"
+    },
+    "B58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | MOUNTING / INTERSTAND PUMP 1"
+    },
+    "C58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | DEVICE CONDN / INTERSTAND PUMP 1"
+    },
+    "D58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | CABLE / INTERSTAND PUMP 1"
+    },
+    "E58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | JB CONDN / INTERSTAND PUMP 1"
+    },
+    "F58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | MOUNTING / INTERSTAND PUMP 2"
+    },
+    "G58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | DEVICE CONDN / INTERSTAND PUMP 2"
+    },
+    "H58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | CABLE / INTERSTAND PUMP 2"
+    },
+    "I58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR RTD (6 NO.S) | JB CONDN / INTERSTAND PUMP 2"
+    },
+    "K58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 1"
+    },
+    "L58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | CABLE / DESC BACKWASH FILTER 1"
+    },
+    "M58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | JB CONDN / DESC BACKWASH FILTER 1"
+    },
+    "N58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 2"
+    },
+    "O58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | CABLE / DESC BACKWASH FILTER 2"
+    },
+    "P58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | JB CONDN / DESC BACKWASH FILTER 2"
+    },
+    "Q58": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 3"
+    },
+    "B59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | MOUNTING / INTERSTAND PUMP 1"
+    },
+    "C59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | DEVICE CONDN / INTERSTAND PUMP 1"
+    },
+    "D59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | CABLE / INTERSTAND PUMP 1"
+    },
+    "E59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | JB CONDN / INTERSTAND PUMP 1"
+    },
+    "F59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | MOUNTING / INTERSTAND PUMP 2"
+    },
+    "G59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | DEVICE CONDN / INTERSTAND PUMP 2"
+    },
+    "H59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | CABLE / INTERSTAND PUMP 2"
+    },
+    "I59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PUMP RTD (4 NO.S) | JB CONDN / INTERSTAND PUMP 2"
+    },
+    "K59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 1"
+    },
+    "L59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | CABLE / DESC BACKWASH FILTER 1"
+    },
+    "M59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | JB CONDN / DESC BACKWASH FILTER 1"
+    },
+    "N59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 2"
+    },
+    "O59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | CABLE / DESC BACKWASH FILTER 2"
+    },
+    "P59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | JB CONDN / DESC BACKWASH FILTER 2"
+    },
+    "Q59": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 3"
+    },
+    "B60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / INTERSTAND PUMP 1"
+    },
+    "C60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / INTERSTAND PUMP 1"
+    },
+    "D60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / INTERSTAND PUMP 1"
+    },
+    "E60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / INTERSTAND PUMP 1"
+    },
+    "F60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | MOUNTING / INTERSTAND PUMP 2"
+    },
+    "G60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | DEVICE CONDN / INTERSTAND PUMP 2"
+    },
+    "H60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | CABLE / INTERSTAND PUMP 2"
+    },
+    "I60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WAT BAL RTD 1&2 | JB CONDN / INTERSTAND PUMP 2"
+    },
+    "K60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | DEVICE CONDN / DESC BACKWASH FILTER 1"
+    },
+    "L60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | CABLE / DESC BACKWASH FILTER 1"
+    },
+    "M60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | JB CONDN / DESC BACKWASH FILTER 1"
+    },
+    "N60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | DEVICE CONDN / DESC BACKWASH FILTER 2"
+    },
+    "O60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | CABLE / DESC BACKWASH FILTER 2"
+    },
+    "P60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | JB CONDN / DESC BACKWASH FILTER 2"
+    },
+    "Q60": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | DEVICE CONDN / DESC BACKWASH FILTER 3"
+    },
+    "B61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "C61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "D61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "E61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "F61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | MOUNTING"
+    },
+    "G61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | DEVICE CONDN"
+    },
+    "H61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | CABLE"
+    },
+    "I61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS S/W | JB CONDN"
+    },
+    "K61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | DEVICE CONDN"
+    },
+    "L61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | CABLE"
+    },
+    "M61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | JB CONDN"
+    },
+    "N61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | DEVICE CONDN"
+    },
+    "O61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | CABLE"
+    },
+    "P61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | JB CONDN"
+    },
+    "Q61": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | DEVICE CONDN"
+    },
+    "B62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "C62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "D62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "E62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "F62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "G62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "H62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "I62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W"
+    },
+    "J62": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS S/W | PANEL / FILTER MOT"
+    },
+    "B63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "C63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "D63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "E63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "F63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "G63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "H63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "I63": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC MOV"
+    },
+    "B64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "C64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "D64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "E64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "F64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "G64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "H64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "I64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL MOV"
+    },
+    "K64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 4"
+    },
+    "L64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | CABLE / DESC BACKWASH FILTER 4"
+    },
+    "M64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | JB CONDN / DESC BACKWASH FILTER 4"
+    },
+    "N64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | DEVICE CONDN / IS BACKWASH FILTER 1"
+    },
+    "O64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | CABLE / IS BACKWASH FILTER 1"
+    },
+    "P64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | JB CONDN / IS BACKWASH FILTER 1"
+    },
+    "Q64": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SUC PRESS SW | DEVICE CONDN / IS BACKWASH FILTER 2"
+    },
+    "B65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "C65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "D65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "E65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "F65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "G65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "H65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "I65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ALL DC VALVE CONNECTOR"
+    },
+    "K65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | DEVICE CONDN / DESC BACKWASH FILTER 4"
+    },
+    "L65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | CABLE / DESC BACKWASH FILTER 4"
+    },
+    "M65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | JB CONDN / DESC BACKWASH FILTER 4"
+    },
+    "N65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | DEVICE CONDN / IS BACKWASH FILTER 1"
+    },
+    "O65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | CABLE / IS BACKWASH FILTER 1"
+    },
+    "P65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | JB CONDN / IS BACKWASH FILTER 1"
+    },
+    "Q65": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DEL PRESS SW | DEVICE CONDN / IS BACKWASH FILTER 2"
+    },
+    "B66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "C66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "D66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "E66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "F66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "G66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "H66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "I66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB MOTOR"
+    },
+    "K66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | DEVICE CONDN / DESC BACKWASH FILTER 4"
+    },
+    "L66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | CABLE / DESC BACKWASH FILTER 4"
+    },
+    "M66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | JB CONDN / DESC BACKWASH FILTER 4"
+    },
+    "N66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | DEVICE CONDN / IS BACKWASH FILTER 1"
+    },
+    "O66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | CABLE / IS BACKWASH FILTER 1"
+    },
+    "P66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | JB CONDN / IS BACKWASH FILTER 1"
+    },
+    "Q66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FILTER MOT | DEVICE CONDN / IS BACKWASH FILTER 2"
+    },
+    "B67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "C67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "D67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "E67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "F67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "G67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "H67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "I67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUB HEATER"
+    },
+    "K67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | DEVICE CONDN"
+    },
+    "L67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | CABLE"
+    },
+    "M67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | JB CONDN"
+    },
+    "N67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | DEVICE CONDN"
+    },
+    "O67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | CABLE"
+    },
+    "P67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | JB CONDN"
+    },
+    "Q67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PANEL | DEVICE CONDN"
+    },
+    "B68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "C68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "D68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "E68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "F68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "G68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "H68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "I68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W"
+    },
+    "J68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE WATER PRESS S/W | PANEL / FILTER MOT"
+    },
+    "U68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "REMARKS"
+    },
+    "B69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "C69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "D69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "E69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "F69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "G69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "H69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "I69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL PRESS S/W"
+    },
+    "B70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "C70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "D70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "E70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "F70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "G70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "H70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "I70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL FILTER"
+    },
+    "K70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PRESS S/W | MOUNTING / ACCUMULATOR"
+    },
+    "L70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PRESS S/W | DEVICE CONDN / ACCUMULATOR"
+    },
+    "M70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PRESS S/W | CABLE / ACCUMULATOR"
+    },
+    "N70": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PRESS S/W | JB CONDN / ACCUMULATOR"
+    },
+    "B71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "C71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "D71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "E71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "F71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "G71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "H71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "I71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LUBE OIL LEVEL S/W"
+    },
+    "K71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LEVEL S/W | MOUNTING / ACCUMULATOR"
+    },
+    "L71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LEVEL S/W | DEVICE CONDN / ACCUMULATOR"
+    },
+    "M71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LEVEL S/W | CABLE / ACCUMULATOR"
+    },
+    "N71": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LEVEL S/W | JB CONDN / ACCUMULATOR"
+    },
+    "K72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PROXIMITY | MOUNTING / ACCUMULATOR"
+    },
+    "L72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PROXIMITY | DEVICE CONDN / ACCUMULATOR"
+    },
+    "M72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PROXIMITY | CABLE / ACCUMULATOR"
+    },
+    "N72": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PROXIMITY | JB CONDN / ACCUMULATOR"
+    },
+    "K73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR | MOUNTING"
+    },
+    "L73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR | DEVICE CONDN"
+    },
+    "M73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR | CABLE"
+    },
+    "N73": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC VALVE CONNECTOR | JB CONDN"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

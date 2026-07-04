@@ -1,0 +1,149 @@
+# SHEET: Sheet6  dims=A1:AO230
+# merged ranges (104):
+#   A1:C1
+#   D1:L1
+#   M1:U1
+#   A2:R2
+#   T2:U2
+#   A3:R3
+#   A4:A5
+#   B4:C4
+#   D4:G4
+#   H4:M4
+#   N4:O4
+#   P4:R4
+#   S4:T4
+#   A10:C10
+#   A11:U11
+#   A12:A13
+#   B12:G12
+#   H12:M12
+#   N12:U12
+#   S13:U13
+#   S14:U14
+#   S15:U15
+#   S16:U16
+#   S17:U17
+#   A18:A19
+#   B18:H18
+#   I18:L18
+#   M18:M19
+#   N18:N19
+#   O18:O19
+#   P18:P19
+#   Q18:Q19
+#   R18:U18
+#   R19:U23
+#   A24:K24
+#   L24:U24
+#   J25:K25
+#   L25:N25
+#   O25:P25
+#   Q25:R25
+#   S25:U25
+#   J26:K26
+#   L26:N26
+#   O26:P26
+#   Q26:R26
+#   S26:U26
+#   J27:K27
+#   L27:N27
+#   O27:P27
+#   Q27:R27
+#   S27:U27
+#   J28:K28
+#   L28:N28
+#   O28:P28
+#   Q28:R28
+#   S28:U28
+#   J29:K29
+#   L29:N29
+#   O29:P29
+#   Q29:R29
+#   S29:U29
+#   J30:K30
+#   L30:N30
+#   O30:P30
+#   Q30:R30
+#   S30:U30
+#   J31:K31
+#   L31:N31
+#   O31:P31
+#   Q31:R31
+#   S31:U31
+#   L32:N32
+#   O32:P32
+#   Q32:R32
+#   S32:T32
+#   L33:N33
+#   O33:P33
+#   Q33:R33
+#   S33:T33
+#   A39:K39
+#   L39:O39
+#   P39:S39
+#   T39:U39
+#   D40:E40
+#   F40:G40
+#   D41:E41
+#   T41:T42
+#   U41:U42
+#   D42:E42
+#   D43:E43
+#   T43:T44
+#   U43:U44
+#   D44:E44
+#   D45:E45
+#   P45:Q46
+#   T45:T46
+#   U45:U46
+#   D46:E46
+#   A47:C47
+#   D47:F47
+#   H47:I47
+#   J47:K47
+#   L47:N47
+#   P47:R47
+# --- cells ---
+A1='   Dept    :    HSM E&A' | D1='         HOT STRIP MILL, TSM   ROUGHING MILL AREA SHIFT CHECK LIST' | M1='Date :-'
+A2='ROUGHING   MILL  AREA  DAILY  CHECK  LIST'
+A3='S M 150  DRIVE'
+A4='STAND' | B4='I R   VALUE  (BENDER)' | D4='MOTOR  BEARING  TEMP' | H4='D M   WATER STATUS' | N4='AIR  TEMP' | P4='WINDING  TEMP' | S4='OP PANEL' | U4='EXC PANEL'
+B5='STATOR' | C5='ROTOR' | D5='AXIAL NDE' | E5='RADIAL DE' | F5='RADIAL NDE' | G5='RADIAL IS' | H5='CONDUCTIVITY' | I5='TEMPERATURE' | J5='LEVEL' | K5='FLOW' | L5='PRESSURE' | M5='LEAKAGE' | N5='IN' | O5='OUT' | P5='U – PHASE' | Q5='V – PHASE' | R5='W – PHASE' | S5='TOUCH SCREEN' | T5='PUMP AUTO' | U5='FAN STATUS'
+A6='RM # 1 TOP' | J6='       /100'
+A7='RM # 1 BOT' | J7='       /100'
+A8='RM # 2 TOP' | J8='       /100'
+A9='RM # 2 BOT' | J9='       /100'
+A10='ANY  REMARKS'
+A11='MAIN  DRIVE  MOTOR'
+A12='STAND' | B12='JACKING UNIT (DE SIDE)' | H12='JACKING UNIT (NDE SIDE)' | N12='JACKING UNIT (IS)'
+B13='Pressure\n(30-80 bar) ' | C13='Flow>3.5 L/min' | D13='Motor Sound / Vibration\n(OK/NOK)' | E13='Oil Filter  (Red / Green)' | F13='Oil Level at Center of glass window at NLoad\n(>50%)' | G13='Oil Leakage from (Bearing Area)\n(OK/NOK)' | H13='Pressure\n(30-80 bar) ' | I13='Flow>3.5 L/min' | J13='Motor Sound / Vibration\n(OK/NOK)' | K13='Oil Filter  (Red / Green)' | L13='Oil Level at Center of glass window at NLoad\n(>50%)' | M13='Oil Leakage from (Bearing Area)\n(OK/NOK)' | N13='Pressure\n(30-80 bar) ' | O13='Flow>3.5 L/min' | P13='Motor Sound / Vibration\n(OK/NOK)' | Q13='Oil Filter  (Red / Green)' | R13='Oil Level at Center of glass window at NLoad\n(>50%)' | S13='Oil Leakage from (Bearing Area)\n(OK/NOK)'
+A14='R#1 TOP'
+A15='R#1 BOT'
+A16='R#2 TOP'
+A17='R#2 BOT'
+A18='STAND' | B18='OIL COOLER SYSTEM NDE' | I18='AIR BLOWER MOTOR (SOUND/VIBRATION)' | M18='Encoder Mounting' | N18='Chamber/Door' | O18='Water Leakage From Roof/Pipeline' | P18='Exc Chamber(Cable/Carbon Brush)' | Q18='Motor Room I/C Cable' | R18='Any Remarks'
+B19='Oil Flow Radial L/min' | C19='Oil Flow Axial1  L/min' | D19='Oil Flow Axial2  L/min' | E19='Oil temp' | F19='Oil pressure' | G19='Oil Filter  (Red / Green)' | H19='Oil Filter selection' | I19='M – 611  \n(OK/NOK)' | J19='M – 612  \n(OK/NOK)' | K19='M – 613\n(OK/NOK)' | L19='M – 614\n(OK/NOK)'
+A20='R#1 TOP'
+A21='R#1 BOT'
+A22='R#2 TOP'
+A23='R#2 BOT'
+A24='R M   M O T O R   S T A T U S' | L24='R M  C O N S U M E R  L I N E  P R E S S  S/W  R E A D I N G'
+A25='MOTOR' | B25='MOTOR TEMP IN OP' | C25='BEARING TEMP IN OP' | D25='MOTOR BODY TEMP' | E25='ABNORMAL SOUND' | F25='CABLE CONDITION' | G25='ENCODER MOUNTING' | H25='BLOWER STATUS' | J25='BRAKE PRESS' | L25='PRESSURE SWITCH(ZOES)' | O25='MAIN (TO BE CHECKED PHYSICALLY)' | Q25='REDUNDANT (TO BE CHECKED PHYSICALLY)' | S25='REMARKS(PHYSICAL ABNORMALITY)'
+A26='R1 VE (DS)' | H26='T -' | I26='B -' | J26='_' | L26='E1 GEAR BOX PRESSURE S/W'
+A27='R1 VE (OS)' | H27='T -' | I27='B -' | J27='_' | L27='E2 GEAR BOX PRESSURE S/W'
+A28='R2 VE (DS)' | B28=' -' | C28=' -' | H28='T -' | I28='B -' | J28='_' | L28='R2 DS SDS GEAR BOX LUB PS'
+A29='R2 VE (OS)' | B29=' -' | C29=' -' | H29='T -' | I29='B -' | J29='_' | L29='R2 OS SDS GEAR BOX LUB PS'
+A30='R2 SD (DS)' | B30=' -' | C30=' -' | L30='R1 SPINDLE HEAD LUB PS'
+A31='R2 SD (OS)' | B31=' -' | C31=' -' | L31='R1 SPINDLE SPODE END LUB PS'
+L32='R2 SPINDLE HEAD LUB PS'
+L33='R2 SPINDLE SPODE END LUB PS'
+A39='R M   V V V F   S T A T U S' | L39='T D C' | P39='EXCITATION  TRANSFORMER ' | T39='ROOM TEMP/HUMIDITY'
+A40='P G   STATUS' | B40='I R (BENDER)' | C40='FAN STATUS' | D40='I/C & OUT CABLE VISUAL CHECK' | F40='WATER LEAKAGE FROM FALSE CEILING' | H40='EXTERNAL BLOWER RUN STATUS' | I40='EDGER DRIVE' | J40='I R (BENDER)' | K40='BLOWER CURRENT' | M40='FAN STATUS' | N40='PANEL LIGHT STATUS' | O40='ANY RED LIGHT IN CARD' | Q40='CH # 1' | R40='CH # 2' | S40='CH # 3' | T40='RM TDC ROOM'
+A41='PG 1.2' | I41='E1 OS' | L41='R1 STAND' | P41='RM1 TOP' | T41='VVVF ROOM'
+A42='PG 1.3' | I42='E1 DS' | L42='FU COMFU' | P42='RM1 BOT'
+A43='PG 2.3' | I43='E2 OS' | L43='R2 STAND' | P43='RM2 TOP' | T43='R1 SM150 ROOM'
+A44='PG 2.1' | I44='E2 DS' | L44='R2 COMFU' | P44='RM2 TOP'
+A45='PG 2.2' | L45='MEDIA' | P45='EXTERNAL FAN RUN' | R45='RM1 T/B' | S45='RM2 T/B' | T45='R2 SM150 ROOM'
+L46='GDM'
+A47='CHECKED BY:' | D47='REVIEWED BY:' | G47='SHIFT' | J47='DATE' | O47='TIME'

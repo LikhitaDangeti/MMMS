@@ -1,0 +1,186 @@
+# SHEET: Sheet11  dims=A1:T116
+# merged ranges (67):
+#   A1:T1
+#   A2:A4
+#   B2:B4
+#   C2:C4
+#   D2:R2
+#   S2:S4
+#   T2:T4
+#   D3:F3
+#   G3:I3
+#   J3:L3
+#   M3:O3
+#   P3:R3
+#   C5:C10
+#   C11:C12
+#   C13:C24
+#   C25:C26
+#   C27:C28
+#   C29:C34
+#   C35:C38
+#   C39:C43
+#   C44:C48
+#   C49:C53
+#   C54:C62
+#   C63:C66
+#   C67:C71
+#   C72:C84
+#   J85:M85
+#   N85:O85
+#   C86:C91
+#   J86:M86
+#   N86:O90
+#   J87:M87
+#   J88:M88
+#   J89:M89
+#   J90:M90
+#   J91:M91
+#   N91:O96
+#   C92:C99
+#   J92:M92
+#   J93:M93
+#   J94:M94
+#   J95:M95
+#   J96:M96
+#   J97:M97
+#   N97:O101
+#   J98:M98
+#   J99:M99
+#   C100:C106
+#   J100:M100
+#   J101:M101
+#   J102:M102
+#   N102:O106
+#   J103:M103
+#   J104:M104
+#   J105:M105
+#   J106:M106
+#   C107:C115
+#   J107:M107
+#   N107:O109
+#   J108:M108
+#   J109:M109
+#   I110:I115
+#   J110:T115
+#   A116:B116
+#   C116:E116
+#   F116:M116
+#   N116:T116
+# --- cells ---
+A1='DOWN COILER AREA FIELD DEVICE CHECK LIST'
+A2='SN' | B2='DEVICE  NAME' | C2='EQUIPMENT' | D2='WHAT TI CHECK: Visual Checking (OK/NOK)' | S2='RCH activity' | T2='Remark'
+D3='Mounting' | G3='LEAKAGE' | J3='Cable & Conduit' | M3='JB/TB' | P3='Signal to L1'
+D4='DC1' | E4='DC2' | F4='DC3' | G4='DC1' | H4='DC2' | I4='DC3' | J4='DC1' | K4='DC2' | L4='DC3' | M4='DC1' | N4='DC2' | O4='DC3' | P4='DC1' | Q4='DC2' | R4='DC3'
+A5=1 | B5='Temposonic LPT OS' | C5='Side Guide'
+A6=2 | B6='Pressure Transducer Rod OS'
+A7=3 | B7='Pressure Transducer Piston OS'
+A8=4 | B8='Temposonic LPT DS'
+A9=5 | B9='Pressure Transducer Rod DS'
+A10=6 | B10='Pressure Transducer Piston DS'
+A11=7 | B11='Raise Proximity' | C11='Hold Down Roll'
+A12=8 | B12='Lower Proximity'
+A13=9 | B13='Gap Adjust Temposonic LPT DS' | C13='Pinch Roll Unit'
+A14=10 | B14='Pressure Transducer Rod DS'
+A15=11 | B15='Pressure Transducer Rod red DS'
+A16=12 | B16='Pressure Transducer Piston DS'
+A17=13 | B17='Pressure Transducer Piston red DS'
+A18=14 | B18='Gap Adjust Temposonic LPT OS'
+A19=15 | B19='Pressure Transducer Rod OS'
+A20=16 | B20='Pressure Transducer Rod red OS'
+A21=17 | B21='Pressure Transducer Piston OS'
+A22=18 | B22='Pressure Transducer Piston red OS'
+A23=19 | B23='Bottom PR Clamp Pressure switch'
+A24=20 | B24='PR/WR Gear Lub Pressure switch'
+A25=17 | B25='Gap Adjust Temposonic LPT DS' | C25='Strip Switch Plate'
+A26=18 | B26='Gap Adjust Temposonic LPT OS'
+A27=19 | B27='Gap Adjust Temposonic LPT DS/Lift Proxy' | C27='Chute Plate'
+A28=20 | B28='Gap Adjust Temposonic LPT OS/Lower Proxy'
+A29=21 | B29='Step -1 engage Gear Proximity' | C29='Mandrel Gear'
+A30=22 | B30='Step -1 engage Gear Proximity'
+A31=23 | B31='Pressure Switch Step-1'
+A32=24 | B32='Pressure Switch Step-2'
+A33=25 | B33='Mandrel Gear Lub Pressure Switch'
+A34=26 | B34='Proxicaptor'
+A35=27 | B35='Mandrel OBBS Entry Open Proxy' | C35='Mandrel OBBS Support Bearing'
+A36=28 | B36='Mandrel OBBS Entry Close Proxy'
+A37=29 | B37='Mandrel OBBS Exit Open Proxy'
+A38=30 | B38='Mandrel OBBS Exit Close Proxy'
+A39=31 | B39='Gap Adjust Temposonic LPT' | C39='Wrapper Roll -1'
+A40=32 | B40='Pressure Transducer Rod'
+A41=33 | B41='Pressure Transducer Rod red'
+A42=34 | B42='Pressure Transducer Piston'
+A43=35 | B43='Pressure Transducer Piston red'
+A44=36 | B44='Gap Adjust Temposonic LPT' | C44='Wrapper Roll -2'
+A45=37 | B45='Pressure Transducer Rod'
+A46=38 | B46='Pressure Transducer Rod red'
+A47=39 | B47='Pressure Transducer Piston'
+A48=40 | B48='Pressure Transducer Piston red'
+A49=41 | B49='Gap Adjust Temposonic LPT' | C49='Wrapper Roll -3'
+A50=42 | B50='Pressure Transducer Rod'
+A51=43 | B51='Pressure Transducer Rod red'
+A52=44 | B52='Pressure Transducer Piston'
+A53=45 | B53='Pressure Transducer Piston red'
+A54=46 | B54='Coil Stripper Car down main proximity' | C54='Coil Stripper Car'
+A55=47 | B55='Coil Stripper Car down red proximity'
+A56=48 | B56='Coil Stripper Car Reverse proximity'
+A57=49 | B57='Coil Stripper Car Reverse Slow proximity'
+A58=50 | B58='Coil Stripper Car Forward proximity'
+A59=51 | B59='Coil Stripper Car Forward  Slow proximity'
+A60=52 | B60='Coil Stripper Car Lifting Pressure Transducer'
+A61=53 | B61='Coil Stripper Car Lifting Flow Transducer'
+A62=54 | B62='Craddle Roll Block Pressure Switch'
+A63=55 | B63='Lifting Car Trevel Temposonic LPT' | C63='Coil Lifting Car'
+A64=56 | B64='Lifting Car Lift Temposonic LPT'
+A65=57 | B65='Lifting Car Valve Stand device'
+A66=58 | B66='Lifting Car Laser'
+A67=65 | B67='PR Basic cooling Flow switch' | C67='Cooling'
+A68=66 | B68='PR Additional cooling Flow switch'
+A69=67 | B69='TOP PR cooling Flow switch'
+A70=68 | B70='Wrapper Roll Cooling Flow switch'
+A71=69 | B71='Mandrel cooling Flow switch'
+A72=70 | B72='DC1 TOP HMD' | C72='HMD/PY'
+A73=71 | B73='DC1 BOT HMD'
+A74=72 | B74='DC1 BOT2 HMD'
+A75=73 | B75='DC2 TOP HMD'
+A76=74 | B76='DC2 BOT HMD'
+A77=75 | B77='DC2 BOT2 HMD'
+A78=76 | B78='DC3 TOP HMD'
+A79=77 | B79='DC3 BOT HMD'
+A80=78 | B80='DC3 BOT2 HMD'
+A81=79 | B81='PY LCS-1'
+A82=80 | B82='PY LCS-2'
+A83=81 | B83='PY DC-1'
+A84=82 | B84='PY DC-2'
+B85='DEVICE  NAME' | C85='EQUIPMENT' | D85='Mounting' | E85='LEAKAGE' | F85='Cable & Conduit' | G85='JB/TB' | H85='Signal to L1' | I85='SN' | J85='DEVICE  NAME' | N85='EQUIPMENT' | P85='Mounting' | Q85='LEAKAGE' | R85='Cable & Conduit' | S85='JB/TB' | T85='Signal to L1'
+A86=59 | B86='Trasfer Car Coil Occ Proxy main' | C86='Transfer Car' | I86=1 | J86='Turn table position encoder' | N86='TurnTable'
+A87=60 | B87='Trasfer Car Coil Occ Proxy red' | I87=2 | J87='Turn table occupy main proxy'
+A88=61 | B88='Trasfer Car Turn 0 Proximity' | I88=3 | J88='Turn table occupy redundant proxy'
+A89=62 | B89='Trasfer Car Turn 90 Proximity' | I89=4 | J89='Turn table 90 deg  proxy'
+A90=63 | B90='Transfer Car  Extreme stop Proximity' | I90=5 | J90='Turn table 0 deg proxy'
+A91=64 | B91='Trasfer Car Turn Encoder' | I91=6 | J91=' WB #3 Trevel Temposonic LPT' | N91='WB-3'
+A92=65 | B92=' WB #1 Trevel Temposonic LPT' | C92='WB-1' | I92=7 | J92='WB#3  sec-1 Lift Temposonic LPT'
+A93=66 | B93='WB#1  Lift Temposonic LPT' | I93=8 | J93='WB#3  sec-2 Lift Temposonic LPT'
+A94=67 | B94='WB#1 laser' | I94=9 | J94='WB#3 laser '
+A95=68 | B95='WB#1 Up position proxy' | I95=10 | J95='WB#3 last position proxy'
+A96=69 | B96='WB#1 slow up position proxy' | I96=11 | J96='WB#3 home position proxy'
+A97=70 | B97='WB#1 down position proxy' | I97=12 | J97=' WB #4 Trevel Temposonic LPT' | N97='WB-4'
+A98=71 | B98='WB#1 last position proxy' | I98=13 | J98='WB#4  Lift Temposonic LPT'
+A99=72 | B99='WB#1 slow down position proxy' | I99=14 | J99='WB#4 last coil laser '
+A100=73 | B100='Lifting table Lift Temposonic LPT' | C100='Lifting Table' | I100=15 | J100='WB#4 last coil occupy main proxy'
+A101=74 | B101='Lifting table lift up position proxy' | I101=16 | J101='WB#4 last coil occupy redun proxy'
+A102=75 | B102='Lifting table lift slow up position proxy' | I102=17 | J102='Carriage home position proxy' | N102='CSM'
+A103=76 | B103='Lifting table lift down position proxy' | I103=18 | J103='Bayonet home position proxy '
+A104=77 | B104='Lifting table lift siow down position proxy' | I104=19 | J104='Carriage motor encoder'
+A105=78 | B105='Lifting table coil occupy main proxy' | I105=20 | J105='CSM all proxy condition'
+A106=79 | B106='Lifting table coil occupy redundant proxy' | I106=21 | J106='CSM Dispancer brake'
+A107=80 | B107=' WB #2 Trevel Temposonic LPT' | C107='WB-2' | I107=22 | J107='Carriage home position proxy' | N107='ESM'
+A108=81 | B108='WB#2  sec-1 Lift Temposonic LPT' | I108=23 | J108=' ESM Dispancer brake'
+A109=82 | B109='WB#2  sec-2 Lift Temposonic LPT' | I109=24 | J109='ESM all proxy condition'
+A110=83 | B110='WB#2 laser ' | I110='Remarks'
+A111=84 | B111='Insepaction line laser'
+A112=85 | B112='Weing machine coil occupy main proxy'
+A113=86 | B113='Weing machine coil occupy redundant proxy'
+A114=87 | B114='marking machine coil occupy main proxy'
+A115=88 | B115='marking machine coil occupy redundant proxy'
+A116='SHIFT:' | C116='DATE:' | F116='CHECKED BY:' | N116='SIGN:'

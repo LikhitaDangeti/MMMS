@@ -1,0 +1,71 @@
+# SHEET: Sheet13  dims=A1:O53
+# merged ranges (15):
+#   A1:I1
+#   A28:I28
+#   A41:I41
+#   H42:I42
+#   H43:I43
+#   H44:I44
+#   H45:I45
+#   H46:I46
+#   H47:I47
+#   H48:I48
+#   H49:I49
+#   H50:I50
+#   H51:I51
+#   H52:I52
+#   H53:I53
+# --- cells ---
+A1='DC ET PANEL INSPECTION '
+B2='ET  Description' | C2=' Cooling  & Ventilation' | D2='Door Status  (Should be locked)' | E2='Power Supply Status' | F2='Insulation mat Availbility ' | G2=' Component Condn' | H2='Cleanness & House Keeping ' | I2='Remarks'
+A3=1 | B3='Laminar Cooling'
+A4=2 | B4='Laminar Cooling'
+A5=3 | B5='Laminar Cooling'
+A6=4 | B6='Laminar Cooling'
+A7=5 | B7='Laminar Cooling'
+A8=6 | B8='DC ROT Rolls'
+A9=7 | B9='DC#1 Auxiliary (SG/PR etc)'
+A10=8 | B10='DC#1 Auxiliary ( Mandrel Gear /WR etc)'
+A11=9 | B11='DC#1 Auxiliary ( S Car/shifting/cooling etc)'
+A12=10 | B12='DC#1 Mandrel Motor '
+A13=11 | B13='DC#2 Auxiliary (SG/PR etc )'
+A14=12 | B14='DC#2 Auxiliary ( Mandrel Gear /WR etc)'
+A15=13 | B15='DC#2 Auxiliary ( S Car/shifting/cooling etc)'
+A16=14 | B16='DC#2 Mandrel Motor '
+A17=15 | B17='DC#3 Auxiliary (SG/PR etc )'
+A18=16 | B18='DC#3 Auxiliary ( Mandrel Gear /WR etc)'
+A19=17 | B19='DC#3 Auxiliary ( S Car/shifting/cooling etc)'
+A20=18 | B20='DC#3 Mandrel Motor '
+A21=19 | B21='Media DC LP Hyd System '
+A22=20 | B22='Media DC ZOSE System '
+A23=21 | B23='Media CC LP Conveyor Hyd System '
+A24=22 | B24='LC , TC & Conveyor Signals '
+A25=23 | B25='WB # 1 & 2 Singnals '
+A26=24 | B26='WB # 3 Singnals '
+A27=25 | B27='WB #4 Singnals '
+A28='DC RTDB INSPECTION '
+B29='RTDB DESCRIPTION' | C29=' All Cable Condition' | D29='Door Status  (Should be locked)' | E29=' Component Condn' | F29='Insulation mat Availbility ' | G29='Water Accumulation in Floor' | H29='Cleanness & House Keeping ' | I29='Remarks'
+A30=1 | B30='RTDB - 1 '
+A31=2 | B31='RTDB - 2'
+A32=3 | B32='RTDB - 3'
+A33=4 | B33='RTDB - 4'
+A34=5 | B34='RTDB - 5'
+A35=6 | B35='RTDB - 6'
+A36=7 | B36='RTDB - 7'
+A37=8 | B37='RTDB- BRIDGE C2 '
+A38=9 | B38='RTDB- PR UNIT C2'
+A39=10 | B39='RTDB- PR UNIT C3'
+A40=11 | B40='RTDB- BRIDGE C3'
+A41='DC ROT MOTOR INSPECTION '
+B42='RT GROUP DESCRIPTION' | C42=' All Cable/Cable Tray Condition' | D42='Motor Cover' | E42='Motor Mounting' | F42='Motor SOUND/VIBRATION' | G42='Water Accumulation/Ingress' | H42='Remarks'
+A43=1 | B43='RT GROUP-1'
+A44=2 | B44='RT GROUP-2'
+A45=3 | B45='RT GROUP-3'
+A46=4 | B46='RT GROUP -4'
+A47=5 | B47='RT GROUP -5'
+A48=6 | B48='RT GROUP -6'
+A49=7 | B49='RT GROUP -7'
+A50=8 | B50='PINCH ROL L UNIT RT'
+A51=9 | B51='BREAST ROLL RT'
+A52=10 | B52='BRIDGE -1'
+A53=11 | B53='BRIDGE -2'

@@ -1,0 +1,2526 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet13",
+ "title": "Submission/Sheet13",
+ "description": "DC ET,RTDB & RT motor",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 13
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "A2": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ET PANEL INSPECTION"
+    },
+    "C3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cooling & Ventilation / DC ET PANEL INSPECTION"
+    },
+    "D3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Door Status (Should be locked) / DC ET PANEL INSPECTION"
+    },
+    "E3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Power Supply Status / DC ET PANEL INSPECTION"
+    },
+    "F3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Insulation mat Availbility / DC ET PANEL INSPECTION"
+    },
+    "G3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Component Condn / DC ET PANEL INSPECTION"
+    },
+    "H3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cleanness & House Keeping / DC ET PANEL INSPECTION"
+    },
+    "I3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Remarks / DC ET PANEL INSPECTION"
+    },
+    "C4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cooling & Ventilation / DC ET PANEL INSPECTION"
+    },
+    "D4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Door Status (Should be locked) / DC ET PANEL INSPECTION"
+    },
+    "E4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Power Supply Status / DC ET PANEL INSPECTION"
+    },
+    "F4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Insulation mat Availbility / DC ET PANEL INSPECTION"
+    },
+    "G4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Component Condn / DC ET PANEL INSPECTION"
+    },
+    "H4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cleanness & House Keeping / DC ET PANEL INSPECTION"
+    },
+    "I4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Remarks / DC ET PANEL INSPECTION"
+    },
+    "C5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cooling & Ventilation / DC ET PANEL INSPECTION"
+    },
+    "D5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Door Status (Should be locked) / DC ET PANEL INSPECTION"
+    },
+    "E5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Power Supply Status / DC ET PANEL INSPECTION"
+    },
+    "F5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Insulation mat Availbility / DC ET PANEL INSPECTION"
+    },
+    "G5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Component Condn / DC ET PANEL INSPECTION"
+    },
+    "H5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cleanness & House Keeping / DC ET PANEL INSPECTION"
+    },
+    "I5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Remarks / DC ET PANEL INSPECTION"
+    },
+    "C6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cooling & Ventilation"
+    },
+    "D6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Door Status (Should be locked)"
+    },
+    "E6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Power Supply Status"
+    },
+    "F6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Insulation mat Availbility"
+    },
+    "G6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Component Condn"
+    },
+    "H6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Cleanness & House Keeping"
+    },
+    "I6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling | Remarks"
+    },
+    "C7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "D7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "E7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "F7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "G7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "H7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "I7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Laminar Cooling"
+    },
+    "C8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "D8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "E8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "F8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "G8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "H8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "I8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT Rolls"
+    },
+    "C9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "F9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "H9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "I9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary (SG/PR etc)"
+    },
+    "C10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "D10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "F10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "G10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "H10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "I10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "C11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "F11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "H11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "I11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "C12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "F12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "H12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "I12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#1 Mandrel Motor"
+    },
+    "C13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "F13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "H13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "I13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary (SG/PR etc )"
+    },
+    "C14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "F14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "C15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "F15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "C16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "F16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#2 Mandrel Motor"
+    },
+    "C17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "D17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "E17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "F17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "G17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "H17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "I17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary (SG/PR etc )"
+    },
+    "C18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "D18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "E18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "F18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "G18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "H18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "I18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( Mandrel Gear /WR etc)"
+    },
+    "C19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "D19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "E19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "F19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "G19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "H19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "I19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Auxiliary ( S Car/shifting/cooling etc)"
+    },
+    "C20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "F20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC#3 Mandrel Motor"
+    },
+    "C21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "D21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "E21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "F21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "G21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "H21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "I21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC LP Hyd System"
+    },
+    "C22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "F22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "G22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "H22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "I22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media DC ZOSE System"
+    },
+    "C23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "E23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "F23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "G23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "H23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "I23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media CC LP Conveyor Hyd System"
+    },
+    "C24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "D24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "E24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "F24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "G24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "H24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "I24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LC , TC & Conveyor Signals"
+    },
+    "C25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "E25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "F25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "G25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "H25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "I25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 1 & 2 Singnals"
+    },
+    "C26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "F26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "G26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "H26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "I26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB # 3 Singnals"
+    },
+    "C27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "E27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "F27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "G27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "H27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "I27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WB #4 Singnals"
+    },
+    "A29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC RTDB INSPECTION / 25"
+    },
+    "C30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | All Cable Condition / DC RTDB INSPECTION"
+    },
+    "D30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | Door Status (Should be locked) / DC RTDB INSPECTION"
+    },
+    "E30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | Component Condn / DC RTDB INSPECTION"
+    },
+    "F30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | Insulation mat Availbility / DC RTDB INSPECTION"
+    },
+    "G30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | Water Accumulation in Floor / DC RTDB INSPECTION"
+    },
+    "H30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | Cleanness & House Keeping / DC RTDB INSPECTION"
+    },
+    "I30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 1 | Remarks / DC RTDB INSPECTION"
+    },
+    "C31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | All Cable Condition / DC RTDB INSPECTION"
+    },
+    "D31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | Door Status (Should be locked) / DC RTDB INSPECTION"
+    },
+    "E31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | Component Condn / DC RTDB INSPECTION"
+    },
+    "F31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | Insulation mat Availbility / DC RTDB INSPECTION"
+    },
+    "G31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | Water Accumulation in Floor / DC RTDB INSPECTION"
+    },
+    "H31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | Cleanness & House Keeping / DC RTDB INSPECTION"
+    },
+    "I31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 2 | Remarks / DC RTDB INSPECTION"
+    },
+    "C32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | All Cable Condition / DC RTDB INSPECTION"
+    },
+    "D32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | Door Status (Should be locked) / DC RTDB INSPECTION"
+    },
+    "E32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | Component Condn / DC RTDB INSPECTION"
+    },
+    "F32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | Insulation mat Availbility / DC RTDB INSPECTION"
+    },
+    "G32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | Water Accumulation in Floor / DC RTDB INSPECTION"
+    },
+    "H32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | Cleanness & House Keeping / DC RTDB INSPECTION"
+    },
+    "I32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 3 | Remarks / DC RTDB INSPECTION"
+    },
+    "C33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | All Cable Condition"
+    },
+    "D33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | Door Status (Should be locked)"
+    },
+    "E33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | Component Condn"
+    },
+    "F33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | Insulation mat Availbility"
+    },
+    "G33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | Water Accumulation in Floor"
+    },
+    "H33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | Cleanness & House Keeping"
+    },
+    "I33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 4 | Remarks"
+    },
+    "C34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "D34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "E34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "F34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "G34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "H34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "I34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 5"
+    },
+    "C35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "D35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "E35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "F35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "G35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "H35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "I35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6"
+    },
+    "C36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "D36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "E36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "F36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "G36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "H36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "I36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7"
+    },
+    "C37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "D37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "E37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "F37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "G37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "H37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "I37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C2"
+    },
+    "C38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "D38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "E38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "F38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "G38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "H38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "I38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C2"
+    },
+    "C39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "D39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "E39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "F39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "G39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "H39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "I39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- PR UNIT C3"
+    },
+    "C40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "D40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "E40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "F40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "G40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "H40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "I40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB- BRIDGE C3"
+    },
+    "A42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DC ROT MOTOR INSPECTION / 11"
+    },
+    "C43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-1 | All Cable/Cable Tray Condition / DC ROT MOTOR INSPECTION"
+    },
+    "D43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-1 | Motor Cover / DC ROT MOTOR INSPECTION"
+    },
+    "E43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-1 | Motor Mounting / DC ROT MOTOR INSPECTION"
+    },
+    "F43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-1 | Motor SOUND/VIBRATION / DC ROT MOTOR INSPECTION"
+    },
+    "G43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-1 | Water Accumulation/Ingress / DC ROT MOTOR INSPECTION"
+    },
+    "C44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-2 | All Cable/Cable Tray Condition / DC ROT MOTOR INSPECTION"
+    },
+    "D44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-2 | Motor Cover / DC ROT MOTOR INSPECTION"
+    },
+    "E44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-2 | Motor Mounting / DC ROT MOTOR INSPECTION"
+    },
+    "F44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-2 | Motor SOUND/VIBRATION / DC ROT MOTOR INSPECTION"
+    },
+    "G44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-2 | Water Accumulation/Ingress / DC ROT MOTOR INSPECTION"
+    },
+    "C45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-3 | All Cable/Cable Tray Condition / DC ROT MOTOR INSPECTION"
+    },
+    "D45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-3 | Motor Cover / DC ROT MOTOR INSPECTION"
+    },
+    "E45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-3 | Motor Mounting / DC ROT MOTOR INSPECTION"
+    },
+    "F45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-3 | Motor SOUND/VIBRATION / DC ROT MOTOR INSPECTION"
+    },
+    "G45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-3 | Water Accumulation/Ingress / DC ROT MOTOR INSPECTION"
+    },
+    "C46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -4 | All Cable/Cable Tray Condition"
+    },
+    "D46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -4 | Motor Cover"
+    },
+    "E46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -4 | Motor Mounting"
+    },
+    "F46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -4 | Motor SOUND/VIBRATION"
+    },
+    "G46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -4 | Water Accumulation/Ingress"
+    },
+    "C47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -5"
+    },
+    "D47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -5"
+    },
+    "E47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -5"
+    },
+    "F47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -5"
+    },
+    "G47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -5"
+    },
+    "C48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -6"
+    },
+    "D48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -6"
+    },
+    "E48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -6"
+    },
+    "F48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -6"
+    },
+    "G48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -6"
+    },
+    "C49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -7"
+    },
+    "D49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -7"
+    },
+    "E49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -7"
+    },
+    "F49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -7"
+    },
+    "G49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -7"
+    },
+    "C50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PINCH ROL L UNIT RT"
+    },
+    "D50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PINCH ROL L UNIT RT"
+    },
+    "E50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PINCH ROL L UNIT RT"
+    },
+    "F50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PINCH ROL L UNIT RT"
+    },
+    "G50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PINCH ROL L UNIT RT"
+    },
+    "C51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BREAST ROLL RT"
+    },
+    "D51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BREAST ROLL RT"
+    },
+    "E51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BREAST ROLL RT"
+    },
+    "F51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BREAST ROLL RT"
+    },
+    "G51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BREAST ROLL RT"
+    },
+    "C52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -1"
+    },
+    "D52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -1"
+    },
+    "E52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -1"
+    },
+    "F52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -1"
+    },
+    "G52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -1"
+    },
+    "C53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -2"
+    },
+    "D53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -2"
+    },
+    "E53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -2"
+    },
+    "F53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -2"
+    },
+    "G53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BRIDGE -2"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

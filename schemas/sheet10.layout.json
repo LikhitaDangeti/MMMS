@@ -1,0 +1,11511 @@
+{
+ "sheetId": 10,
+ "name": "Sheet10",
+ "title": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+ "description": "DC Drive,VVVF Motors,TDC",
+ "maxRow": 29,
+ "maxCol": 30,
+ "merges": [
+  [
+   27,
+   22,
+   28,
+   23
+  ],
+  [
+   24,
+   22,
+   25,
+   23
+  ],
+  [
+   24,
+   11,
+   24,
+   12
+  ],
+  [
+   28,
+   13,
+   29,
+   14
+  ],
+  [
+   22,
+   28,
+   23,
+   28
+  ],
+  [
+   22,
+   15,
+   23,
+   16
+  ],
+  [
+   23,
+   5,
+   23,
+   6
+  ],
+  [
+   23,
+   7,
+   23,
+   8
+  ],
+  [
+   26,
+   9,
+   26,
+   10
+  ],
+  [
+   22,
+   20,
+   23,
+   21
+  ],
+  [
+   26,
+   11,
+   26,
+   12
+  ],
+  [
+   20,
+   22,
+   20,
+   23
+  ],
+  [
+   28,
+   17,
+   29,
+   19
+  ],
+  [
+   19,
+   16,
+   19,
+   18
+  ],
+  [
+   25,
+   9,
+   25,
+   10
+  ],
+  [
+   24,
+   17,
+   25,
+   19
+  ],
+  [
+   26,
+   13,
+   27,
+   14
+  ],
+  [
+   26,
+   17,
+   27,
+   19
+  ],
+  [
+   28,
+   20,
+   29,
+   21
+  ],
+  [
+   27,
+   5,
+   27,
+   6
+  ],
+  [
+   4,
+   30,
+   5,
+   30
+  ],
+  [
+   4,
+   16,
+   4,
+   18
+  ],
+  [
+   24,
+   15,
+   25,
+   16
+  ],
+  [
+   28,
+   11,
+   28,
+   12
+  ],
+  [
+   4,
+   22,
+   4,
+   24
+  ],
+  [
+   26,
+   15,
+   27,
+   16
+  ],
+  [
+   1,
+   1,
+   1,
+   30
+  ],
+  [
+   21,
+   9,
+   22,
+   10
+  ],
+  [
+   18,
+   16,
+   18,
+   18
+  ],
+  [
+   4,
+   7,
+   4,
+   9
+  ],
+  [
+   3,
+   2,
+   5,
+   2
+  ],
+  [
+   21,
+   13,
+   21,
+   14
+  ],
+  [
+   21,
+   15,
+   21,
+   16
+  ],
+  [
+   24,
+   20,
+   25,
+   21
+  ],
+  [
+   24,
+   7,
+   24,
+   8
+  ],
+  [
+   24,
+   9,
+   24,
+   10
+  ],
+  [
+   2,
+   20,
+   2,
+   30
+  ],
+  [
+   4,
+   13,
+   4,
+   15
+  ],
+  [
+   2,
+   3,
+   2,
+   10
+  ],
+  [
+   27,
+   11,
+   27,
+   12
+  ],
+  [
+   4,
+   25,
+   4,
+   27
+  ],
+  [
+   26,
+   5,
+   26,
+   6
+  ],
+  [
+   26,
+   7,
+   26,
+   8
+  ],
+  [
+   22,
+   30,
+   23,
+   30
+  ],
+  [
+   21,
+   11,
+   22,
+   12
+  ],
+  [
+   25,
+   5,
+   25,
+   6
+  ],
+  [
+   25,
+   7,
+   25,
+   8
+  ],
+  [
+   3,
+   1,
+   5,
+   1
+  ],
+  [
+   18,
+   19,
+   18,
+   21
+  ],
+  [
+   20,
+   24,
+   20,
+   27
+  ],
+  [
+   21,
+   22,
+   21,
+   23
+  ],
+  [
+   22,
+   13,
+   23,
+   14
+  ],
+  [
+   25,
+   11,
+   25,
+   12
+  ],
+  [
+   26,
+   20,
+   27,
+   21
+  ],
+  [
+   19,
+   7,
+   19,
+   9
+  ],
+  [
+   19,
+   25,
+   19,
+   27
+  ],
+  [
+   23,
+   22,
+   23,
+   23
+  ],
+  [
+   4,
+   10,
+   4,
+   12
+  ],
+  [
+   29,
+   11,
+   29,
+   12
+  ],
+  [
+   29,
+   5,
+   29,
+   6
+  ],
+  [
+   3,
+   3,
+   5,
+   3
+  ],
+  [
+   18,
+   4,
+   18,
+   6
+  ],
+  [
+   22,
+   3,
+   22,
+   4
+  ],
+  [
+   21,
+   5,
+   22,
+   6
+  ],
+  [
+   21,
+   7,
+   22,
+   8
+  ],
+  [
+   19,
+   13,
+   19,
+   15
+  ],
+  [
+   21,
+   3,
+   21,
+   4
+  ],
+  [
+   18,
+   10,
+   18,
+   12
+  ],
+  [
+   4,
+   19,
+   4,
+   21
+  ],
+  [
+   28,
+   15,
+   29,
+   16
+  ],
+  [
+   2,
+   11,
+   2,
+   18
+  ],
+  [
+   18,
+   22,
+   18,
+   24
+  ],
+  [
+   23,
+   9,
+   23,
+   10
+  ],
+  [
+   22,
+   17,
+   23,
+   19
+  ],
+  [
+   23,
+   11,
+   23,
+   12
+  ],
+  [
+   21,
+   17,
+   21,
+   19
+  ],
+  [
+   19,
+   10,
+   19,
+   12
+  ],
+  [
+   20,
+   2,
+   20,
+   12
+  ],
+  [
+   22,
+   22,
+   22,
+   23
+  ],
+  [
+   21,
+   2,
+   22,
+   2
+  ],
+  [
+   19,
+   22,
+   19,
+   24
+  ],
+  [
+   20,
+   13,
+   20,
+   21
+  ],
+  [
+   24,
+   5,
+   24,
+   6
+  ],
+  [
+   27,
+   7,
+   27,
+   8
+  ],
+  [
+   18,
+   7,
+   18,
+   9
+  ],
+  [
+   24,
+   13,
+   25,
+   14
+  ],
+  [
+   27,
+   9,
+   27,
+   10
+  ],
+  [
+   4,
+   28,
+   4,
+   29
+  ],
+  [
+   29,
+   22,
+   29,
+   23
+  ],
+  [
+   19,
+   19,
+   19,
+   21
+  ],
+  [
+   18,
+   13,
+   18,
+   15
+  ],
+  [
+   4,
+   4,
+   4,
+   6
+  ],
+  [
+   28,
+   5,
+   28,
+   6
+  ],
+  [
+   28,
+   7,
+   28,
+   8
+  ],
+  [
+   18,
+   25,
+   18,
+   27
+  ],
+  [
+   28,
+   9,
+   28,
+   10
+  ],
+  [
+   6,
+   3,
+   19,
+   3
+  ],
+  [
+   21,
+   20,
+   21,
+   21
+  ],
+  [
+   2,
+   1,
+   2,
+   2
+  ],
+  [
+   3,
+   4,
+   3,
+   30
+  ],
+  [
+   22,
+   29,
+   23,
+   29
+  ],
+  [
+   26,
+   22,
+   26,
+   23
+  ],
+  [
+   29,
+   7,
+   29,
+   8
+  ],
+  [
+   19,
+   4,
+   19,
+   6
+  ],
+  [
+   29,
+   9,
+   29,
+   10
+  ]
+ ],
+ "colWidths": {
+  "B": 43.5
+ },
+ "fieldCount": 270,
+ "cells": [
+  {
+   "r": 1,
+   "c": 1,
+   "coord": "A1",
+   "rs": 1,
+   "cs": 30,
+   "t": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 2,
+   "c": 1,
+   "coord": "A2",
+   "rs": 1,
+   "cs": 2,
+   "t": "SHIFT:",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 2,
+   "c": 3,
+   "coord": "C2",
+   "rs": 1,
+   "cs": 8,
+   "t": "DATE:",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 2,
+   "c": 11,
+   "coord": "K2",
+   "rs": 1,
+   "cs": 8,
+   "t": "CHECKED BY:",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 2,
+   "c": 19,
+   "coord": "S2",
+   "rs": 1,
+   "cs": 1,
+   "t": "SIGN:",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 2,
+   "c": 20,
+   "coord": "T2",
+   "rs": 1,
+   "cs": 11,
+   "k": "empty"
+  },
+  {
+   "r": 3,
+   "c": 1,
+   "coord": "A3",
+   "rs": 3,
+   "cs": 1,
+   "t": "SN",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 3,
+   "c": 2,
+   "coord": "B3",
+   "rs": 3,
+   "cs": 1,
+   "t": "EQUIPMENT",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 3,
+   "c": 3,
+   "coord": "C3",
+   "rs": 3,
+   "cs": 1,
+   "t": "AREA",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 3,
+   "c": 4,
+   "coord": "D3",
+   "rs": 1,
+   "cs": 27,
+   "t": "WHAT TO CHECK: Visual Checking",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 4,
+   "coord": "D4",
+   "rs": 1,
+   "cs": 3,
+   "t": "Mounting/Foundation",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 7,
+   "coord": "G4",
+   "rs": 1,
+   "cs": 3,
+   "t": "Coupling",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 10,
+   "coord": "J4",
+   "rs": 1,
+   "cs": 3,
+   "t": "Cable",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 13,
+   "coord": "M4",
+   "rs": 1,
+   "cs": 3,
+   "t": "Sound",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 16,
+   "coord": "P4",
+   "rs": 1,
+   "cs": 3,
+   "t": "Body temp",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 19,
+   "coord": "S4",
+   "rs": 1,
+   "cs": 3,
+   "t": "DE Brg Temp from drive panel",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 22,
+   "coord": "V4",
+   "rs": 1,
+   "cs": 3,
+   "t": "NDE Brg Temp from drive panel",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 25,
+   "coord": "Y4",
+   "rs": 1,
+   "cs": 3,
+   "t": "Encoder Insp",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 28,
+   "coord": "AB4",
+   "rs": 1,
+   "cs": 2,
+   "t": "OIL LEVEL",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 4,
+   "c": 30,
+   "coord": "AD4",
+   "rs": 2,
+   "cs": 1,
+   "t": "Remark",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 4,
+   "coord": "D5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 5,
+   "coord": "E5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 6,
+   "coord": "F5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 7,
+   "coord": "G5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 8,
+   "coord": "H5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 9,
+   "coord": "I5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 10,
+   "coord": "J5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 11,
+   "coord": "K5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 12,
+   "coord": "L5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 13,
+   "coord": "M5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 14,
+   "coord": "N5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 15,
+   "coord": "O5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 16,
+   "coord": "P5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 17,
+   "coord": "Q5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 18,
+   "coord": "R5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 19,
+   "coord": "S5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 20,
+   "coord": "T5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 21,
+   "coord": "U5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 22,
+   "coord": "V5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 23,
+   "coord": "W5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 24,
+   "coord": "X5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 25,
+   "coord": "Y5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 26,
+   "coord": "Z5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 27,
+   "coord": "AA5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 28,
+   "coord": "AB5",
+   "rs": 1,
+   "cs": 1,
+   "t": "DE",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 5,
+   "c": 29,
+   "coord": "AC5",
+   "rs": 1,
+   "cs": 1,
+   "t": "NDE",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 6,
+   "c": 1,
+   "coord": "A6",
+   "rs": 1,
+   "cs": 1,
+   "t": "1",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 6,
+   "c": 2,
+   "coord": "B6",
+   "rs": 1,
+   "cs": 1,
+   "t": "TOP PINCH ROLL MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 6,
+   "c": 3,
+   "coord": "C6",
+   "rs": 14,
+   "cs": 1,
+   "t": "DOWN COILER",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 6,
+   "c": 4,
+   "coord": "D6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 5,
+   "coord": "E6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 6,
+   "coord": "F6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 7,
+   "coord": "G6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 8,
+   "coord": "H6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 9,
+   "coord": "I6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 10,
+   "coord": "J6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 11,
+   "coord": "K6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 12,
+   "coord": "L6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 13,
+   "coord": "M6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 14,
+   "coord": "N6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 15,
+   "coord": "O6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 16,
+   "coord": "P6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 17,
+   "coord": "Q6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 18,
+   "coord": "R6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 19,
+   "coord": "S6",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 6,
+   "c": 20,
+   "coord": "T6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_T6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 21,
+   "coord": "U6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_U6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 22,
+   "coord": "V6",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 6,
+   "c": 23,
+   "coord": "W6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_W6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 24,
+   "coord": "X6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_X6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 25,
+   "coord": "Y6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 26,
+   "coord": "Z6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 27,
+   "coord": "AA6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 28,
+   "coord": "AB6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AB6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 29,
+   "coord": "AC6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AC6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 6,
+   "c": 30,
+   "coord": "AD6",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 1,
+   "coord": "A7",
+   "rs": 1,
+   "cs": 1,
+   "t": "2",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 2,
+   "coord": "B7",
+   "rs": 1,
+   "cs": 1,
+   "t": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 4,
+   "coord": "D7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 5,
+   "coord": "E7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 6,
+   "coord": "F7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 7,
+   "coord": "G7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 8,
+   "coord": "H7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 9,
+   "coord": "I7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 10,
+   "coord": "J7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 11,
+   "coord": "K7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 12,
+   "coord": "L7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 13,
+   "coord": "M7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 14,
+   "coord": "N7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 15,
+   "coord": "O7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 16,
+   "coord": "P7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 17,
+   "coord": "Q7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 18,
+   "coord": "R7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 7,
+   "c": 19,
+   "coord": "S7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 20,
+   "coord": "T7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 21,
+   "coord": "U7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 22,
+   "coord": "V7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 23,
+   "coord": "W7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 24,
+   "coord": "X7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 25,
+   "coord": "Y7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 26,
+   "coord": "Z7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 27,
+   "coord": "AA7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 28,
+   "coord": "AB7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 29,
+   "coord": "AC7",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 7,
+   "c": 30,
+   "coord": "AD7",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD7",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 1,
+   "coord": "A8",
+   "rs": 1,
+   "cs": 1,
+   "t": "3",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 2,
+   "coord": "B8",
+   "rs": 1,
+   "cs": 1,
+   "t": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 4,
+   "coord": "D8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 5,
+   "coord": "E8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 6,
+   "coord": "F8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 7,
+   "coord": "G8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 8,
+   "coord": "H8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 9,
+   "coord": "I8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 10,
+   "coord": "J8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 11,
+   "coord": "K8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 12,
+   "coord": "L8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 13,
+   "coord": "M8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 14,
+   "coord": "N8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 15,
+   "coord": "O8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 16,
+   "coord": "P8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 17,
+   "coord": "Q8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 18,
+   "coord": "R8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 8,
+   "c": 19,
+   "coord": "S8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 20,
+   "coord": "T8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 21,
+   "coord": "U8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 22,
+   "coord": "V8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 23,
+   "coord": "W8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 24,
+   "coord": "X8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 25,
+   "coord": "Y8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 26,
+   "coord": "Z8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 27,
+   "coord": "AA8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 28,
+   "coord": "AB8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 29,
+   "coord": "AC8",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 8,
+   "c": 30,
+   "coord": "AD8",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD8",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 1,
+   "coord": "A9",
+   "rs": 1,
+   "cs": 1,
+   "t": "4",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 9,
+   "c": 2,
+   "coord": "B9",
+   "rs": 1,
+   "cs": 1,
+   "t": "BOT PINCH ROLL MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 9,
+   "c": 4,
+   "coord": "D9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 5,
+   "coord": "E9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 6,
+   "coord": "F9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 7,
+   "coord": "G9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 8,
+   "coord": "H9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 9,
+   "coord": "I9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 10,
+   "coord": "J9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 11,
+   "coord": "K9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 12,
+   "coord": "L9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 13,
+   "coord": "M9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 14,
+   "coord": "N9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 15,
+   "coord": "O9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 16,
+   "coord": "P9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 17,
+   "coord": "Q9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 18,
+   "coord": "R9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 9,
+   "c": 19,
+   "coord": "S9",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 9,
+   "c": 20,
+   "coord": "T9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_T9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 21,
+   "coord": "U9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_U9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 22,
+   "coord": "V9",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 9,
+   "c": 23,
+   "coord": "W9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_W9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 24,
+   "coord": "X9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_X9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 25,
+   "coord": "Y9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 26,
+   "coord": "Z9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 27,
+   "coord": "AA9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 28,
+   "coord": "AB9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AB9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 29,
+   "coord": "AC9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AC9",
+   "ft": "text"
+  },
+  {
+   "r": 9,
+   "c": 30,
+   "coord": "AD9",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD9",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 1,
+   "coord": "A10",
+   "rs": 1,
+   "cs": 1,
+   "t": "5",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 2,
+   "coord": "B10",
+   "rs": 1,
+   "cs": 1,
+   "t": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 4,
+   "coord": "D10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 5,
+   "coord": "E10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 6,
+   "coord": "F10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 7,
+   "coord": "G10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 8,
+   "coord": "H10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 9,
+   "coord": "I10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 10,
+   "coord": "J10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 11,
+   "coord": "K10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 12,
+   "coord": "L10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 13,
+   "coord": "M10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 14,
+   "coord": "N10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 15,
+   "coord": "O10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 16,
+   "coord": "P10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 17,
+   "coord": "Q10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 18,
+   "coord": "R10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 10,
+   "c": 19,
+   "coord": "S10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 20,
+   "coord": "T10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 21,
+   "coord": "U10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 22,
+   "coord": "V10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 23,
+   "coord": "W10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 24,
+   "coord": "X10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 25,
+   "coord": "Y10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 26,
+   "coord": "Z10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 27,
+   "coord": "AA10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 28,
+   "coord": "AB10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 29,
+   "coord": "AC10",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 10,
+   "c": 30,
+   "coord": "AD10",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD10",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 1,
+   "coord": "A11",
+   "rs": 1,
+   "cs": 1,
+   "t": "6",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 2,
+   "coord": "B11",
+   "rs": 1,
+   "cs": 1,
+   "t": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 4,
+   "coord": "D11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 5,
+   "coord": "E11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 6,
+   "coord": "F11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 7,
+   "coord": "G11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 8,
+   "coord": "H11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 9,
+   "coord": "I11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 10,
+   "coord": "J11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 11,
+   "coord": "K11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 12,
+   "coord": "L11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 13,
+   "coord": "M11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 14,
+   "coord": "N11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 15,
+   "coord": "O11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 16,
+   "coord": "P11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 17,
+   "coord": "Q11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 18,
+   "coord": "R11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 11,
+   "c": 19,
+   "coord": "S11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 20,
+   "coord": "T11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 21,
+   "coord": "U11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 22,
+   "coord": "V11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 23,
+   "coord": "W11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 24,
+   "coord": "X11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 25,
+   "coord": "Y11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 26,
+   "coord": "Z11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 27,
+   "coord": "AA11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 28,
+   "coord": "AB11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 29,
+   "coord": "AC11",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 11,
+   "c": 30,
+   "coord": "AD11",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD11",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 1,
+   "coord": "A12",
+   "rs": 1,
+   "cs": 1,
+   "t": "7",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 12,
+   "c": 2,
+   "coord": "B12",
+   "rs": 1,
+   "cs": 1,
+   "t": "MANDREL MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 12,
+   "c": 4,
+   "coord": "D12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 5,
+   "coord": "E12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 6,
+   "coord": "F12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 7,
+   "coord": "G12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 8,
+   "coord": "H12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 9,
+   "coord": "I12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 10,
+   "coord": "J12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 11,
+   "coord": "K12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 12,
+   "coord": "L12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 13,
+   "coord": "M12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 14,
+   "coord": "N12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 15,
+   "coord": "O12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 16,
+   "coord": "P12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 17,
+   "coord": "Q12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 18,
+   "coord": "R12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 19,
+   "coord": "S12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_S12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 20,
+   "coord": "T12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_T12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 21,
+   "coord": "U12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_U12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 22,
+   "coord": "V12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_V12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 12,
+   "c": 23,
+   "coord": "W12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_W12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 24,
+   "coord": "X12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_X12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 25,
+   "coord": "Y12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 26,
+   "coord": "Z12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 27,
+   "coord": "AA12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 28,
+   "coord": "AB12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AB12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 29,
+   "coord": "AC12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AC12",
+   "ft": "text"
+  },
+  {
+   "r": 12,
+   "c": 30,
+   "coord": "AD12",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD12",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 1,
+   "coord": "A13",
+   "rs": 1,
+   "cs": 1,
+   "t": "8",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 2,
+   "coord": "B13",
+   "rs": 1,
+   "cs": 1,
+   "t": "MANDREL COOLING FAN DE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 4,
+   "coord": "D13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 5,
+   "coord": "E13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 6,
+   "coord": "F13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 7,
+   "coord": "G13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 8,
+   "coord": "H13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 9,
+   "coord": "I13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 10,
+   "coord": "J13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 11,
+   "coord": "K13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 12,
+   "coord": "L13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 13,
+   "coord": "M13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 14,
+   "coord": "N13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 15,
+   "coord": "O13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 16,
+   "coord": "P13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 17,
+   "coord": "Q13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 18,
+   "coord": "R13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 13,
+   "c": 19,
+   "coord": "S13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 20,
+   "coord": "T13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 21,
+   "coord": "U13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 22,
+   "coord": "V13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 23,
+   "coord": "W13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 24,
+   "coord": "X13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 25,
+   "coord": "Y13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 26,
+   "coord": "Z13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 27,
+   "coord": "AA13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 28,
+   "coord": "AB13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 29,
+   "coord": "AC13",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 13,
+   "c": 30,
+   "coord": "AD13",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD13",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 1,
+   "coord": "A14",
+   "rs": 1,
+   "cs": 1,
+   "t": "9",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 2,
+   "coord": "B14",
+   "rs": 1,
+   "cs": 1,
+   "t": "MANDREL COOLING FAN NDE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 4,
+   "coord": "D14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 5,
+   "coord": "E14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 6,
+   "coord": "F14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 7,
+   "coord": "G14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 8,
+   "coord": "H14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 9,
+   "coord": "I14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 10,
+   "coord": "J14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 11,
+   "coord": "K14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 12,
+   "coord": "L14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 13,
+   "coord": "M14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 14,
+   "coord": "N14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 15,
+   "coord": "O14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 16,
+   "coord": "P14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 17,
+   "coord": "Q14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 18,
+   "coord": "R14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 14,
+   "c": 19,
+   "coord": "S14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 20,
+   "coord": "T14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 21,
+   "coord": "U14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 22,
+   "coord": "V14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 23,
+   "coord": "W14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 24,
+   "coord": "X14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 25,
+   "coord": "Y14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 26,
+   "coord": "Z14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 27,
+   "coord": "AA14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 28,
+   "coord": "AB14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 29,
+   "coord": "AC14",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 14,
+   "c": 30,
+   "coord": "AD14",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD14",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 1,
+   "coord": "A15",
+   "rs": 1,
+   "cs": 1,
+   "t": "10",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 2,
+   "coord": "B15",
+   "rs": 1,
+   "cs": 1,
+   "t": "WRAPPER ROLL-1 MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 4,
+   "coord": "D15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 5,
+   "coord": "E15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 6,
+   "coord": "F15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 7,
+   "coord": "G15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 8,
+   "coord": "H15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 9,
+   "coord": "I15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 10,
+   "coord": "J15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 11,
+   "coord": "K15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 12,
+   "coord": "L15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 13,
+   "coord": "M15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 14,
+   "coord": "N15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 15,
+   "coord": "O15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 16,
+   "coord": "P15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 17,
+   "coord": "Q15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 18,
+   "coord": "R15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 15,
+   "c": 19,
+   "coord": "S15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_S15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 20,
+   "coord": "T15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_T15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 21,
+   "coord": "U15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_U15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 22,
+   "coord": "V15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_V15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 23,
+   "coord": "W15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_W15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 24,
+   "coord": "X15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_X15",
+   "ft": "text"
+  },
+  {
+   "r": 15,
+   "c": 25,
+   "coord": "Y15",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 26,
+   "coord": "Z15",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 27,
+   "coord": "AA15",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 28,
+   "coord": "AB15",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 29,
+   "coord": "AC15",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 15,
+   "c": 30,
+   "coord": "AD15",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD15",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 1,
+   "coord": "A16",
+   "rs": 1,
+   "cs": 1,
+   "t": "11",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 2,
+   "coord": "B16",
+   "rs": 1,
+   "cs": 1,
+   "t": "WRAPPER ROLL-2 MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 4,
+   "coord": "D16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 5,
+   "coord": "E16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 6,
+   "coord": "F16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 7,
+   "coord": "G16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 8,
+   "coord": "H16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 9,
+   "coord": "I16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 10,
+   "coord": "J16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 11,
+   "coord": "K16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 12,
+   "coord": "L16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 13,
+   "coord": "M16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 14,
+   "coord": "N16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 15,
+   "coord": "O16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 16,
+   "coord": "P16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 17,
+   "coord": "Q16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 18,
+   "coord": "R16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 16,
+   "c": 19,
+   "coord": "S16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_S16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 20,
+   "coord": "T16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_T16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 21,
+   "coord": "U16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_U16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 22,
+   "coord": "V16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_V16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 23,
+   "coord": "W16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_W16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 24,
+   "coord": "X16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_X16",
+   "ft": "text"
+  },
+  {
+   "r": 16,
+   "c": 25,
+   "coord": "Y16",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 26,
+   "coord": "Z16",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 27,
+   "coord": "AA16",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 28,
+   "coord": "AB16",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 29,
+   "coord": "AC16",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 16,
+   "c": 30,
+   "coord": "AD16",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD16",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 1,
+   "coord": "A17",
+   "rs": 1,
+   "cs": 1,
+   "t": "12",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 2,
+   "coord": "B17",
+   "rs": 1,
+   "cs": 1,
+   "t": "WRAPPER ROLL-3 MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 4,
+   "coord": "D17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 5,
+   "coord": "E17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_E17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 6,
+   "coord": "F17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_F17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 7,
+   "coord": "G17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_G17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 8,
+   "coord": "H17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_H17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 9,
+   "coord": "I17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_I17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 10,
+   "coord": "J17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_J17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 11,
+   "coord": "K17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_K17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 12,
+   "coord": "L17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_L17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 13,
+   "coord": "M17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_M17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 14,
+   "coord": "N17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_N17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 15,
+   "coord": "O17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_O17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 16,
+   "coord": "P17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_P17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 17,
+   "coord": "Q17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Q17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 18,
+   "coord": "R17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_R17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 17,
+   "c": 19,
+   "coord": "S17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_S17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 20,
+   "coord": "T17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_T17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 21,
+   "coord": "U17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_U17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 22,
+   "coord": "V17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_V17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 23,
+   "coord": "W17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_W17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 24,
+   "coord": "X17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_X17",
+   "ft": "text"
+  },
+  {
+   "r": 17,
+   "c": 25,
+   "coord": "Y17",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 26,
+   "coord": "Z17",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 27,
+   "coord": "AA17",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 28,
+   "coord": "AB17",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 29,
+   "coord": "AC17",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 17,
+   "c": 30,
+   "coord": "AD17",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD17",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 18,
+   "c": 1,
+   "coord": "A18",
+   "rs": 1,
+   "cs": 1,
+   "t": "13",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 18,
+   "c": 2,
+   "coord": "B18",
+   "rs": 1,
+   "cs": 1,
+   "t": "TRANSFER CAR TRAVEL MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 18,
+   "c": 4,
+   "coord": "D18",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 18,
+   "c": 7,
+   "coord": "G18",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 18,
+   "c": 10,
+   "coord": "J18",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 18,
+   "c": 13,
+   "coord": "M18",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 18,
+   "c": 16,
+   "coord": "P18",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 18,
+   "c": 19,
+   "coord": "S18",
+   "rs": 1,
+   "cs": 3,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 18,
+   "c": 22,
+   "coord": "V18",
+   "rs": 1,
+   "cs": 3,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 18,
+   "c": 25,
+   "coord": "Y18",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 18,
+   "c": 28,
+   "coord": "AB18",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 18,
+   "c": 29,
+   "coord": "AC18",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 18,
+   "c": 30,
+   "coord": "AD18",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD18",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 19,
+   "c": 1,
+   "coord": "A19",
+   "rs": 1,
+   "cs": 1,
+   "t": "14",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 19,
+   "c": 2,
+   "coord": "B19",
+   "rs": 1,
+   "cs": 1,
+   "t": "TRANSFER CAR TURN TABLE MOTOR",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 19,
+   "c": 4,
+   "coord": "D19",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 19,
+   "c": 7,
+   "coord": "G19",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 19,
+   "c": 10,
+   "coord": "J19",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 19,
+   "c": 13,
+   "coord": "M19",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 19,
+   "c": 16,
+   "coord": "P19",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 19,
+   "c": 19,
+   "coord": "S19",
+   "rs": 1,
+   "cs": 3,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 19,
+   "c": 22,
+   "coord": "V19",
+   "rs": 1,
+   "cs": 3,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 19,
+   "c": 25,
+   "coord": "Y19",
+   "rs": 1,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 19,
+   "c": 28,
+   "coord": "AB19",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 19,
+   "c": 29,
+   "coord": "AC19",
+   "rs": 1,
+   "cs": 1,
+   "t": "NA",
+   "k": "locked",
+   "b": false
+  },
+  {
+   "r": 19,
+   "c": 30,
+   "coord": "AD19",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD19",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 20,
+   "c": 1,
+   "coord": "A20",
+   "rs": 1,
+   "cs": 1,
+   "t": "15",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 20,
+   "c": 2,
+   "coord": "B20",
+   "rs": 1,
+   "cs": 11,
+   "t": "DC VVVF STATUS",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 20,
+   "c": 13,
+   "coord": "M20",
+   "rs": 1,
+   "cs": 9,
+   "t": "T D C S T A T U S",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 20,
+   "c": 22,
+   "coord": "V20",
+   "rs": 1,
+   "cs": 2,
+   "t": "VVVF TEMP",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 20,
+   "c": 24,
+   "coord": "X20",
+   "rs": 1,
+   "cs": 4,
+   "t": "Winding temp form drive panel",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 20,
+   "c": 28,
+   "coord": "AB20",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AB20",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 20,
+   "c": 29,
+   "coord": "AC20",
+   "rs": 1,
+   "cs": 1,
+   "t": "TOP PR BLOWER CURRENT FORM DRIVE",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 20,
+   "c": 30,
+   "coord": "AD20",
+   "rs": 1,
+   "cs": 1,
+   "t": "BOT PR BLOWER CURRENT FORM DRIVE",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 1,
+   "coord": "A21",
+   "rs": 1,
+   "cs": 1,
+   "t": "16",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 21,
+   "c": 2,
+   "coord": "B21",
+   "rs": 2,
+   "cs": 1,
+   "t": "P G",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 3,
+   "coord": "C21",
+   "rs": 1,
+   "cs": 2,
+   "t": "IR VALUE (BENDER)",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 5,
+   "coord": "E21",
+   "rs": 2,
+   "cs": 2,
+   "t": "DRIVE COOLING FAN STATUS",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 7,
+   "coord": "G21",
+   "rs": 2,
+   "cs": 2,
+   "t": "I/C & OUTGOING POWER CABLE VISUAL INSPECTION",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 9,
+   "coord": "I21",
+   "rs": 2,
+   "cs": 2,
+   "t": "ANY ABNORMALITY/ REMARKS(FALSE CEILING,WATER LEAKAGE etc)",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 11,
+   "coord": "K21",
+   "rs": 2,
+   "cs": 2,
+   "t": "EXTERNAL FAN STSTUS",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 13,
+   "coord": "M21",
+   "rs": 1,
+   "cs": 2,
+   "t": "DC",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 15,
+   "coord": "O21",
+   "rs": 1,
+   "cs": 2,
+   "t": "FAN STATUS",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 17,
+   "coord": "Q21",
+   "rs": 1,
+   "cs": 3,
+   "t": "PANEL LIGHT STATUS",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 20,
+   "coord": "T21",
+   "rs": 1,
+   "cs": 2,
+   "t": "FAULT LED STATUS",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 22,
+   "coord": "V21",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 21,
+   "c": 24,
+   "coord": "X21",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1 TPR",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 25,
+   "coord": "Y21",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y21",
+   "ft": "number"
+  },
+  {
+   "r": 21,
+   "c": 26,
+   "coord": "Z21",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z21",
+   "ft": "number"
+  },
+  {
+   "r": 21,
+   "c": 27,
+   "coord": "AA21",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA21",
+   "ft": "number"
+  },
+  {
+   "r": 21,
+   "c": 28,
+   "coord": "AB21",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 21,
+   "c": 29,
+   "coord": "AC21",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AC21",
+   "ft": "number"
+  },
+  {
+   "r": 21,
+   "c": 30,
+   "coord": "AD21",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AD21",
+   "ft": "number"
+  },
+  {
+   "r": 22,
+   "c": 1,
+   "coord": "A22",
+   "rs": 1,
+   "cs": 1,
+   "t": "17",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 22,
+   "c": 3,
+   "coord": "C22",
+   "rs": 1,
+   "cs": 2,
+   "t": "in K\u03a9",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 22,
+   "c": 13,
+   "coord": "M22",
+   "rs": 2,
+   "cs": 2,
+   "t": "DC1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 22,
+   "c": 15,
+   "coord": "O22",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 22,
+   "c": 17,
+   "coord": "Q22",
+   "rs": 2,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 22,
+   "c": 20,
+   "coord": "T22",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 22,
+   "c": 22,
+   "coord": "V22",
+   "rs": 1,
+   "cs": 2,
+   "t": "VVVF HUMIDITY",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 22,
+   "c": 24,
+   "coord": "X22",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1 BPR",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 22,
+   "c": 25,
+   "coord": "Y22",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y22",
+   "ft": "number"
+  },
+  {
+   "r": 22,
+   "c": 26,
+   "coord": "Z22",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z22",
+   "ft": "number"
+  },
+  {
+   "r": 22,
+   "c": 27,
+   "coord": "AA22",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA22",
+   "ft": "number"
+  },
+  {
+   "r": 22,
+   "c": 28,
+   "coord": "AB22",
+   "rs": 2,
+   "cs": 1,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 22,
+   "c": 29,
+   "coord": "AC22",
+   "rs": 2,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 22,
+   "c": 30,
+   "coord": "AD22",
+   "rs": 2,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 23,
+   "c": 1,
+   "coord": "A23",
+   "rs": 1,
+   "cs": 1,
+   "t": "18",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 23,
+   "c": 2,
+   "coord": "B23",
+   "rs": 1,
+   "cs": 1,
+   "t": "PG # 3.1",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 23,
+   "c": 3,
+   "coord": "C23",
+   "rs": 1,
+   "cs": 1,
+   "t": ">150",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 23,
+   "c": 4,
+   "coord": "D23",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D23",
+   "ft": "number"
+  },
+  {
+   "r": 23,
+   "c": 5,
+   "coord": "E23",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 23,
+   "c": 7,
+   "coord": "G23",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 23,
+   "c": 9,
+   "coord": "I23",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 23,
+   "c": 11,
+   "coord": "K23",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 23,
+   "c": 22,
+   "coord": "V23",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 23,
+   "c": 24,
+   "coord": "X23",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC1 MANDREL",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 23,
+   "c": 25,
+   "coord": "Y23",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y23",
+   "ft": "number"
+  },
+  {
+   "r": 23,
+   "c": 26,
+   "coord": "Z23",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z23",
+   "ft": "number"
+  },
+  {
+   "r": 23,
+   "c": 27,
+   "coord": "AA23",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA23",
+   "ft": "number"
+  },
+  {
+   "r": 24,
+   "c": 1,
+   "coord": "A24",
+   "rs": 1,
+   "cs": 1,
+   "t": "19",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 24,
+   "c": 2,
+   "coord": "B24",
+   "rs": 1,
+   "cs": 1,
+   "t": "PG # 3.2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 24,
+   "c": 3,
+   "coord": "C24",
+   "rs": 1,
+   "cs": 1,
+   "t": ">200",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 24,
+   "c": 4,
+   "coord": "D24",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D24",
+   "ft": "number"
+  },
+  {
+   "r": 24,
+   "c": 5,
+   "coord": "E24",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 7,
+   "coord": "G24",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 9,
+   "coord": "I24",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 11,
+   "coord": "K24",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 13,
+   "coord": "M24",
+   "rs": 2,
+   "cs": 2,
+   "t": "DC2",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 24,
+   "c": 15,
+   "coord": "O24",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 17,
+   "coord": "Q24",
+   "rs": 2,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 20,
+   "coord": "T24",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 22,
+   "coord": "V24",
+   "rs": 2,
+   "cs": 2,
+   "t": "TDC ROOM TEMP",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 24,
+   "c": 24,
+   "coord": "X24",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2 TPR",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 24,
+   "c": 25,
+   "coord": "Y24",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y24",
+   "ft": "number"
+  },
+  {
+   "r": 24,
+   "c": 26,
+   "coord": "Z24",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z24",
+   "ft": "number"
+  },
+  {
+   "r": 24,
+   "c": 27,
+   "coord": "AA24",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA24",
+   "ft": "number"
+  },
+  {
+   "r": 24,
+   "c": 28,
+   "coord": "AB24",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 29,
+   "coord": "AC24",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 24,
+   "c": 30,
+   "coord": "AD24",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 1,
+   "coord": "A25",
+   "rs": 1,
+   "cs": 1,
+   "t": "20",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 25,
+   "c": 2,
+   "coord": "B25",
+   "rs": 1,
+   "cs": 1,
+   "t": "PG # 3.3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 25,
+   "c": 3,
+   "coord": "C25",
+   "rs": 1,
+   "cs": 1,
+   "t": ">200",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 25,
+   "c": 4,
+   "coord": "D25",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D25",
+   "ft": "number"
+  },
+  {
+   "r": 25,
+   "c": 5,
+   "coord": "E25",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 7,
+   "coord": "G25",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 9,
+   "coord": "I25",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 11,
+   "coord": "K25",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 24,
+   "coord": "X25",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2 BPR",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 25,
+   "c": 25,
+   "coord": "Y25",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y25",
+   "ft": "number"
+  },
+  {
+   "r": 25,
+   "c": 26,
+   "coord": "Z25",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z25",
+   "ft": "number"
+  },
+  {
+   "r": 25,
+   "c": 27,
+   "coord": "AA25",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA25",
+   "ft": "number"
+  },
+  {
+   "r": 25,
+   "c": 28,
+   "coord": "AB25",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 29,
+   "coord": "AC25",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 25,
+   "c": 30,
+   "coord": "AD25",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 1,
+   "coord": "A26",
+   "rs": 1,
+   "cs": 1,
+   "t": "21",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 26,
+   "c": 2,
+   "coord": "B26",
+   "rs": 1,
+   "cs": 1,
+   "t": "PG # 3.4",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 26,
+   "c": 3,
+   "coord": "C26",
+   "rs": 1,
+   "cs": 1,
+   "t": ">150",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 26,
+   "c": 4,
+   "coord": "D26",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D26",
+   "ft": "number"
+  },
+  {
+   "r": 26,
+   "c": 5,
+   "coord": "E26",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 7,
+   "coord": "G26",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 9,
+   "coord": "I26",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 11,
+   "coord": "K26",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 13,
+   "coord": "M26",
+   "rs": 2,
+   "cs": 2,
+   "t": "DC3",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 26,
+   "c": 15,
+   "coord": "O26",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 17,
+   "coord": "Q26",
+   "rs": 2,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 20,
+   "coord": "T26",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 22,
+   "coord": "V26",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 24,
+   "coord": "X26",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC2 MANDREL",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 26,
+   "c": 25,
+   "coord": "Y26",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y26",
+   "ft": "number"
+  },
+  {
+   "r": 26,
+   "c": 26,
+   "coord": "Z26",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z26",
+   "ft": "number"
+  },
+  {
+   "r": 26,
+   "c": 27,
+   "coord": "AA26",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA26",
+   "ft": "number"
+  },
+  {
+   "r": 26,
+   "c": 28,
+   "coord": "AB26",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 29,
+   "coord": "AC26",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 26,
+   "c": 30,
+   "coord": "AD26",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 1,
+   "coord": "A27",
+   "rs": 1,
+   "cs": 1,
+   "t": "22",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 27,
+   "c": 2,
+   "coord": "B27",
+   "rs": 1,
+   "cs": 1,
+   "t": "PG # 3.5",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 27,
+   "c": 3,
+   "coord": "C27",
+   "rs": 1,
+   "cs": 1,
+   "t": ">250",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 27,
+   "c": 4,
+   "coord": "D27",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D27",
+   "ft": "number"
+  },
+  {
+   "r": 27,
+   "c": 5,
+   "coord": "E27",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 7,
+   "coord": "G27",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 9,
+   "coord": "I27",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 11,
+   "coord": "K27",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 22,
+   "coord": "V27",
+   "rs": 2,
+   "cs": 2,
+   "t": "TDC ROOM HUMIDITY",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 27,
+   "c": 24,
+   "coord": "X27",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3 TPR",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 27,
+   "c": 25,
+   "coord": "Y27",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y27",
+   "ft": "number"
+  },
+  {
+   "r": 27,
+   "c": 26,
+   "coord": "Z27",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z27",
+   "ft": "number"
+  },
+  {
+   "r": 27,
+   "c": 27,
+   "coord": "AA27",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA27",
+   "ft": "number"
+  },
+  {
+   "r": 27,
+   "c": 28,
+   "coord": "AB27",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 29,
+   "coord": "AC27",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 27,
+   "c": 30,
+   "coord": "AD27",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 1,
+   "coord": "A28",
+   "rs": 1,
+   "cs": 1,
+   "t": "23",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 28,
+   "c": 2,
+   "coord": "B28",
+   "rs": 1,
+   "cs": 1,
+   "t": "PG # 3.6",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 28,
+   "c": 3,
+   "coord": "C28",
+   "rs": 1,
+   "cs": 1,
+   "t": ">150",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 28,
+   "c": 4,
+   "coord": "D28",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D28",
+   "ft": "number"
+  },
+  {
+   "r": 28,
+   "c": 5,
+   "coord": "E28",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 7,
+   "coord": "G28",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 9,
+   "coord": "I28",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 11,
+   "coord": "K28",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 13,
+   "coord": "M28",
+   "rs": 2,
+   "cs": 2,
+   "t": "COMFU",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 28,
+   "c": 15,
+   "coord": "O28",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 17,
+   "coord": "Q28",
+   "rs": 2,
+   "cs": 3,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 20,
+   "coord": "T28",
+   "rs": 2,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 24,
+   "coord": "X28",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3 BPR",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 28,
+   "c": 25,
+   "coord": "Y28",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y28",
+   "ft": "number"
+  },
+  {
+   "r": 28,
+   "c": 26,
+   "coord": "Z28",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z28",
+   "ft": "number"
+  },
+  {
+   "r": 28,
+   "c": 27,
+   "coord": "AA28",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA28",
+   "ft": "number"
+  },
+  {
+   "r": 28,
+   "c": 28,
+   "coord": "AB28",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 29,
+   "coord": "AC28",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 28,
+   "c": 30,
+   "coord": "AD28",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 1,
+   "coord": "A29",
+   "rs": 1,
+   "cs": 1,
+   "t": "24",
+   "k": "label",
+   "b": false
+  },
+  {
+   "r": 29,
+   "c": 2,
+   "coord": "B29",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_B29",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ]
+  },
+  {
+   "r": 29,
+   "c": 3,
+   "coord": "C29",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_C29",
+   "ft": "number"
+  },
+  {
+   "r": 29,
+   "c": 4,
+   "coord": "D29",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_D29",
+   "ft": "number"
+  },
+  {
+   "r": 29,
+   "c": 5,
+   "coord": "E29",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 7,
+   "coord": "G29",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 9,
+   "coord": "I29",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 11,
+   "coord": "K29",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 22,
+   "coord": "V29",
+   "rs": 1,
+   "cs": 2,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 24,
+   "coord": "X29",
+   "rs": 1,
+   "cs": 1,
+   "t": "DC3 MANDREL",
+   "k": "label",
+   "b": true
+  },
+  {
+   "r": 29,
+   "c": 25,
+   "coord": "Y29",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Y29",
+   "ft": "number"
+  },
+  {
+   "r": 29,
+   "c": 26,
+   "coord": "Z29",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_Z29",
+   "ft": "number"
+  },
+  {
+   "r": 29,
+   "c": 27,
+   "coord": "AA29",
+   "rs": 1,
+   "cs": 1,
+   "k": "input",
+   "id": "S10_AA29",
+   "ft": "number"
+  },
+  {
+   "r": 29,
+   "c": 28,
+   "coord": "AB29",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 29,
+   "coord": "AC29",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  },
+  {
+   "r": 29,
+   "c": 30,
+   "coord": "AD29",
+   "rs": 1,
+   "cs": 1,
+   "k": "empty"
+  }
+ ],
+ "fields": [
+  {
+   "id": "S10_D6",
+   "cell": "D6",
+   "ord": 0,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC1",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E6",
+   "cell": "E6",
+   "ord": 1,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F6",
+   "cell": "F6",
+   "ord": 2,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G6",
+   "cell": "G6",
+   "ord": 3,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC1",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H6",
+   "cell": "H6",
+   "ord": 4,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I6",
+   "cell": "I6",
+   "ord": 5,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J6",
+   "cell": "J6",
+   "ord": 6,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC1",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K6",
+   "cell": "K6",
+   "ord": 7,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L6",
+   "cell": "L6",
+   "ord": 8,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M6",
+   "cell": "M6",
+   "ord": 9,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC1",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N6",
+   "cell": "N6",
+   "ord": 10,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O6",
+   "cell": "O6",
+   "ord": 11,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P6",
+   "cell": "P6",
+   "ord": 12,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC1",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q6",
+   "cell": "Q6",
+   "ord": 13,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R6",
+   "cell": "R6",
+   "ord": 14,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_T6",
+   "cell": "T6",
+   "ord": 15,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "DE Brg Temp from drive panel",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_U6",
+   "cell": "U6",
+   "ord": 16,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "DE Brg Temp from drive panel",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_W6",
+   "cell": "W6",
+   "ord": 17,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "NDE Brg Temp from drive panel",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_X6",
+   "cell": "X6",
+   "ord": 18,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "NDE Brg Temp from drive panel",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Y6",
+   "cell": "Y6",
+   "ord": 19,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Encoder Insp",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC1",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Z6",
+   "cell": "Z6",
+   "ord": 20,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Encoder Insp",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AA6",
+   "cell": "AA6",
+   "ord": 21,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Encoder Insp",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AB6",
+   "cell": "AB6",
+   "ord": 22,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "OIL LEVEL",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "DE",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AC6",
+   "cell": "AC6",
+   "ord": 23,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "OIL LEVEL",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "NDE",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD6",
+   "cell": "AD6",
+   "ord": 24,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "TOP PINCH ROLL MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E7",
+   "cell": "E7",
+   "ord": 25,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F7",
+   "cell": "F7",
+   "ord": 26,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H7",
+   "cell": "H7",
+   "ord": 27,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I7",
+   "cell": "I7",
+   "ord": 28,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K7",
+   "cell": "K7",
+   "ord": 29,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L7",
+   "cell": "L7",
+   "ord": 30,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N7",
+   "cell": "N7",
+   "ord": 31,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O7",
+   "cell": "O7",
+   "ord": 32,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q7",
+   "cell": "Q7",
+   "ord": 33,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R7",
+   "cell": "R7",
+   "ord": 34,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD7",
+   "cell": "AD7",
+   "ord": 35,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "TOP PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D8",
+   "cell": "D8",
+   "ord": 36,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E8",
+   "cell": "E8",
+   "ord": 37,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F8",
+   "cell": "F8",
+   "ord": 38,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G8",
+   "cell": "G8",
+   "ord": 39,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H8",
+   "cell": "H8",
+   "ord": 40,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I8",
+   "cell": "I8",
+   "ord": 41,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J8",
+   "cell": "J8",
+   "ord": 42,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K8",
+   "cell": "K8",
+   "ord": 43,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L8",
+   "cell": "L8",
+   "ord": 44,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M8",
+   "cell": "M8",
+   "ord": 45,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N8",
+   "cell": "N8",
+   "ord": 46,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O8",
+   "cell": "O8",
+   "ord": 47,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P8",
+   "cell": "P8",
+   "ord": 48,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q8",
+   "cell": "Q8",
+   "ord": 49,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R8",
+   "cell": "R8",
+   "ord": 50,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD8",
+   "cell": "AD8",
+   "ord": 51,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "TOP PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D9",
+   "cell": "D9",
+   "ord": 52,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_E9",
+   "cell": "E9",
+   "ord": 53,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F9",
+   "cell": "F9",
+   "ord": 54,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G9",
+   "cell": "G9",
+   "ord": 55,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_H9",
+   "cell": "H9",
+   "ord": 56,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I9",
+   "cell": "I9",
+   "ord": 57,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J9",
+   "cell": "J9",
+   "ord": 58,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_K9",
+   "cell": "K9",
+   "ord": 59,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L9",
+   "cell": "L9",
+   "ord": 60,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M9",
+   "cell": "M9",
+   "ord": 61,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_N9",
+   "cell": "N9",
+   "ord": 62,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O9",
+   "cell": "O9",
+   "ord": 63,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P9",
+   "cell": "P9",
+   "ord": 64,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Q9",
+   "cell": "Q9",
+   "ord": 65,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R9",
+   "cell": "R9",
+   "ord": 66,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_T9",
+   "cell": "T9",
+   "ord": 67,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_U9",
+   "cell": "U9",
+   "ord": 68,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_W9",
+   "cell": "W9",
+   "ord": 69,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_X9",
+   "cell": "X9",
+   "ord": 70,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Y9",
+   "cell": "Y9",
+   "ord": 71,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Z9",
+   "cell": "Z9",
+   "ord": 72,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AA9",
+   "cell": "AA9",
+   "ord": 73,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AB9",
+   "cell": "AB9",
+   "ord": 74,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AC9",
+   "cell": "AC9",
+   "ord": 75,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AD9",
+   "cell": "AD9",
+   "ord": 76,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "BOT PINCH ROLL MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E10",
+   "cell": "E10",
+   "ord": 77,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F10",
+   "cell": "F10",
+   "ord": 78,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H10",
+   "cell": "H10",
+   "ord": 79,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I10",
+   "cell": "I10",
+   "ord": 80,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K10",
+   "cell": "K10",
+   "ord": 81,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L10",
+   "cell": "L10",
+   "ord": 82,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N10",
+   "cell": "N10",
+   "ord": 83,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O10",
+   "cell": "O10",
+   "ord": 84,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q10",
+   "cell": "Q10",
+   "ord": 85,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R10",
+   "cell": "R10",
+   "ord": 86,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD10",
+   "cell": "AD10",
+   "ord": 87,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "BOT PINCH ROLL COOLING FAN DE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D11",
+   "cell": "D11",
+   "ord": 88,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E11",
+   "cell": "E11",
+   "ord": 89,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F11",
+   "cell": "F11",
+   "ord": 90,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G11",
+   "cell": "G11",
+   "ord": 91,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H11",
+   "cell": "H11",
+   "ord": 92,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I11",
+   "cell": "I11",
+   "ord": 93,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J11",
+   "cell": "J11",
+   "ord": 94,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K11",
+   "cell": "K11",
+   "ord": 95,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L11",
+   "cell": "L11",
+   "ord": 96,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M11",
+   "cell": "M11",
+   "ord": 97,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N11",
+   "cell": "N11",
+   "ord": 98,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O11",
+   "cell": "O11",
+   "ord": 99,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P11",
+   "cell": "P11",
+   "ord": 100,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q11",
+   "cell": "Q11",
+   "ord": 101,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R11",
+   "cell": "R11",
+   "ord": 102,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD11",
+   "cell": "AD11",
+   "ord": 103,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "BOT PINCH ROLL COOLING FAN NDE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D12",
+   "cell": "D12",
+   "ord": 104,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_E12",
+   "cell": "E12",
+   "ord": 105,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F12",
+   "cell": "F12",
+   "ord": 106,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G12",
+   "cell": "G12",
+   "ord": 107,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_H12",
+   "cell": "H12",
+   "ord": 108,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I12",
+   "cell": "I12",
+   "ord": 109,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J12",
+   "cell": "J12",
+   "ord": 110,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_K12",
+   "cell": "K12",
+   "ord": 111,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L12",
+   "cell": "L12",
+   "ord": 112,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M12",
+   "cell": "M12",
+   "ord": 113,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_N12",
+   "cell": "N12",
+   "ord": 114,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O12",
+   "cell": "O12",
+   "ord": 115,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P12",
+   "cell": "P12",
+   "ord": 116,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Q12",
+   "cell": "Q12",
+   "ord": 117,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R12",
+   "cell": "R12",
+   "ord": 118,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_S12",
+   "cell": "S12",
+   "ord": 119,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "DC1",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_T12",
+   "cell": "T12",
+   "ord": 120,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_U12",
+   "cell": "U12",
+   "ord": 121,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_V12",
+   "cell": "V12",
+   "ord": 122,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "DC1",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_W12",
+   "cell": "W12",
+   "ord": 123,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_X12",
+   "cell": "X12",
+   "ord": 124,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Y12",
+   "cell": "Y12",
+   "ord": 125,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Z12",
+   "cell": "Z12",
+   "ord": 126,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AA12",
+   "cell": "AA12",
+   "ord": 127,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AB12",
+   "cell": "AB12",
+   "ord": 128,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AC12",
+   "cell": "AC12",
+   "ord": 129,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AD12",
+   "cell": "AD12",
+   "ord": 130,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "MANDREL MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D13",
+   "cell": "D13",
+   "ord": 131,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E13",
+   "cell": "E13",
+   "ord": 132,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F13",
+   "cell": "F13",
+   "ord": 133,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G13",
+   "cell": "G13",
+   "ord": 134,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H13",
+   "cell": "H13",
+   "ord": 135,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I13",
+   "cell": "I13",
+   "ord": 136,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J13",
+   "cell": "J13",
+   "ord": 137,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K13",
+   "cell": "K13",
+   "ord": 138,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L13",
+   "cell": "L13",
+   "ord": 139,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M13",
+   "cell": "M13",
+   "ord": 140,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N13",
+   "cell": "N13",
+   "ord": 141,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O13",
+   "cell": "O13",
+   "ord": 142,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P13",
+   "cell": "P13",
+   "ord": 143,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q13",
+   "cell": "Q13",
+   "ord": 144,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R13",
+   "cell": "R13",
+   "ord": 145,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD13",
+   "cell": "AD13",
+   "ord": 146,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "MANDREL COOLING FAN DE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D14",
+   "cell": "D14",
+   "ord": 147,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_E14",
+   "cell": "E14",
+   "ord": 148,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F14",
+   "cell": "F14",
+   "ord": 149,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G14",
+   "cell": "G14",
+   "ord": 150,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_H14",
+   "cell": "H14",
+   "ord": 151,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I14",
+   "cell": "I14",
+   "ord": 152,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J14",
+   "cell": "J14",
+   "ord": 153,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_K14",
+   "cell": "K14",
+   "ord": 154,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L14",
+   "cell": "L14",
+   "ord": 155,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M14",
+   "cell": "M14",
+   "ord": 156,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_N14",
+   "cell": "N14",
+   "ord": 157,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O14",
+   "cell": "O14",
+   "ord": 158,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P14",
+   "cell": "P14",
+   "ord": 159,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Q14",
+   "cell": "Q14",
+   "ord": 160,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R14",
+   "cell": "R14",
+   "ord": 161,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD14",
+   "cell": "AD14",
+   "ord": 162,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "MANDREL COOLING FAN NDE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D15",
+   "cell": "D15",
+   "ord": 163,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_E15",
+   "cell": "E15",
+   "ord": 164,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F15",
+   "cell": "F15",
+   "ord": 165,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G15",
+   "cell": "G15",
+   "ord": 166,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_H15",
+   "cell": "H15",
+   "ord": 167,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I15",
+   "cell": "I15",
+   "ord": 168,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J15",
+   "cell": "J15",
+   "ord": 169,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_K15",
+   "cell": "K15",
+   "ord": 170,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L15",
+   "cell": "L15",
+   "ord": 171,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M15",
+   "cell": "M15",
+   "ord": 172,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_N15",
+   "cell": "N15",
+   "ord": 173,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O15",
+   "cell": "O15",
+   "ord": 174,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P15",
+   "cell": "P15",
+   "ord": 175,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Q15",
+   "cell": "Q15",
+   "ord": 176,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R15",
+   "cell": "R15",
+   "ord": 177,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_S15",
+   "cell": "S15",
+   "ord": 178,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_T15",
+   "cell": "T15",
+   "ord": 179,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_U15",
+   "cell": "U15",
+   "ord": 180,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_V15",
+   "cell": "V15",
+   "ord": 181,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_W15",
+   "cell": "W15",
+   "ord": 182,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_X15",
+   "cell": "X15",
+   "ord": 183,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AD15",
+   "cell": "AD15",
+   "ord": 184,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "WRAPPER ROLL-1 MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D16",
+   "cell": "D16",
+   "ord": 185,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_E16",
+   "cell": "E16",
+   "ord": 186,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F16",
+   "cell": "F16",
+   "ord": 187,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G16",
+   "cell": "G16",
+   "ord": 188,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_H16",
+   "cell": "H16",
+   "ord": 189,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I16",
+   "cell": "I16",
+   "ord": 190,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J16",
+   "cell": "J16",
+   "ord": 191,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_K16",
+   "cell": "K16",
+   "ord": 192,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L16",
+   "cell": "L16",
+   "ord": 193,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M16",
+   "cell": "M16",
+   "ord": 194,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_N16",
+   "cell": "N16",
+   "ord": 195,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O16",
+   "cell": "O16",
+   "ord": 196,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P16",
+   "cell": "P16",
+   "ord": 197,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Q16",
+   "cell": "Q16",
+   "ord": 198,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R16",
+   "cell": "R16",
+   "ord": 199,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_S16",
+   "cell": "S16",
+   "ord": 200,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_T16",
+   "cell": "T16",
+   "ord": 201,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_U16",
+   "cell": "U16",
+   "ord": 202,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_V16",
+   "cell": "V16",
+   "ord": 203,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_W16",
+   "cell": "W16",
+   "ord": 204,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_X16",
+   "cell": "X16",
+   "ord": 205,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AD16",
+   "cell": "AD16",
+   "ord": 206,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "WRAPPER ROLL-2 MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_D17",
+   "cell": "D17",
+   "ord": 207,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_E17",
+   "cell": "E17",
+   "ord": 208,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_F17",
+   "cell": "F17",
+   "ord": 209,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Mounting/Foundation",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_G17",
+   "cell": "G17",
+   "ord": 210,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_H17",
+   "cell": "H17",
+   "ord": 211,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_I17",
+   "cell": "I17",
+   "ord": 212,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Coupling",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_J17",
+   "cell": "J17",
+   "ord": 213,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_K17",
+   "cell": "K17",
+   "ord": 214,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_L17",
+   "cell": "L17",
+   "ord": 215,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Cable",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_M17",
+   "cell": "M17",
+   "ord": 216,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_N17",
+   "cell": "N17",
+   "ord": 217,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_O17",
+   "cell": "O17",
+   "ord": 218,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Sound",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_P17",
+   "cell": "P17",
+   "ord": 219,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_Q17",
+   "cell": "Q17",
+   "ord": 220,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC2",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_R17",
+   "cell": "R17",
+   "ord": 221,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "Body temp",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "DC3",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_S17",
+   "cell": "S17",
+   "ord": 222,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_T17",
+   "cell": "T17",
+   "ord": 223,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_U17",
+   "cell": "U17",
+   "ord": 224,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_V17",
+   "cell": "V17",
+   "ord": 225,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_W17",
+   "cell": "W17",
+   "ord": 226,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_X17",
+   "cell": "X17",
+   "ord": 227,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "NA",
+   "ft": "text"
+  },
+  {
+   "id": "S10_AD17",
+   "cell": "AD17",
+   "ord": 228,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "WRAPPER ROLL-3 MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD18",
+   "cell": "AD18",
+   "ord": 229,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "TRANSFER CAR TRAVEL MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AD19",
+   "cell": "AD19",
+   "ord": 230,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DOWN COILER",
+   "subGroup": "WHAT TO CHECK: Visual Checking",
+   "rowKey": "TRANSFER CAR TURN TABLE MOTOR",
+   "colKey": "Remark",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_AB20",
+   "cell": "AB20",
+   "ord": 231,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "",
+   "rowKey": "DC VVVF STATUS",
+   "colKey": "NA",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_Y21",
+   "cell": "Y21",
+   "ord": 232,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "EXTERNAL FAN STSTUS",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z21",
+   "cell": "Z21",
+   "ord": 233,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "EXTERNAL FAN STSTUS",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA21",
+   "cell": "AA21",
+   "ord": 234,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "EXTERNAL FAN STSTUS",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AC21",
+   "cell": "AC21",
+   "ord": 235,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "EXTERNAL FAN STSTUS",
+   "subGroup": "NA",
+   "rowKey": "P G",
+   "colKey": "TOP PR BLOWER CURRENT FORM DRIVE",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AD21",
+   "cell": "AD21",
+   "ord": 236,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "EXTERNAL FAN STSTUS",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "BOT PR BLOWER CURRENT FORM DRIVE",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y22",
+   "cell": "Y22",
+   "ord": 237,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC1",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z22",
+   "cell": "Z22",
+   "ord": 238,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC1",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA22",
+   "cell": "AA22",
+   "ord": 239,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC1",
+   "subGroup": "",
+   "rowKey": "P G",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_D23",
+   "cell": "D23",
+   "ord": 240,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "PG # 3.1",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y23",
+   "cell": "Y23",
+   "ord": 241,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC1",
+   "subGroup": "",
+   "rowKey": "PG # 3.1",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z23",
+   "cell": "Z23",
+   "ord": 242,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC1",
+   "subGroup": "",
+   "rowKey": "PG # 3.1",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA23",
+   "cell": "AA23",
+   "ord": 243,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC1",
+   "subGroup": "",
+   "rowKey": "PG # 3.1",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_D24",
+   "cell": "D24",
+   "ord": 244,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "PG # 3.2",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y24",
+   "cell": "Y24",
+   "ord": 245,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM TEMP",
+   "subGroup": "",
+   "rowKey": "PG # 3.2",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z24",
+   "cell": "Z24",
+   "ord": 246,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM TEMP",
+   "subGroup": "",
+   "rowKey": "PG # 3.2",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA24",
+   "cell": "AA24",
+   "ord": 247,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM TEMP",
+   "subGroup": "",
+   "rowKey": "PG # 3.2",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_D25",
+   "cell": "D25",
+   "ord": 248,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "PG # 3.3",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y25",
+   "cell": "Y25",
+   "ord": 249,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM TEMP",
+   "subGroup": "",
+   "rowKey": "PG # 3.3",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z25",
+   "cell": "Z25",
+   "ord": 250,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM TEMP",
+   "subGroup": "",
+   "rowKey": "PG # 3.3",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA25",
+   "cell": "AA25",
+   "ord": 251,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM TEMP",
+   "subGroup": "",
+   "rowKey": "PG # 3.3",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_D26",
+   "cell": "D26",
+   "ord": 252,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "PG # 3.4",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y26",
+   "cell": "Y26",
+   "ord": 253,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC3",
+   "subGroup": "",
+   "rowKey": "PG # 3.4",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z26",
+   "cell": "Z26",
+   "ord": 254,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC3",
+   "subGroup": "",
+   "rowKey": "PG # 3.4",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA26",
+   "cell": "AA26",
+   "ord": 255,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "DC3",
+   "subGroup": "",
+   "rowKey": "PG # 3.4",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_D27",
+   "cell": "D27",
+   "ord": 256,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "PG # 3.5",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y27",
+   "cell": "Y27",
+   "ord": 257,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM HUMIDITY",
+   "subGroup": "",
+   "rowKey": "PG # 3.5",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z27",
+   "cell": "Z27",
+   "ord": 258,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM HUMIDITY",
+   "subGroup": "",
+   "rowKey": "PG # 3.5",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA27",
+   "cell": "AA27",
+   "ord": 259,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM HUMIDITY",
+   "subGroup": "",
+   "rowKey": "PG # 3.5",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_D28",
+   "cell": "D28",
+   "ord": 260,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "PG # 3.6",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y28",
+   "cell": "Y28",
+   "ord": 261,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM HUMIDITY",
+   "subGroup": "",
+   "rowKey": "PG # 3.6",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z28",
+   "cell": "Z28",
+   "ord": 262,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM HUMIDITY",
+   "subGroup": "",
+   "rowKey": "PG # 3.6",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA28",
+   "cell": "AA28",
+   "ord": 263,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "TDC ROOM HUMIDITY",
+   "subGroup": "",
+   "rowKey": "PG # 3.6",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_B29",
+   "cell": "B29",
+   "ord": 264,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "PG # 3.5",
+   "rowKey": "",
+   "colKey": "PG # 3.6",
+   "ft": "choice",
+   "opts": [
+    "OK",
+    "NOK",
+    "NA"
+   ],
+   "anomaly_if": [
+    "NOK"
+   ]
+  },
+  {
+   "id": "S10_C29",
+   "cell": "C29",
+   "ord": 265,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": ">250",
+   "rowKey": "",
+   "colKey": ">150",
+   "ft": "number",
+   "min": 150.0
+  },
+  {
+   "id": "S10_D29",
+   "cell": "D29",
+   "ord": 266,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "",
+   "subGroup": "IR VALUE (BENDER)",
+   "rowKey": "",
+   "colKey": "in K\u03a9",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Y29",
+   "cell": "Y29",
+   "ord": 267,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "COMFU",
+   "subGroup": "",
+   "rowKey": "COMFU",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_Z29",
+   "cell": "Z29",
+   "ord": 268,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "COMFU",
+   "subGroup": "",
+   "rowKey": "COMFU",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  },
+  {
+   "id": "S10_AA29",
+   "cell": "AA29",
+   "ord": 269,
+   "section": "DC AREA ALL DRIVE & MOTOR CHECK LIST",
+   "equipment": "COMFU",
+   "subGroup": "",
+   "rowKey": "COMFU",
+   "colKey": "Winding temp form drive panel",
+   "ft": "number"
+  }
+ ]
+}

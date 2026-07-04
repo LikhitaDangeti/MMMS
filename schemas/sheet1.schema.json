@@ -1,0 +1,4374 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet1",
+ "title": "Submission/Sheet1",
+ "description": "FM Drive,VVVF Motors,TDC",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 1
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "B10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | STATOR (>750 KΩ) / IR VALUE (BENDER) IN KΩ"
+    },
+    "C10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | ROTOR (>750 KΩ) / IR VALUE (BENDER) IN KΩ"
+    },
+    "D10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | AXIAL NDE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | RADIAL NDE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "F10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | RADIAL DE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "G10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CONDUCTIVITY (0.45-0.55µS/cm) / D M WATER"
+    },
+    "H10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | IC LINE TEMPERATURE (<30 °C) / D M WATER"
+    },
+    "I10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | TANK LEVEL / LEAKAGE(=Prev Shift Reading) / D M WATER"
+    },
+    "J10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | FLOW (>630 L/Min) / D M WATER"
+    },
+    "K10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | PRESSURE (>3.8 Bar) / D M WATER"
+    },
+    "L10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | AIR IN TEMP (<45 °C) / MOTOR TEMPERATURE"
+    },
+    "M10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | MAX WINDING TEMP (<70 °C) / MOTOR TEMPERATURE"
+    },
+    "N10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | EXC DRIVE FAN STATUS / S M 1 5 0 D R I V E S T A T U S"
+    },
+    "O10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | TOUCH SCREEN / OP PANEL"
+    },
+    "P10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | PUMP AUTO (ALWAYS IN AUTO) / OP PANEL"
+    },
+    "U10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | DATE & TIME / OP PANEL"
+    },
+    "B11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | STATOR (>750 KΩ) / IR VALUE (BENDER) IN KΩ"
+    },
+    "C11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | ROTOR (>750 KΩ) / IR VALUE (BENDER) IN KΩ"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | AXIAL NDE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | RADIAL NDE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "F11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | RADIAL DE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CONDUCTIVITY (0.45-0.55µS/cm) / D M WATER"
+    },
+    "H11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | IC LINE TEMPERATURE (<30 °C) / D M WATER"
+    },
+    "I11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | TANK LEVEL / LEAKAGE(=Prev Shift Reading) / D M WATER"
+    },
+    "J11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | FLOW (>630 L/Min) / D M WATER"
+    },
+    "K11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | PRESSURE (>3.8 Bar) / D M WATER"
+    },
+    "L11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | AIR IN TEMP (<45 °C) / MOTOR TEMPERATURE"
+    },
+    "M11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | MAX WINDING TEMP (<70 °C) / MOTOR TEMPERATURE"
+    },
+    "N11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | EXC DRIVE FAN STATUS / S M 1 5 0 D R I V E S T A T U S"
+    },
+    "O11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | TOUCH SCREEN / OP PANEL"
+    },
+    "P11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | PUMP AUTO (ALWAYS IN AUTO) / OP PANEL"
+    },
+    "U11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | DATE & TIME / OP PANEL"
+    },
+    "B12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | STATOR (>750 KΩ) / IR VALUE (BENDER) IN KΩ"
+    },
+    "C12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | ROTOR (>750 KΩ) / IR VALUE (BENDER) IN KΩ"
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | AXIAL NDE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | RADIAL NDE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "F12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | RADIAL DE (<70 °C) / MOTOR BEARING TEMP (°C)"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CONDUCTIVITY (0.45-0.55µS/cm) / D M WATER"
+    },
+    "H12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | IC LINE TEMPERATURE (<30 °C) / D M WATER"
+    },
+    "I12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | TANK LEVEL / LEAKAGE(=Prev Shift Reading) / D M WATER"
+    },
+    "J12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | FLOW (>630 L/Min) / D M WATER"
+    },
+    "K12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | PRESSURE (>3.8 Bar) / D M WATER"
+    },
+    "L12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | AIR IN TEMP (<45 °C) / MOTOR TEMPERATURE"
+    },
+    "M12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | MAX WINDING TEMP (<70 °C) / MOTOR TEMPERATURE"
+    },
+    "N12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | EXC DRIVE FAN STATUS"
+    },
+    "O12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | TOUCH SCREEN / OP PANEL"
+    },
+    "P12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | PUMP AUTO (ALWAYS IN AUTO) / OP PANEL"
+    },
+    "U12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | DATE & TIME / OP PANEL"
+    },
+    "B13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | STATOR (>750 KΩ)"
+    },
+    "C13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | ROTOR (>750 KΩ)"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | AXIAL NDE (<70 °C)"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | RADIAL NDE (<70 °C)"
+    },
+    "F13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | RADIAL DE (<70 °C)"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CONDUCTIVITY (0.45-0.55µS/cm)"
+    },
+    "H13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | IC LINE TEMPERATURE (<30 °C)"
+    },
+    "I13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | TANK LEVEL / LEAKAGE(=Prev Shift Reading)"
+    },
+    "J13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | FLOW (>630 L/Min)"
+    },
+    "K13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | PRESSURE (>3.8 Bar)"
+    },
+    "L13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | AIR IN TEMP (<45 °C)"
+    },
+    "M13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | MAX WINDING TEMP (<70 °C)"
+    },
+    "N13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | EXC DRIVE FAN STATUS"
+    },
+    "O13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | TOUCH SCREEN"
+    },
+    "P13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | PUMP AUTO (ALWAYS IN AUTO)"
+    },
+    "U13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | DATE & TIME"
+    },
+    "B14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "C14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "F14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "J14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "K14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "L14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "M14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "N14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "O14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "P14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "U14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "B15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "C15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "F15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "J15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "K15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "L15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "M15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "N15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "O15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "P15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "U15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "B16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "C16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "F16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "J16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "K16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "L16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "M16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "N16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "O16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "P16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "U16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "B20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | PRESS / FLOW (30-80 BAR) / JACKING UNIT (DE SIDE)"
+    },
+    "C20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | MOTOR SOUND/VIBRATION / JACKING UNIT (DE SIDE)"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | OIL FILTER (GREEN/RED) / JACKING UNIT (DE SIDE)"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%) / JACKING UNIT (DE SIDE)"
+    },
+    "F20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | OIL LEAKAGE FROM (BEARING AREA) / JACKING UNIT (DE SIDE)"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | PRESS / FLOW (30-80 BAR) / JACKING UNIT (NDE SIDE)"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | MOTOR SOUND/VIBRATION / JACKING UNIT (NDE SIDE)"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | OIL FILTER GREEN/RED / JACKING UNIT (NDE SIDE)"
+    },
+    "J20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%) / JACKING UNIT (NDE SIDE)"
+    },
+    "K20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | OIL LEAKAGE FROM (BEARING AREA) / JACKING UNIT (NDE SIDE)"
+    },
+    "L20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | M – 611 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "M20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | M – 612 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "N20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | M – 613 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "O20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | M – 614 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "P20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | DE / NDE / BELLOW STATUS"
+    },
+    "Q20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | ENCODER MOUNTING / M I L L M A I N M O T O R S T A T U S"
+    },
+    "R20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CHAMBER DOOR / M I L L M A I N M O T O R S T A T U S"
+    },
+    "U20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | MOTOR ROOM I/C CABLE CONDITION / M I L L M A I N M O T O R S T A T U S"
+    },
+    "B21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | PRESS / FLOW (30-80 BAR) / JACKING UNIT (DE SIDE)"
+    },
+    "C21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | MOTOR SOUND/VIBRATION / JACKING UNIT (DE SIDE)"
+    },
+    "D21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | OIL FILTER (GREEN/RED) / JACKING UNIT (DE SIDE)"
+    },
+    "E21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%) / JACKING UNIT (DE SIDE)"
+    },
+    "F21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | OIL LEAKAGE FROM (BEARING AREA) / JACKING UNIT (DE SIDE)"
+    },
+    "G21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | PRESS / FLOW (30-80 BAR) / JACKING UNIT (NDE SIDE)"
+    },
+    "H21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | MOTOR SOUND/VIBRATION / JACKING UNIT (NDE SIDE)"
+    },
+    "I21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | OIL FILTER GREEN/RED / JACKING UNIT (NDE SIDE)"
+    },
+    "J21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%) / JACKING UNIT (NDE SIDE)"
+    },
+    "K21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | OIL LEAKAGE FROM (BEARING AREA) / JACKING UNIT (NDE SIDE)"
+    },
+    "L21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | M – 611 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "M21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | M – 612 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "N21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | M – 613 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "O21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | M – 614 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "P21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | DE / NDE / BELLOW STATUS"
+    },
+    "Q21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | ENCODER MOUNTING / M I L L M A I N M O T O R S T A T U S"
+    },
+    "R21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CHAMBER DOOR / M I L L M A I N M O T O R S T A T U S"
+    },
+    "S21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | ANY TYPE OF WATER LEAKAGE FROM ROOF/PIPELINE / M I L L M A I N M O T O R S T A T U S"
+    },
+    "T21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | EXC CHAMBER(CABLE/CARBON BRUSH CONDITION) / M I L L M A I N M O T O R S T A T U S"
+    },
+    "U21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | MOTOR ROOM I/C CABLE CONDITION / M I L L M A I N M O T O R S T A T U S"
+    },
+    "B22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | PRESS / FLOW (30-80 BAR) / JACKING UNIT (DE SIDE)"
+    },
+    "C22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | MOTOR SOUND/VIBRATION / JACKING UNIT (DE SIDE)"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | OIL FILTER (GREEN/RED) / JACKING UNIT (DE SIDE)"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%) / JACKING UNIT (DE SIDE)"
+    },
+    "F22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | OIL LEAKAGE FROM (BEARING AREA) / JACKING UNIT (DE SIDE)"
+    },
+    "G22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | PRESS / FLOW (30-80 BAR) / JACKING UNIT (NDE SIDE)"
+    },
+    "H22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | MOTOR SOUND/VIBRATION / JACKING UNIT (NDE SIDE)"
+    },
+    "I22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | OIL FILTER GREEN/RED / JACKING UNIT (NDE SIDE)"
+    },
+    "J22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%) / JACKING UNIT (NDE SIDE)"
+    },
+    "K22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | OIL LEAKAGE FROM (BEARING AREA) / JACKING UNIT (NDE SIDE)"
+    },
+    "L22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | M – 611 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "M22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | M – 612 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "N22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | M – 613 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "O22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | M – 614 / AIR BLOWER MOTOR (SOUND/VIBRATION)"
+    },
+    "P22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | DE / NDE / BELLOW STATUS"
+    },
+    "Q22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | ENCODER MOUNTING"
+    },
+    "R22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CHAMBER DOOR"
+    },
+    "U22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | MOTOR ROOM I/C CABLE CONDITION"
+    },
+    "B23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | PRESS / FLOW (30-80 BAR)"
+    },
+    "C23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | MOTOR SOUND/VIBRATION"
+    },
+    "D23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | OIL FILTER (GREEN/RED)"
+    },
+    "E23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%)"
+    },
+    "F23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | OIL LEAKAGE FROM (BEARING AREA)"
+    },
+    "G23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | PRESS / FLOW (30-80 BAR)"
+    },
+    "H23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | MOTOR SOUND/VIBRATION"
+    },
+    "I23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | OIL FILTER GREEN/RED"
+    },
+    "J23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | OIL LVL AT CENTER OF GLASS WINDOW (> 50%)"
+    },
+    "K23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | OIL LEAKAGE FROM (BEARING AREA)"
+    },
+    "L23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | M – 611"
+    },
+    "M23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | M – 612"
+    },
+    "N23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | M – 613"
+    },
+    "O23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | M – 614"
+    },
+    "P23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | DE / NDE"
+    },
+    "Q23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | ENCODER MOUNTING"
+    },
+    "R23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CHAMBER DOOR"
+    },
+    "S23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | ANY TYPE OF WATER LEAKAGE FROM ROOF/PIPELINE"
+    },
+    "T23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | EXC CHAMBER(CABLE/CARBON BRUSH CONDITION)"
+    },
+    "U23": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | MOTOR ROOM I/C CABLE CONDITION"
+    },
+    "B24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "C24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "D24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "E24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "F24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "G24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "H24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "I24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "J24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "K24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "L24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "M24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "N24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "O24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "P24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "Q24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "R24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "U24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "B25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "C25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "E25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "F25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "G25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "H25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "I25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "J25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "K25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "L25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "M25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "N25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "O25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "P25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "Q25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "R25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "S25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "T25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "U25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "B26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "C26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "F26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "G26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "H26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "I26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "J26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "K26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "L26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "M26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "N26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "O26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "P26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "Q26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "R26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "S26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "T26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "U26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "A29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL LEVEL DE (Oil level must above 2mm from TOP mark) / DE Level Sensor / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "B29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL LEVEL DE (Oil level must above 2mm from TOP mark) / DE Level Sensor / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "C29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL LEVEL NDE (Oil level must above 2mm from TOP mark) / NDE Level Sensor / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "D29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL LEVEL NDE (Oil level must above 2mm from TOP mark) / NDE Level Sensor / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "E29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "OIL LEAKAGE (DE/NDE) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "F29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DE BEARING TEMP (<40 °C) (TEMP GUN) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "G29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NDE BEARING TEMP (<40 °C) (TEMP GUN) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "H29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "DE BEARING TEMP (<40 °C) (DRIVE PANEL) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "I29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NDE BEARING TEMP (<40 °C) (DRIVE PANEL) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "J29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WINDING TEMP (<45 °C) (Nr-1) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "K29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WINDING TEMP (<45 °C)(Nr-2) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "L29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "WINDING TEMP (<45 °C) (Nr-3) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "O29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "NDE BLOWER(Sound/Cur.) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "P29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MOTOR COOLING (Check by hand) / C R O P S H E A R M A I N M O T O R S T A T U S"
+    },
+    "V30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "T D C S T A T U S"
+    },
+    "C32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | MOUNTING/FOUNDATION / C B X M O T O R S T A T U S"
+    },
+    "D32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | COUPLING / C B X M O T O R S T A T U S"
+    },
+    "E32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | CABLE CONDITION / C B X M O T O R S T A T U S"
+    },
+    "F32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | SOUND/ VIBRATION / C B X M O T O R S T A T U S"
+    },
+    "G32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | BODY TEMP / C B X M O T O R S T A T U S"
+    },
+    "H32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | ENCODER CONDITION / C B X M O T O R S T A T U S"
+    },
+    "I32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | WINDING TEMP(MAX) / C B X M O T O R S T A T U S"
+    },
+    "J32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "TOP BENDING | BLOWER (SOUND/VIBRATION) / C B X M O T O R S T A T U S"
+    },
+    "S32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | FAN STATUS / T D C S T A T U S"
+    },
+    "U32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | FAULT LED STATUS / T D C S T A T U S"
+    },
+    "C33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | MOUNTING/FOUNDATION / C B X M O T O R S T A T U S"
+    },
+    "D33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | COUPLING / C B X M O T O R S T A T U S"
+    },
+    "E33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | CABLE CONDITION / C B X M O T O R S T A T U S"
+    },
+    "F33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | SOUND/ VIBRATION / C B X M O T O R S T A T U S"
+    },
+    "G33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | BODY TEMP / C B X M O T O R S T A T U S"
+    },
+    "H33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | ENCODER CONDITION / C B X M O T O R S T A T U S"
+    },
+    "I33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | WINDING TEMP(MAX) / C B X M O T O R S T A T U S"
+    },
+    "J33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "BOT BENDING | BLOWER (SOUND/VIBRATION) / C B X M O T O R S T A T U S"
+    },
+    "S33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | FAN STATUS / T D C S T A T U S"
+    },
+    "T33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | PANEL LIGHT STATUS / T D C S T A T U S"
+    },
+    "U33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | FAULT LED STATUS / T D C S T A T U S"
+    },
+    "C34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | MOUNTING/FOUNDATION / C B X M O T O R S T A T U S"
+    },
+    "D34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | COUPLING / C B X M O T O R S T A T U S"
+    },
+    "E34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | CABLE CONDITION / C B X M O T O R S T A T U S"
+    },
+    "F34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | SOUND/ VIBRATION / C B X M O T O R S T A T U S"
+    },
+    "G34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | BODY TEMP / C B X M O T O R S T A T U S"
+    },
+    "H34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | ENCODER CONDITION / C B X M O T O R S T A T U S"
+    },
+    "I34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | WINDING TEMP(MAX) / C B X M O T O R S T A T U S"
+    },
+    "J34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#1 | BLOWER (SOUND/VIBRATION) / C B X M O T O R S T A T U S"
+    },
+    "S34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | FAN STATUS / T D C S T A T U S"
+    },
+    "U34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | FAULT LED STATUS / T D C S T A T U S"
+    },
+    "C35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | MOUNTING/FOUNDATION"
+    },
+    "D35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | COUPLING"
+    },
+    "E35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | CABLE CONDITION"
+    },
+    "F35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | SOUND/ VIBRATION"
+    },
+    "G35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | BODY TEMP"
+    },
+    "H35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | ENCODER CONDITION"
+    },
+    "I35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | WINDING TEMP(MAX)"
+    },
+    "J35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT TPR | BLOWER (SOUND/VIBRATION)"
+    },
+    "S35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | FAN STATUS"
+    },
+    "T35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | PANEL LIGHT STATUS"
+    },
+    "U35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | FAULT LED STATUS"
+    },
+    "C36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "D36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "E36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "F36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "G36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "H36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "I36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "J36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS ENT BPR"
+    },
+    "S36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "U36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "C37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "D37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "E37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "F37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "G37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "H37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "I37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "J37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXT TPR"
+    },
+    "S37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "T37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "U37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "C38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "D38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "E38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "F38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "G38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "H38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "I38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "J38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX TOP PR"
+    },
+    "S38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "T38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "U38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "C39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "D39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "E39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "F39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "G39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "H39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "I39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "J39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CBX BOT PR"
+    },
+    "S39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "COMFU"
+    },
+    "T39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "COMFU"
+    },
+    "U39": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "COMFU"
+    },
+    "C40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "D40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "E40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "F40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "G40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "H40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "I40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "J40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CR ROLL#2"
+    },
+    "S40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MEDIA"
+    },
+    "T40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MEDIA"
+    },
+    "U40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "MEDIA"
+    },
+    "C41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "D41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "E41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "F41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "G41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "H41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "I41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "J41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL"
+    },
+    "S41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ENT/EXT"
+    },
+    "T41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ENT/EXT"
+    },
+    "U41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "ENT/EXT"
+    },
+    "A42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "CB ENT ROLL / CR ROLL#2"
+    },
+    "J42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "K42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "PG # 2.6 (CSH) / PG # 2.5 (CBX)"
+    },
+    "Q42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "S42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "GDM"
+    },
+    "T42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "GDM"
+    },
+    "U42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "GDM"
+    },
+    "U44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM TDC ROOM | ROOM TEMP/HUMIDITY"
+    },
+    "U45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "VVVF ROOM | ROOM TEMP/HUMIDITY"
+    },
+    "B46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | MAIN / ZOS GEAR BOX MAIN"
+    },
+    "C46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | PINION / ZOS GEAR BOX MAIN"
+    },
+    "D46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | SPINDLE / ZOS GEAR BOX MAIN"
+    },
+    "E46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | MAIN / ZOS GEAR BOX REDUNDANT"
+    },
+    "F46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | PINION / ZOS GEAR BOX REDUNDANT"
+    },
+    "G46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | SPINDLE / ZOS GEAR BOX REDUNDANT"
+    },
+    "H46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | MOS BKUP MAIN PRESS / FM CONSUMER LINE PRESS & TEMP S/W(READING TO BE TAKEN FROM FIELD)"
+    },
+    "I46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | MOS BKUP REDUNDANT PRESS / FM CONSUMER LINE PRESS & TEMP S/W(READING TO BE TAKEN FROM FIELD)"
+    },
+    "J46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | OS / MOS BKUP BEARING TEMP"
+    },
+    "K46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | DS / MOS BKUP BEARING TEMP"
+    },
+    "L46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 1 | REMARKS(PHYSICAL ABNORMALITY) / FM CONSUMER LINE PRESS & TEMP S/W(READING TO BE TAKEN FROM FIELD)"
+    },
+    "N46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CH#1 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "O46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CH#2 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "P46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CH#3 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "Q46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CH#4 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "R46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | CABLE VISUAL INSP / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "S46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 1 | EXTERNAL FAN STATUS / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "U46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SM150 ROOM | ROOM TEMP/HUMIDITY"
+    },
+    "B47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | MAIN / ZOS GEAR BOX MAIN"
+    },
+    "C47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | PINION / ZOS GEAR BOX MAIN"
+    },
+    "D47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | SPINDLE / ZOS GEAR BOX MAIN"
+    },
+    "E47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | MAIN / ZOS GEAR BOX REDUNDANT"
+    },
+    "F47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | PINION / ZOS GEAR BOX REDUNDANT"
+    },
+    "G47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | SPINDLE / ZOS GEAR BOX REDUNDANT"
+    },
+    "H47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | MOS BKUP MAIN PRESS / FM CONSUMER LINE PRESS & TEMP S/W(READING TO BE TAKEN FROM FIELD)"
+    },
+    "I47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | MOS BKUP REDUNDANT PRESS / FM CONSUMER LINE PRESS & TEMP S/W(READING TO BE TAKEN FROM FIELD)"
+    },
+    "J47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | OS / MOS BKUP BEARING TEMP"
+    },
+    "K47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | DS / MOS BKUP BEARING TEMP"
+    },
+    "L47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 2 | REMARKS(PHYSICAL ABNORMALITY) / FM CONSUMER LINE PRESS & TEMP S/W(READING TO BE TAKEN FROM FIELD)"
+    },
+    "N47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CH#1 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "O47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CH#2 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "P47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CH#3 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "Q47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CH#4 (<65 °C) / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "R47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | CABLE VISUAL INSP / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "S47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | EXTERNAL FAN STATUS / EXCITATION TRANSFORMER TEMPERATURE & VISUAL INSPECTION"
+    },
+    "T47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | SM150 ROOM / VVVF ROOM"
+    },
+    "U47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 2 | ROOM TEMP/HUMIDITY"
+    },
+    "B48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | MAIN / ZOS GEAR BOX MAIN"
+    },
+    "C48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | PINION / ZOS GEAR BOX MAIN"
+    },
+    "D48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | SPINDLE / ZOS GEAR BOX MAIN"
+    },
+    "E48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | MAIN / ZOS GEAR BOX REDUNDANT"
+    },
+    "F48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | PINION / ZOS GEAR BOX REDUNDANT"
+    },
+    "G48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | SPINDLE / ZOS GEAR BOX REDUNDANT"
+    },
+    "H48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | MOS BKUP MAIN PRESS"
+    },
+    "I48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | MOS BKUP REDUNDANT PRESS"
+    },
+    "J48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | OS / MOS BKUP BEARING TEMP"
+    },
+    "K48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | DS / MOS BKUP BEARING TEMP"
+    },
+    "L48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 3 | REMARKS(PHYSICAL ABNORMALITY)"
+    },
+    "N48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CH#1 (<65 °C)"
+    },
+    "O48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CH#2 (<65 °C)"
+    },
+    "P48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CH#3 (<65 °C)"
+    },
+    "Q48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CH#4 (<65 °C)"
+    },
+    "R48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | CABLE VISUAL INSP"
+    },
+    "S48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 3 | EXTERNAL FAN STATUS"
+    },
+    "B49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | MAIN"
+    },
+    "C49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | PINION"
+    },
+    "D49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | SPINDLE"
+    },
+    "E49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | MAIN"
+    },
+    "F49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | PINION"
+    },
+    "G49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | SPINDLE"
+    },
+    "H49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | MOS BKUP MAIN PRESS"
+    },
+    "I49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | MOS BKUP REDUNDANT PRESS"
+    },
+    "J49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | OS"
+    },
+    "K49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | DS"
+    },
+    "L49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 4 | REMARKS(PHYSICAL ABNORMALITY)"
+    },
+    "N49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CH#1 (<65 °C)"
+    },
+    "O49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CH#2 (<65 °C)"
+    },
+    "P49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CH#3 (<65 °C)"
+    },
+    "Q49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CH#4 (<65 °C)"
+    },
+    "R49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | CABLE VISUAL INSP"
+    },
+    "S49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 4 | EXTERNAL FAN STATUS"
+    },
+    "B50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "C50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "D50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "E50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "F50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "G50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "H50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "I50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "J50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "K50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "L50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 5"
+    },
+    "N50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "O50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "P50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "Q50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "R50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "S50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 5"
+    },
+    "B51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "C51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "D51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "E51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "F51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "G51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "H51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "I51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "J51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "K51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "L51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 6"
+    },
+    "N51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "O51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "P51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "Q51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "R51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "S51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 6"
+    },
+    "B52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "C52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "D52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "E52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "F52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "G52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "H52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "I52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "J52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "K52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "L52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "STAND 7"
+    },
+    "N52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "O52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "P52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "Q52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "R52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "S52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "T52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "U52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM # 7"
+    },
+    "Q53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "R53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "S53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "T53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": ""
+    },
+    "B66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXIT TOP | COUPLING STATUS / TAIL CUT ENCODER STATUS"
+    },
+    "C66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXIT TOP | ENCODER SPEED / TAIL CUT ENCODER STATUS"
+    },
+    "D66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXIT TOP | MOUNTING/ WATER INGRESS / TAIL CUT ENCODER STATUS"
+    },
+    "F66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#1 TOP | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "H66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#2 TOP | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "J66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#3 TOP | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "L66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#4 TOP | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "N66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#6 TOP | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "O66": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#6 TOP | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "B67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXIT BOTTOM | COUPLING STATUS / TAIL CUT ENCODER STATUS"
+    },
+    "C67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXIT BOTTOM | ENCODER SPEED / TAIL CUT ENCODER STATUS"
+    },
+    "D67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SDS EXIT BOTTOM | MOUNTING/ WATER INGRESS / TAIL CUT ENCODER STATUS"
+    },
+    "F67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#1 BOT | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "H67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#2 BOT | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "J67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#3 BOT | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "L67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#4 BOT | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "N67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#6 BOT | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "O67": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HMD#6 BOT | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "B68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RGl Feed pump blower | COUPLING STATUS / TAIL CUT ENCODER STATUS"
+    },
+    "D68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "HP area mancooler | MOUNTING/ WATER INGRESS / TAIL CUT ENCODER STATUS"
+    },
+    "P68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Excitation Trafo blower | BOT PYRO / TOP PYRO"
+    },
+    "Q68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Excitation Trafo blower | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "R68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Excitation Trafo blower | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "S68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Excitation Trafo blower | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "T68": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Excitation Trafo blower | COOLING /LEAKAGE STATUS / HMD / PYROMETER / LIGHT CURTAIN / VELOCITY METER COOLING & LEAKAGE STATUS"
+    },
+    "B69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "VVF blower | COUPLING STATUS"
+    },
+    "D69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LIGHT CURTAIN BLOWER | MOUNTING/ WATER INGRESS"
+    },
+    "F69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LIGHT CURTAIN | COOLING /LEAKAGE STATUS"
+    },
+    "H69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "LASER VELOCITY METER | COOLING /LEAKAGE STATUS"
+    },
+    "J69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "VVVF ROOM TEMP/HUMUDITY | Excitation Trafo blower / COOLING /LEAKAGE STATUS"
+    },
+    "K69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "VVVF ROOM TEMP/HUMUDITY | HMD#4 BOT / HMD#4 TOP"
+    },
+    "M69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SM150 ROOM TEMP AND HUMIDITY | HMD#6 BOT / HMD#6 TOP"
+    },
+    "N69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SM150 ROOM TEMP AND HUMIDITY | COOLING /LEAKAGE STATUS"
+    },
+    "O69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "SM150 ROOM TEMP AND HUMIDITY | COOLING /LEAKAGE STATUS"
+    },
+    "Q69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM TDC ROOM TEMP AND HUMIDITY | COOLING /LEAKAGE STATUS"
+    },
+    "U69": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "FM TDC ROOM TEMP AND HUMIDITY"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}

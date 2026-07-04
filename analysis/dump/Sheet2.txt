@@ -1,0 +1,69 @@
+# SHEET: Sheet2  dims=A1:J50
+# merged ranges (17):
+#   A1:J1
+#   A2:B2
+#   D2:F2
+#   G2:J2
+#   A3:A5
+#   B3:B5
+#   C3:C5
+#   D3:H3
+#   I3:I4
+#   J3:J4
+#   C6:C16
+#   C17:C18
+#   C20:C27
+#   C29:C40
+#   C41:C43
+#   C44:C48
+#   C49:C50
+# --- cells ---
+A1='FM ENTRY (CBX & CSH) FIELD DEVICE CHECK LIST'
+A2='SHIFT:' | C2='DATE:' | D2='CHECKED BY:' | G2='SIGN:'
+A3='SN' | B3='DEVICE  NAME' | C3='EQUIPMENT' | D3='WHAT TI CHECK: Visual Checking (OK/NOK)' | I3='RCH activity' | J3='Remarks'
+D4='Mounting' | E4='LEAKAGE' | F4='Cable & Conduit' | G4='JB/TB' | H4='Signal to L1'
+A6=1 | B6='HMD 1A' | C6='HMD/Light Curtain'
+A7=2 | B7='HMD 1B'
+A8=3 | B8='HMD 2A'
+A9=4 | B9='HMD 2B'
+A10=5 | B10='HMD 3A'
+A11=6 | B11='HMD 3B'
+A12=7 | B12='HMD 4A'
+A13=8 | B13='HMD 4B'
+A14=9 | B14='HMD 6A'
+A15=10 | B15='HMD 6B'
+A16=11 | B16='Light Curtain'
+A17=12 | B17='TR encoder for position' | C17='CBX Entry SG'
+A18=13 | B18='Pressure Transducer in Piston '
+A19=14 | B19='Encoder for Head cut ' | C19='Craddle Roll 2'
+A20=15 | B20='Temposonic LPT for up/down OS' | C20='Rocker Arm'
+A21=16 | B21='Temposonic LPT for up/down DS'
+A22=17 | B22='Pressure transducer in Piston OS (Main)'
+A23=18 | B23='Pressure transducer in Rod OS'
+A24=19 | B24='Pressure transducer in Piston DS (Main)'
+A25=20 | B25='Pressure transducer in Rod DS'
+A26=21 | B26='Pressure transducer in Piston DS (Red)'
+A27=22 | B27='Pressure transducer in Piston DS (Red)'
+A28=23 | B28='TR encoder for position' | C28='CSH Guide'
+A29=24 | B29='Temposonic LPT for Entry section OS' | C29='SDS PR'
+A30=25 | B30='Temposonic LPT for Entry section DS'
+A31=26 | B31='Temposonic LPT for Exit section OS'
+A32=27 | B32='Temposonic LPT for Exit section DS'
+A33=28 | B33='Pressure transducer for Piston OS entry'
+A34=29 | B34='Pressure transducer for Piston DS entry'
+A35=30 | B35='Pressure transducer for rod entry'
+A36=31 | B36='Pressure transducer for Piston OS exit'
+A37=32 | B37='Pressure transducer for Piston DS exit'
+A38=33 | B38='Pressure transducer for rod exit'
+A39=34 | B39='Encoder for top PR'
+A40=35 | B40='Encoder for bottom PR'
+A41=36 | B41='TR encoder for drum position' | C41='CSH Motor'
+A42=37 | B42='PS for lub 1(zoes)'
+A43=38 | B43='PS for lub 1(zoes)'
+A44=42 | B44='Proximity for water catcher' | C44='SDS header'
+A45=43 | B45='Temposonic LPT for header up/down OS entry'
+A46=44 | B46='Temposonic LPT for header up/down DS entry'
+A47=45 | B47='Temposonic LPT for header up/down OS exit'
+A48=46 | B48='Temposonic LPT for header up/down DS exit'
+A49=47 | B49='Encoder for Tail cut top' | C49='Free Roll'
+A50=48 | B50='Encoder for Tail cut bot'

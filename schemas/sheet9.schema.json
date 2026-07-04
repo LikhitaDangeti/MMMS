@@ -1,0 +1,2758 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "mmms:sheet9",
+ "title": "Submission/Sheet9",
+ "description": "RM ET,RTDB & RT motor",
+ "type": "object",
+ "required": [
+  "date",
+  "shift",
+  "sheetId",
+  "values"
+ ],
+ "properties": {
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "shift": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "sheetId": {
+   "const": 9
+  },
+  "meta": {
+   "type": "object"
+  },
+  "values": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "A2": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ET PANEL INSPECTION"
+    },
+    "C3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Cooling & Ventilation / RM ET PANEL INSPECTION"
+    },
+    "D3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Door Status (Should be locked) / RM ET PANEL INSPECTION"
+    },
+    "E3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Power Supply Status / RM ET PANEL INSPECTION"
+    },
+    "F3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Insulation mat Availbility / RM ET PANEL INSPECTION"
+    },
+    "G3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Component Condn / RM ET PANEL INSPECTION"
+    },
+    "H3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Cleanness & House Keeping / RM ET PANEL INSPECTION"
+    },
+    "I3": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 TOP MOTOR | Remarks / RM ET PANEL INSPECTION"
+    },
+    "C4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Cooling & Ventilation / RM ET PANEL INSPECTION"
+    },
+    "D4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Door Status (Should be locked) / RM ET PANEL INSPECTION"
+    },
+    "E4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Power Supply Status / RM ET PANEL INSPECTION"
+    },
+    "F4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Insulation mat Availbility / RM ET PANEL INSPECTION"
+    },
+    "G4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Component Condn / RM ET PANEL INSPECTION"
+    },
+    "H4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Cleanness & House Keeping / RM ET PANEL INSPECTION"
+    },
+    "I4": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 BOT MOTOR | Remarks / RM ET PANEL INSPECTION"
+    },
+    "C5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Cooling & Ventilation / RM ET PANEL INSPECTION"
+    },
+    "D5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Door Status (Should be locked) / RM ET PANEL INSPECTION"
+    },
+    "E5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Power Supply Status / RM ET PANEL INSPECTION"
+    },
+    "F5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Insulation mat Availbility / RM ET PANEL INSPECTION"
+    },
+    "G5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Component Condn / RM ET PANEL INSPECTION"
+    },
+    "H5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Cleanness & House Keeping / RM ET PANEL INSPECTION"
+    },
+    "I5": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 TOP MOTOR | Remarks / RM ET PANEL INSPECTION"
+    },
+    "C6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Cooling & Ventilation"
+    },
+    "D6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Door Status (Should be locked)"
+    },
+    "E6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Power Supply Status"
+    },
+    "F6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Insulation mat Availbility"
+    },
+    "G6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Component Condn"
+    },
+    "H6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Cleanness & House Keeping"
+    },
+    "I6": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 BOT MOTOR | Remarks"
+    },
+    "C7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "D7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "E7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "F7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "G7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "H7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "I7": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 OS MOTOR"
+    },
+    "C8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "D8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "E8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "F8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "G8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "H8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "I8": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-1 DS MOTOR"
+    },
+    "C9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "D9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "E9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "F9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "G9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "H9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "I9": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 OS MOTOR"
+    },
+    "C10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "D10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "E10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "F10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "G10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "H10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "I10": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "E-2 DS MOTOR"
+    },
+    "C11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "D11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "E11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "F11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "G11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "H11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "I11": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND OS"
+    },
+    "C12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "D12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "E12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "F12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "G12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "H12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "I12": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 STAND DS"
+    },
+    "C13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "D13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "E13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "F13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "G13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "H13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "I13": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND OS"
+    },
+    "C14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "D14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "E14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "F14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "G14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "H14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "I14": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 STAND DS"
+    },
+    "C15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "D15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "E15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "F15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "G15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "H15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "I15": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-1 COOLING"
+    },
+    "C16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "D16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "E16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "F16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "G16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "H16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "I16": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM-2 COOLING"
+    },
+    "C17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "D17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "E17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "F17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "G17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "H17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "I17": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM DESCALE"
+    },
+    "C18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "D18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "E18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "F18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "G18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "H18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "I18": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM ROLLER TABLE"
+    },
+    "C19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "D19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "E19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "F19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "G19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "H19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "I19": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM LP Hyd System"
+    },
+    "C20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "D20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "E20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "F20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "G20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "H20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "I20": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM HP Hyd System"
+    },
+    "C21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "D21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "E21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "F21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "G21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "H21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "I21": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media RM MOES System"
+    },
+    "C22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "D22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "E22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "F22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "G22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "H22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "I22": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "Media EM ZOSE System"
+    },
+    "A24": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM RTDB INSPECTION / 20"
+    },
+    "C25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | All Cable Condition / RM RTDB INSPECTION"
+    },
+    "D25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | Door Status (Should be locked) / RM RTDB INSPECTION"
+    },
+    "E25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | Component Condn / RM RTDB INSPECTION"
+    },
+    "F25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | Insulation mat Availbility / RM RTDB INSPECTION"
+    },
+    "G25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | Water Accumulation in Floor / RM RTDB INSPECTION"
+    },
+    "H25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | Cleanness & House Keeping / RM RTDB INSPECTION"
+    },
+    "I25": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 6 | Remarks / RM RTDB INSPECTION"
+    },
+    "C26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | All Cable Condition / RM RTDB INSPECTION"
+    },
+    "D26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | Door Status (Should be locked) / RM RTDB INSPECTION"
+    },
+    "E26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | Component Condn / RM RTDB INSPECTION"
+    },
+    "F26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | Insulation mat Availbility / RM RTDB INSPECTION"
+    },
+    "G26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | Water Accumulation in Floor / RM RTDB INSPECTION"
+    },
+    "H26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | Cleanness & House Keeping / RM RTDB INSPECTION"
+    },
+    "I26": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 7 | Remarks / RM RTDB INSPECTION"
+    },
+    "C27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | All Cable Condition / RM RTDB INSPECTION"
+    },
+    "D27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | Door Status (Should be locked) / RM RTDB INSPECTION"
+    },
+    "E27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | Component Condn / RM RTDB INSPECTION"
+    },
+    "F27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | Insulation mat Availbility / RM RTDB INSPECTION"
+    },
+    "G27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | Water Accumulation in Floor / RM RTDB INSPECTION"
+    },
+    "H27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | Cleanness & House Keeping / RM RTDB INSPECTION"
+    },
+    "I27": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 8 | Remarks / RM RTDB INSPECTION"
+    },
+    "C28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | All Cable Condition"
+    },
+    "D28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | Door Status (Should be locked)"
+    },
+    "E28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | Component Condn"
+    },
+    "F28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | Insulation mat Availbility"
+    },
+    "G28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | Water Accumulation in Floor"
+    },
+    "H28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | Cleanness & House Keeping"
+    },
+    "I28": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 9 | Remarks"
+    },
+    "C29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "D29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "E29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "F29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "G29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "H29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "I29": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 10"
+    },
+    "C30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "D30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "E30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "F30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "G30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "H30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "I30": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 11"
+    },
+    "C31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "D31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "E31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "F31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "G31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "H31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "I31": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-1)"
+    },
+    "C32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "D32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "E32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "F32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "G32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "H32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "I32": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 12 (GROUP-2)"
+    },
+    "C33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "D33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "E33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "F33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "G33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "H33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "I33": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-1)"
+    },
+    "C34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "D34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "E34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "F34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "G34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "H34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "I34": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB - 13 (GROUP-2)"
+    },
+    "C35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "D35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "E35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "F35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "G35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "H35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "I35": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-14"
+    },
+    "C36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "D36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "E36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "F36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "G36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "H36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "I36": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-15"
+    },
+    "C37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "D37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "E37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "F37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "G37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "H37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "I37": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-16"
+    },
+    "C38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "D38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "E38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "F38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "G38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "H38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "I38": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RTDB-17"
+    },
+    "A40": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RM RT MOTOR INSPECTION / 14"
+    },
+    "C41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | All Cable/Cable Tray Condition / RM RT MOTOR INSPECTION"
+    },
+    "D41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | Motor Cover / RM RT MOTOR INSPECTION"
+    },
+    "E41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | Motor Mounting / RM RT MOTOR INSPECTION"
+    },
+    "F41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | Motor Coupling / RM RT MOTOR INSPECTION"
+    },
+    "G41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | Water Accumulation/Ingress / RM RT MOTOR INSPECTION"
+    },
+    "H41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | Remarks / RM RT MOTOR INSPECTION"
+    },
+    "I41": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-6 | Remarks / RM RT MOTOR INSPECTION"
+    },
+    "C42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | All Cable/Cable Tray Condition / RM RT MOTOR INSPECTION"
+    },
+    "D42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | Motor Cover / RM RT MOTOR INSPECTION"
+    },
+    "E42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | Motor Mounting / RM RT MOTOR INSPECTION"
+    },
+    "F42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | Motor Coupling / RM RT MOTOR INSPECTION"
+    },
+    "G42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | Water Accumulation/Ingress / RM RT MOTOR INSPECTION"
+    },
+    "H42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | Remarks / RM RT MOTOR INSPECTION"
+    },
+    "I42": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-7 | Remarks / RM RT MOTOR INSPECTION"
+    },
+    "C43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | All Cable/Cable Tray Condition / RM RT MOTOR INSPECTION"
+    },
+    "D43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | Motor Cover / RM RT MOTOR INSPECTION"
+    },
+    "E43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | Motor Mounting / RM RT MOTOR INSPECTION"
+    },
+    "F43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | Motor Coupling / RM RT MOTOR INSPECTION"
+    },
+    "G43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | Water Accumulation/Ingress / RM RT MOTOR INSPECTION"
+    },
+    "H43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | Remarks / RM RT MOTOR INSPECTION"
+    },
+    "I43": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-8 | Remarks / RM RT MOTOR INSPECTION"
+    },
+    "C44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | All Cable/Cable Tray Condition"
+    },
+    "D44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | Motor Cover"
+    },
+    "E44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | Motor Mounting"
+    },
+    "F44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | Motor Coupling"
+    },
+    "G44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | Water Accumulation/Ingress"
+    },
+    "H44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | Remarks"
+    },
+    "I44": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -9 | Remarks"
+    },
+    "C45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "D45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "E45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "F45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "G45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "H45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "I45": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -10"
+    },
+    "C46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "D46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "E46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "F46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "G46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "H46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "I46": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -11"
+    },
+    "C47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "D47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "E47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "F47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "G47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "H47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "I47": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-1)"
+    },
+    "C48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "D48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "E48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "F48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "G48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "H48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "I48": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -12 (SEC-2)"
+    },
+    "C49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "D49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "E49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "F49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "G49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "H49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "I49": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-1)"
+    },
+    "C50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "D50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "E50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "F50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "G50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "H50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "I50": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP -13 (SEC-2)"
+    },
+    "C51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "D51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "E51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "F51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "G51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "H51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "I51": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-14"
+    },
+    "C52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "D52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "E52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "F52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "G52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "H52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "I52": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-15"
+    },
+    "C53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "D53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "E53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "F53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "G53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "H53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "I53": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-16"
+    },
+    "C54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    },
+    "D54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    },
+    "E54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    },
+    "F54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    },
+    "G54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    },
+    "H54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    },
+    "I54": {
+     "type": [
+      "string",
+      "number",
+      "null"
+     ],
+     "description": "RT GROUP-17"
+    }
+   }
+  },
+  "status": {
+   "type": "string",
+   "enum": [
+    "draft",
+    "submitted"
+   ]
+  }
+ }
+}
