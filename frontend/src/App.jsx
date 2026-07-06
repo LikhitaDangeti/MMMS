@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react';
 import { api } from './api.js';
 import EntryForm from './components/EntryForm.jsx';
 import Dashboard from './components/Dashboard.jsx';
+import HomePage from './components/HomePage.jsx';
 import { LayoutDashboard, FileEdit, ClipboardCheck, Moon, Sun, AlertTriangle } from 'lucide-react';
 
 export default function App() {
-  const [tab, setTab] = useState('entry');
+  const [tab, setTab] = useState('home');
   const [editContext, setEditContext] = useState(null);
   const [sheets, setSheets] = useState([]);
   const [err, setErr] = useState(null);
@@ -31,6 +32,10 @@ export default function App() {
   useEffect(() => {
     api.sheets().then(setSheets).catch(() => setErr('Cannot reach the API on port 4000. Is the backend running?'));
   }, []);
+
+  if (tab === 'home') {
+    return <HomePage onLaunch={() => setTab('entry')} />;
+  }
 
   return (
     <div className="min-h-full font-sans transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 pb-24">
