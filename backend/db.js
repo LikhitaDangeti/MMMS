@@ -1,8 +1,7 @@
-import sqlite3 from 'sqlite3';
-import { open } from 'sqlite';
-import path from 'path';
+import pg from 'pg';
+const { Pool } = pg;
 
-const DB_PATH = process.env.SQLITE_DB_PATH || path.resolve('database.sqlite');
+const DATABASE_URL = process.env.DATABASE_URL || '';
 
 const listSort = (a, b) =>
   a.date < b.date ? 1 : a.date > b.date ? -1 : a.shift.localeCompare(b.shift);
@@ -31,36 +30,36 @@ function mergeDoc(existing, payload, now) {
   };
 }
 
-async function makeSqliteStore() {
-  const db = await open({
-    filename: DB_PATH,
-    driver: sqlite3.Database
+async function makePostgresStore() {
+  const pool = new Pool({
+    connectionString: DATABASE_URL,
+    ssl: { rejectUnauthorized: false } // Required for Supabase/Neon
   });
 
   const initSql = `
     CREATE TABLE IF NOT EXISTS submissions (
-      date TEXT NOT NULL,
-      shift TEXT NOT NULL,
-      sheetId INTEGER NOT NULL,
-      status TEXT,
-      createdAt TEXT,
-      updatedAt TEXT,
-      schemaVersion INTEGER,
-      createdBy TEXT,
+      date VARCHAR(10) NOT NULL,
+      shift VARCHAR(5) NOT NULL,
+      "sheetId" INTEGER NOT NULL,
+      status VARCHAR(50),
+      "createdAt" TIMESTAMP,
+      "updatedAt" TIMESTAMP,
+      "schemaVersion" INTEGER,
+      "createdBy" TEXT,
       meta TEXT,
-      valuesData TEXT,
-      PRIMARY KEY (date, shift, sheetId)
+      "valuesData" TEXT,
+      PRIMARY KEY (date, shift, "sheetId")
     );
   `;
-  await db.exec(initSql);
+  await pool.query(initSql);
 
   const parseRow = (row) => ({
     date: row.date,
     shift: row.shift,
     sheetId: row.sheetId,
     status: row.status,
-    createdAt: row.createdAt ? row.createdAt : null,
-    updatedAt: row.updatedAt ? row.updatedAt : null,
+    createdAt: row.createdAt ? new Date(row.createdAt).toISOString() : null,
+    updatedAt: row.updatedAt ? new Date(row.updatedAt).toISOString() : null,
     schemaVersion: row.schemaVersion,
     createdBy: row.createdBy || '',
     meta: row.meta ? JSON.parse(row.meta) : {},
@@ -68,30 +67,30 @@ async function makeSqliteStore() {
   });
 
   return {
-    backend: 'sqlite',
+    backend: 'postgres',
     async find(date, shift, sheetId) {
-      const row = await db.get(
-        'SELECT * FROM submissions WHERE date = ? AND shift = ? AND sheetId = ?',
+      const res = await pool.query(
+        'SELECT * FROM submissions WHERE date = $1 AND shift = $2 AND "sheetId" = $3',
         [date, shift, Number(sheetId)]
       );
-      if (!row) return null;
-      return parseRow(row);
+      if (res.rows.length === 0) return null;
+      return parseRow(res.rows[0]);
     },
     async list({ sheetId, date, shift } = {}) {
       let whereClause = [];
       let params = [];
       
       if (sheetId) {
-        whereClause.push('sheetId = ?');
         params.push(Number(sheetId));
+        whereClause.push(`"sheetId" = $${params.length}`);
       }
       if (date) {
-        whereClause.push('date = ?');
         params.push(date);
+        whereClause.push(`date = $${params.length}`);
       }
       if (shift) {
-        whereClause.push('shift = ?');
         params.push(shift);
+        whereClause.push(`shift = $${params.length}`);
       }
       
       let q = 'SELECT * FROM submissions';
@@ -99,8 +98,8 @@ async function makeSqliteStore() {
         q += ' WHERE ' + whereClause.join(' AND ');
       }
       
-      const rows = await db.all(q, params);
-      return rows.map(parseRow).map(toListRow).sort(listSort);
+      const res = await pool.query(q, params);
+      return res.rows.map(parseRow).map(toListRow).sort(listSort);
     },
     async upsert(payload) {
       const existing = await this.find(payload.date, payload.shift, payload.sheetId);
@@ -108,10 +107,10 @@ async function makeSqliteStore() {
       const doc = mergeDoc(existing, payload, now);
       
       if (existing) {
-        await db.run(`
+        await pool.query(`
           UPDATE submissions 
-          SET status = ?, updatedAt = ?, meta = ?, valuesData = ?, createdBy = ?
-          WHERE date = ? AND shift = ? AND sheetId = ?
+          SET status = $1, "updatedAt" = $2, meta = $3, "valuesData" = $4, "createdBy" = $5
+          WHERE date = $6 AND shift = $7 AND "sheetId" = $8
         `, [
           doc.status || 'submitted',
           doc.updatedAt,
@@ -123,9 +122,9 @@ async function makeSqliteStore() {
           Number(doc.sheetId)
         ]);
       } else {
-        await db.run(`
-          INSERT INTO submissions (date, shift, sheetId, status, createdAt, updatedAt, schemaVersion, createdBy, meta, valuesData)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        await pool.query(`
+          INSERT INTO submissions (date, shift, "sheetId", status, "createdAt", "updatedAt", "schemaVersion", "createdBy", meta, "valuesData")
+          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
         `, [
           doc.date,
           doc.shift,
@@ -143,11 +142,11 @@ async function makeSqliteStore() {
       return this.find(payload.date, payload.shift, payload.sheetId);
     },
     async count() {
-      const row = await db.get('SELECT COUNT(*) as cnt FROM submissions');
-      return row.cnt;
+      const res = await pool.query('SELECT COUNT(*) as cnt FROM submissions');
+      return Number(res.rows[0].cnt);
     },
     async delete(date, shift, sheetId) {
-      await db.run('DELETE FROM submissions WHERE date = ? AND shift = ? AND sheetId = ?', [
+      await pool.query('DELETE FROM submissions WHERE date = $1 AND shift = $2 AND "sheetId" = $3', [
         date, shift, Number(sheetId)
       ]);
       return true;
@@ -155,7 +154,7 @@ async function makeSqliteStore() {
   };
 }
 
-const store = await makeSqliteStore();
+const store = await makePostgresStore();
 console.log(`[db] storage backend: ${store.backend}`);
 
 export const findSubmission = (date, shift, sheetId) => store.find(date, shift, sheetId);
