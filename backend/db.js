@@ -1,6 +1,8 @@
-// Storage layer for Microsoft SQL Server
-import sql from 'mssql';
-const SQLSERVER_URI = process.env.SQLSERVER_URI || '';
+import sqlite3 from 'sqlite3';
+import { open } from 'sqlite';
+import path from 'path';
+
+const DB_PATH = process.env.SQLITE_DB_PATH || path.resolve('database.sqlite');
 
 const listSort = (a, b) =>
   a.date < b.date ? 1 : a.date > b.date ? -1 : a.shift.localeCompare(b.shift);
@@ -29,34 +31,36 @@ function mergeDoc(existing, payload, now) {
   };
 }
 
-async function makeSqlServerStore() {
-  const pool = await sql.connect(SQLSERVER_URI);
+async function makeSqliteStore() {
+  const db = await open({
+    filename: DB_PATH,
+    driver: sqlite3.Database
+  });
 
   const initSql = `
-    IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='submissions' and xtype='U')
-    CREATE TABLE submissions (
-      date VARCHAR(10) NOT NULL,
-      shift VARCHAR(5) NOT NULL,
-      sheetId INT NOT NULL,
-      status VARCHAR(50),
-      createdAt DATETIME,
-      updatedAt DATETIME,
-      schemaVersion INT,
-      createdBy NVARCHAR(MAX),
-      meta NVARCHAR(MAX),
-      valuesData NVARCHAR(MAX),
+    CREATE TABLE IF NOT EXISTS submissions (
+      date TEXT NOT NULL,
+      shift TEXT NOT NULL,
+      sheetId INTEGER NOT NULL,
+      status TEXT,
+      createdAt TEXT,
+      updatedAt TEXT,
+      schemaVersion INTEGER,
+      createdBy TEXT,
+      meta TEXT,
+      valuesData TEXT,
       PRIMARY KEY (date, shift, sheetId)
     );
   `;
-  await pool.request().query(initSql);
+  await db.exec(initSql);
 
   const parseRow = (row) => ({
     date: row.date,
     shift: row.shift,
     sheetId: row.sheetId,
     status: row.status,
-    createdAt: row.createdAt ? row.createdAt.toISOString() : null,
-    updatedAt: row.updatedAt ? row.updatedAt.toISOString() : null,
+    createdAt: row.createdAt ? row.createdAt : null,
+    updatedAt: row.updatedAt ? row.updatedAt : null,
     schemaVersion: row.schemaVersion,
     createdBy: row.createdBy || '',
     meta: row.meta ? JSON.parse(row.meta) : {},
@@ -64,32 +68,30 @@ async function makeSqlServerStore() {
   });
 
   return {
-    backend: 'sqlserver',
+    backend: 'sqlite',
     async find(date, shift, sheetId) {
-      const result = await pool.request()
-        .input('date', sql.VarChar, date)
-        .input('shift', sql.VarChar, shift)
-        .input('sheetId', sql.Int, Number(sheetId))
-        .query('SELECT * FROM submissions WHERE date = @date AND shift = @shift AND sheetId = @sheetId');
-      
-      if (result.recordset.length === 0) return null;
-      return parseRow(result.recordset[0]);
+      const row = await db.get(
+        'SELECT * FROM submissions WHERE date = ? AND shift = ? AND sheetId = ?',
+        [date, shift, Number(sheetId)]
+      );
+      if (!row) return null;
+      return parseRow(row);
     },
     async list({ sheetId, date, shift } = {}) {
-      let req = pool.request();
       let whereClause = [];
+      let params = [];
       
       if (sheetId) {
-        whereClause.push('sheetId = @sheetId');
-        req.input('sheetId', sql.Int, Number(sheetId));
+        whereClause.push('sheetId = ?');
+        params.push(Number(sheetId));
       }
       if (date) {
-        whereClause.push('date = @date');
-        req.input('date', sql.VarChar, date);
+        whereClause.push('date = ?');
+        params.push(date);
       }
       if (shift) {
-        whereClause.push('shift = @shift');
-        req.input('shift', sql.VarChar, shift);
+        whereClause.push('shift = ?');
+        params.push(shift);
       }
       
       let q = 'SELECT * FROM submissions';
@@ -97,57 +99,63 @@ async function makeSqlServerStore() {
         q += ' WHERE ' + whereClause.join(' AND ');
       }
       
-      const result = await req.query(q);
-      return result.recordset.map(parseRow).map(toListRow).sort(listSort);
+      const rows = await db.all(q, params);
+      return rows.map(parseRow).map(toListRow).sort(listSort);
     },
     async upsert(payload) {
       const existing = await this.find(payload.date, payload.shift, payload.sheetId);
-      const now = new Date();
-      const doc = mergeDoc(existing, payload, now.toISOString());
+      const now = new Date().toISOString();
+      const doc = mergeDoc(existing, payload, now);
       
-      const req = pool.request()
-        .input('date', sql.VarChar, doc.date)
-        .input('shift', sql.VarChar, doc.shift)
-        .input('sheetId', sql.Int, Number(doc.sheetId))
-        .input('status', sql.VarChar, doc.status || 'submitted')
-        .input('createdAt', sql.DateTime, new Date(doc.createdAt))
-        .input('updatedAt', sql.DateTime, new Date(doc.updatedAt))
-        .input('schemaVersion', sql.Int, doc.schemaVersion || 1)
-        .input('createdBy', sql.NVarChar, doc.createdBy || '')
-        .input('meta', sql.NVarChar, JSON.stringify(doc.meta || {}))
-        .input('valuesData', sql.NVarChar, JSON.stringify(doc.values || {}));
-
       if (existing) {
-        await req.query(`
+        await db.run(`
           UPDATE submissions 
-          SET status = @status, updatedAt = @updatedAt, meta = @meta, valuesData = @valuesData, createdBy = @createdBy
-          WHERE date = @date AND shift = @shift AND sheetId = @sheetId
-        `);
+          SET status = ?, updatedAt = ?, meta = ?, valuesData = ?, createdBy = ?
+          WHERE date = ? AND shift = ? AND sheetId = ?
+        `, [
+          doc.status || 'submitted',
+          doc.updatedAt,
+          JSON.stringify(doc.meta || {}),
+          JSON.stringify(doc.values || {}),
+          doc.createdBy || '',
+          doc.date,
+          doc.shift,
+          Number(doc.sheetId)
+        ]);
       } else {
-        await req.query(`
+        await db.run(`
           INSERT INTO submissions (date, shift, sheetId, status, createdAt, updatedAt, schemaVersion, createdBy, meta, valuesData)
-          VALUES (@date, @shift, @sheetId, @status, @createdAt, @updatedAt, @schemaVersion, @createdBy, @meta, @valuesData)
-        `);
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `, [
+          doc.date,
+          doc.shift,
+          Number(doc.sheetId),
+          doc.status || 'submitted',
+          doc.createdAt,
+          doc.updatedAt,
+          doc.schemaVersion || 1,
+          doc.createdBy || '',
+          JSON.stringify(doc.meta || {}),
+          JSON.stringify(doc.values || {})
+        ]);
       }
       
       return this.find(payload.date, payload.shift, payload.sheetId);
     },
     async count() {
-      const result = await pool.request().query('SELECT COUNT(*) as cnt FROM submissions');
-      return result.recordset[0].cnt;
+      const row = await db.get('SELECT COUNT(*) as cnt FROM submissions');
+      return row.cnt;
     },
     async delete(date, shift, sheetId) {
-      await pool.request()
-        .input('date', sql.VarChar, date)
-        .input('shift', sql.VarChar, shift)
-        .input('sheetId', sql.Int, Number(sheetId))
-        .query('DELETE FROM submissions WHERE date = @date AND shift = @shift AND sheetId = @sheetId');
+      await db.run('DELETE FROM submissions WHERE date = ? AND shift = ? AND sheetId = ?', [
+        date, shift, Number(sheetId)
+      ]);
       return true;
     },
   };
 }
 
-const store = await makeSqlServerStore();
+const store = await makeSqliteStore();
 console.log(`[db] storage backend: ${store.backend}`);
 
 export const findSubmission = (date, shift, sheetId) => store.find(date, shift, sheetId);
