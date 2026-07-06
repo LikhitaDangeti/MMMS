@@ -1,4 +1,10 @@
 import pg from 'pg';
+import dns from 'dns';
+
+// Force Node.js to use IPv4. Render does not support IPv6 routing, 
+// and Node 18+ defaults to IPv6, causing ENETUNREACH errors with Supabase.
+dns.setDefaultResultOrder('ipv4first');
+
 const { Pool } = pg;
 
 const DATABASE_URL = process.env.DATABASE_URL || '';
