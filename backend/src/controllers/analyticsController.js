@@ -11,8 +11,12 @@ export async function getAnalytics(req, res) {
 
     const submissions = await listSubmissions({ sheetId });
     
-    // Sort submissions by date ascending for time series
-    submissions.sort((a, b) => new Date(a.date) - new Date(b.date));
+    // Sort submissions by date ascending, then shift for time series
+    submissions.sort((a, b) => {
+      const dateDiff = new Date(a.date) - new Date(b.date);
+      if (dateDiff !== 0) return dateDiff;
+      return (a.shift || '').localeCompare(b.shift || '');
+    });
 
     // Time Series: Anomalies over time
     const timeSeriesMap = {};
@@ -70,12 +74,25 @@ export async function getAnalytics(req, res) {
       
     const shiftData = Object.entries(shiftStats).map(([name, value]) => ({ name, value }));
 
+    const numericFields = layout.fields
+      .filter(f => f.ft === 'number')
+      .map(f => ({
+        cell: f.cell,
+        name: `${f.rowKey || ''} - ${f.colKey || ''}`.replace(/^- |- $/g, '').trim() || f.cell
+      }));
+
     res.json({
       totalSubmissions: submissions.length,
       totalAnomalies,
       timeSeries,
       topFailures,
-      shiftData
+      shiftData,
+      numericFields,
+      submissions: submissions.map(s => ({
+        date: s.date,
+        shift: s.shift,
+        values: s.values || {}
+      }))
     });
 
   } catch (err) {

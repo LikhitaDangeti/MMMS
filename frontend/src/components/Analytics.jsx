@@ -5,6 +5,7 @@ import { Settings } from 'lucide-react';
 
 export function Analytics({ sheets = [] }) {
   const [sheetId, setSheetId] = useState(sheets[0]?.id || 1);
+  const [selectedParam, setSelectedParam] = useState(null);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -17,6 +18,12 @@ export function Analytics({ sheets = [] }) {
         if (!res.ok) throw new Error('Failed to load analytics');
         const json = await res.json();
         setData(json);
+        if (json.numericFields && json.numericFields.length > 0) {
+          setSelectedParam(prev => {
+            const exists = json.numericFields.find(f => f.cell === prev);
+            return exists ? prev : json.numericFields[0].cell;
+          });
+        }
       } catch (err) {
         setError(err.message);
       } finally {
@@ -51,6 +58,11 @@ export function Analytics({ sheets = [] }) {
   }
 
   const PIE_COLORS = ['#3b82f6', '#f59e0b', '#10b981'];
+
+  const paramChartData = (selectedParam && data.submissions) ? data.submissions.map(sub => ({
+    label: `${sub.date.substring(5)} (${sub.shift})`,
+    value: sub.values[selectedParam] !== undefined && sub.values[selectedParam] !== '' ? Number(sub.values[selectedParam]) : null
+  })) : [];
 
   return (
     <div className="space-y-6 pb-20 pt-6">
@@ -102,6 +114,44 @@ export function Analytics({ sheets = [] }) {
           </p>
         </div>
       </motion.div>
+
+      {/* Parameter Trends Section */}
+      {data.numericFields && data.numericFields.length > 0 && (
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+        >
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <h3 className="text-lg font-bold text-slate-900 dark:text-white">Parameter Trends</h3>
+            <select
+              value={selectedParam || ''}
+              onChange={(e) => setSelectedParam(e.target.value)}
+              className="h-10 rounded-xl border border-slate-200 bg-slate-50 px-4 text-sm font-medium text-slate-900 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-white max-w-sm sm:max-w-xs truncate"
+            >
+              {data.numericFields.map(f => (
+                <option key={f.cell} value={f.cell}>{f.name}</option>
+              ))}
+            </select>
+          </div>
+          <div className="h-[300px] w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart data={paramChartData}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#334155" opacity={0.2} />
+                <XAxis dataKey="label" stroke="#64748b" fontSize={12} tickMargin={10} minTickGap={30} />
+                <YAxis stroke="#64748b" fontSize={12} domain={['auto', 'auto']} />
+                <Tooltip 
+                  contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                  itemStyle={{ color: '#0f172a', fontWeight: 'bold' }}
+                  labelStyle={{ color: '#64748b', marginBottom: '4px' }}
+                />
+                <Line type="monotone" dataKey="value" name="Value" stroke="#3b82f6" strokeWidth={3} dot={false} activeDot={{ r: 6 }} connectNulls={true} />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </motion.div>
+      )}
 
       <motion.div 
         initial={{ opacity: 0, y: 10 }}
