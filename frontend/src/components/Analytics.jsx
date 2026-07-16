@@ -4,7 +4,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { Settings } from 'lucide-react';
 
 export function Analytics({ sheets = [] }) {
-  const [sheetId, setSheetId] = useState(sheets[0]?.id || 1);
+  const [sheetId, setSheetId] = useState(sheets[0]?.sheetId || 1);
   const [selectedParam, setSelectedParam] = useState(null);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -83,7 +83,7 @@ export function Analytics({ sheets = [] }) {
           className="h-10 rounded-xl border border-slate-200 bg-slate-50 px-4 text-sm font-medium text-slate-900 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-white"
         >
           {sheets.map((s) => (
-            <option key={s.id} value={s.id}>{s.name}</option>
+            <option key={s.sheetId} value={s.sheetId}>{s.name || s.description || `Sheet ${s.sheetId}`}</option>
           ))}
         </select>
       </div>
