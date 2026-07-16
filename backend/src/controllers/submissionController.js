@@ -17,10 +17,9 @@ export const getSubmission = async (req, res) => {
 
 export const listAllSubmissions = async (req, res) => {
   const query = { ...req.query };
-  const limit = Math.min(parseInt(query.limit) || 100, 500);
+  query.limit = Math.min(parseInt(query.limit) || 100, 500);
   const submissions = await listSubmissions(query);
-  // Apply client-side limit after sort (newest first is already done in db.js listSort)
-  res.json(submissions.slice(0, limit));
+  res.json(submissions);
 };
 
 export const createSubmission = async (req, res) => {

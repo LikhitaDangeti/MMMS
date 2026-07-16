@@ -82,7 +82,7 @@ async function makePostgresStore() {
       if (res.rows.length === 0) return null;
       return parseRow(res.rows[0]);
     },
-    async list({ sheetId, date, shift } = {}) {
+    async list({ sheetId, date, shift, limit = 100 } = {}) {
       let whereClause = [];
       let params = [];
       
@@ -99,13 +99,27 @@ async function makePostgresStore() {
         whereClause.push(`shift = $${params.length}`);
       }
       
-      let q = 'SELECT * FROM submissions';
+      let q = 'SELECT date, shift, "sheetId", status, "createdAt", "updatedAt", "schemaVersion", "createdBy", meta, (SELECT count(*) FROM json_object_keys("valuesData"::json)) as "filledCount" FROM submissions';
       if (whereClause.length > 0) {
         q += ' WHERE ' + whereClause.join(' AND ');
       }
       
+      q += ` ORDER BY date DESC, shift DESC LIMIT $${params.length + 1}`;
+      params.push(limit);
+      
       const res = await pool.query(q, params);
-      return res.rows.map(parseRow).map(toListRow).sort(listSort);
+      return res.rows.map(row => ({
+        date: row.date,
+        shift: row.shift,
+        sheetId: row.sheetId,
+        status: row.status,
+        createdAt: row.createdAt ? new Date(row.createdAt).toISOString() : null,
+        updatedAt: row.updatedAt ? new Date(row.updatedAt).toISOString() : null,
+        schemaVersion: row.schemaVersion,
+        createdBy: row.createdBy || '',
+        meta: row.meta ? JSON.parse(row.meta) : {},
+        filledCount: Number(row.filledCount) || 0
+      }));
     },
     async listWithValues({ sheetId, date, shift } = {}) {
       let whereClause = [];

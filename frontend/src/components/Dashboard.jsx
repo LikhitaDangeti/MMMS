@@ -24,7 +24,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
   const [rows, setRows] = useState([]);
   const [open, setOpen] = useState(null);
   const [zoom, setZoom] = useState(1);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   async function refresh() {
     setLoading(true);
