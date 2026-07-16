@@ -18,3 +18,12 @@ export const getAllowedCells = (id) => {
   if (!layouts[id]) return null;
   return new Set(layouts[id].fields.map((f) => f.cell));
 };
+
+export const getFieldMap = (id) => {
+  if (!layouts[id]) return null;
+  const map = {};
+  for (const f of layouts[id].fields) {
+    map[f.cell] = f;
+  }
+  return map;
+};
