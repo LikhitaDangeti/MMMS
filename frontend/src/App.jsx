@@ -3,7 +3,8 @@ import { api } from './api.js';
 import EntryForm from './components/EntryForm.jsx';
 import Dashboard from './components/Dashboard.jsx';
 import HomePage from './components/HomePage.jsx';
-import { LayoutDashboard, FileEdit, ClipboardCheck, Moon, Sun, AlertTriangle } from 'lucide-react';
+import { Analytics } from './components/Analytics.jsx';
+import { LayoutDashboard, FileEdit, ClipboardCheck, Moon, Sun, AlertTriangle, BarChart2 } from 'lucide-react';
 
 export default function App() {
   const [tab, setTab] = useState('home');
@@ -64,7 +65,7 @@ export default function App() {
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </button>
             
-            <nav className="flex gap-1 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 p-1 border border-slate-200/50 dark:border-slate-700/50">
+            <nav className="flex gap-1 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 p-1 border border-slate-200/50 dark:border-slate-700/50 overflow-x-auto">
               <button 
                 onClick={() => { setEditContext(null); setTab('entry'); }} 
                 className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition-all ${tab === 'entry' ? 'bg-white dark:bg-slate-700 text-brand dark:text-brand-light shadow-sm' : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'}`}
@@ -75,13 +76,19 @@ export default function App() {
                 onClick={() => setTab('dashboard')} 
                 className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition-all ${tab === 'dashboard' ? 'bg-white dark:bg-slate-700 text-brand dark:text-brand-light shadow-sm' : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'}`}
               >
-                <LayoutDashboard className="h-4 w-4" /> <span className="hidden sm:inline">Dashboard</span>
+                <LayoutDashboard className="h-4 w-4" /> <span className="hidden sm:inline">History</span>
               </button>
               <button 
                 onClick={() => { setEditContext(null); setTab('anomalies'); }} 
                 className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition-all ${tab === 'anomalies' ? 'bg-white dark:bg-slate-700 text-rose-600 dark:text-rose-400 shadow-sm' : 'text-slate-600 dark:text-slate-300 hover:text-rose-600 dark:hover:text-rose-400'}`}
               >
                 <AlertTriangle className="h-4 w-4" /> <span className="hidden sm:inline">Anomalies</span>
+              </button>
+              <button 
+                onClick={() => { setEditContext(null); setTab('analytics'); }} 
+                className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition-all ${tab === 'analytics' ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-400 shadow-sm' : 'text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400'}`}
+              >
+                <BarChart2 className="h-4 w-4" /> <span className="hidden sm:inline">Analytics</span>
               </button>
             </nav>
           </div>
@@ -97,6 +104,7 @@ export default function App() {
         )}
         {sheets.length > 0 && (
           tab === 'entry' ? <EntryForm sheets={sheets} initialContext={editContext} /> : 
+          tab === 'analytics' ? <Analytics sheets={sheets} /> :
           tab === 'anomalies' ? <Dashboard sheets={sheets} anomaliesOnly={true} onEdit={(ctx) => { setEditContext(ctx); setTab('entry'); }} /> :
           <Dashboard sheets={sheets} onEdit={(ctx) => { setEditContext(ctx); setTab('entry'); }} />
         )}

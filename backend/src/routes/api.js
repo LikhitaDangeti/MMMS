@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { getSheets, getSheetLayout } from '../controllers/sheetController.js';
 import { getSubmission, listAllSubmissions, createSubmission, downloadXlsx, deleteSubmission } from '../controllers/submissionController.js';
+import { getAnalytics } from '../controllers/analyticsController.js';
 import { validateSubmission } from '../middleware/validate.js';
 import { submissionCount, storageBackend } from '../../db.js';
 
@@ -16,6 +17,9 @@ router.get('/submissions/list', listAllSubmissions);
 router.post('/submissions', validateSubmission, createSubmission);
 router.delete('/submissions', deleteSubmission);
 router.get('/submissions/xlsx', downloadXlsx);
+
+// Analytics
+router.get('/analytics/:id', getAnalytics);
 
 // Health
 router.get('/health', async (_req, res) => res.json({ ok: true, backend: storageBackend(), submissions: await submissionCount() }));
