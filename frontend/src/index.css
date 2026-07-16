@@ -7,12 +7,57 @@ html, body, #root { height: 100%; }
 
 @layer base {
   body {
-    @apply bg-slate-50 text-slate-900 transition-colors duration-300 antialiased selection:bg-brand selection:text-white;
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 antialiased selection:bg-brand selection:text-white relative min-h-screen overflow-x-hidden;
   }
   
   .dark body {
     @apply bg-slate-950 text-slate-100;
   }
+}
+
+/* Glassmorphism Animated Background Blobs */
+.bg-blobs {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(80px);
+  opacity: 0.6;
+  animation: float 20s infinite ease-in-out alternate;
+}
+
+.dark .blob { opacity: 0.3; }
+
+.blob-1 {
+  top: -10%; left: -10%;
+  width: 50vw; height: 50vw;
+  background: radial-gradient(circle, rgba(13, 148, 136, 0.4) 0%, rgba(13, 148, 136, 0) 70%);
+  animation-delay: 0s;
+}
+
+.blob-2 {
+  bottom: -20%; right: -10%;
+  width: 60vw; height: 60vw;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.3) 0%, rgba(99, 102, 241, 0) 70%);
+  animation-delay: -5s;
+}
+
+.blob-3 {
+  top: 40%; left: 30%;
+  width: 40vw; height: 40vw;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, rgba(16, 185, 129, 0) 70%);
+  animation-delay: -10s;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(5%, 10%) scale(1.1); }
+  100% { transform: translate(-5%, -10%) scale(0.9); }
 }
 
 /* Hide number spinners */

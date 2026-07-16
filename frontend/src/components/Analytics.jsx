@@ -59,15 +59,23 @@ export function Analytics({ sheets = [] }) {
 
   const PIE_COLORS = ['#3b82f6', '#f59e0b', '#10b981'];
 
-  const paramChartData = (selectedParam && data.submissions) ? data.submissions.map(sub => ({
-    label: `${sub.date.substring(5)} (${sub.shift})`,
-    value: sub.values[selectedParam] !== undefined && sub.values[selectedParam] !== '' ? Number(sub.values[selectedParam]) : null
-  })) : [];
+  const paramChartData = (selectedParam && data.submissions) ? data.submissions.map(sub => {
+    let val = sub.values[selectedParam];
+    if (val === undefined || val === '') val = null;
+    else {
+      const parsed = Number(val);
+      val = isNaN(parsed) ? null : parsed;
+    }
+    return {
+      label: `${sub.date.substring(5)} (${sub.shift})`,
+      value: val
+    };
+  }) : [];
 
   return (
     <div className="space-y-6 pb-20 pt-6">
       {/* Sheet Selector */}
-      <div className="flex items-center justify-between rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+      <div className="flex items-center justify-between rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-4 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
         <div className="flex items-center gap-3">
           <div className="grid h-10 w-10 place-items-center rounded-xl bg-indigo-500/10 text-indigo-500">
             <Settings className="h-5 w-5" />
@@ -93,21 +101,21 @@ export function Analytics({ sheets = [] }) {
         animate={{ opacity: 1, y: 0 }}
         className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"
       >
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <div className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Total Submissions</p>
           <p className="mt-2 text-3xl font-bold text-slate-900 dark:text-white">{data.totalSubmissions}</p>
         </div>
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <div className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Total Anomalies</p>
           <p className="mt-2 text-3xl font-bold text-rose-500">{data.totalAnomalies}</p>
         </div>
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <div className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Most Failing Component</p>
           <p className="mt-2 text-xl font-bold text-slate-900 dark:text-white truncate">
             {data.topFailures[0]?.name || 'N/A'}
           </p>
         </div>
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <div className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Best Performing Shift</p>
           <p className="mt-2 text-xl font-bold text-emerald-500">
             Shift {data.shiftData.sort((a,b) => a.value - b.value)[0]?.name || 'N/A'}
@@ -121,7 +129,7 @@ export function Analytics({ sheets = [] }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+          className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70"
         >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <h3 className="text-lg font-bold text-slate-900 dark:text-white">Parameter Trends</h3>
@@ -157,7 +165,7 @@ export function Analytics({ sheets = [] }) {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+        className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70"
       >
         <h3 className="mb-6 text-lg font-bold text-slate-900 dark:text-white">Anomalies Over Time (Last 30 Days)</h3>
         <div className="h-[300px] w-full">
@@ -182,7 +190,7 @@ export function Analytics({ sheets = [] }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+          className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70"
         >
           <h3 className="mb-6 text-lg font-bold text-slate-900 dark:text-white">Top 5 Equipment Failures</h3>
           <div className="h-[300px] w-full">
@@ -205,7 +213,7 @@ export function Analytics({ sheets = [] }) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+          className="rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70"
         >
           <h3 className="mb-6 text-lg font-bold text-slate-900 dark:text-white">Anomalies by Shift</h3>
           <div className="flex h-[300px] w-full items-center justify-center">

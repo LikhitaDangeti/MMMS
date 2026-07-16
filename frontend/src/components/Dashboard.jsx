@@ -74,7 +74,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
           </button>
         </div>
 
-        <div className="rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 sm:p-6 shadow-glass dark:shadow-none flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="rounded-3xl border border-white/20 bg-white/70 backdrop-blur-xl p-5 sm:p-6 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
             <div className="font-display text-[18px] font-bold text-slate-900 dark:text-white mb-1">Sheet #{sub.sheetId}: {d?.description}</div>
             <div className="flex flex-wrap items-center gap-3 text-[13px] font-medium text-slate-500 dark:text-slate-400">
@@ -106,7 +106,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
           </div>
         )}
 
-        <div className="rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 sm:p-6 overflow-hidden shadow-sm">
+        <div className="rounded-3xl border border-white/20 bg-white/70 backdrop-blur-xl p-4 sm:p-6 overflow-hidden shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
            <SheetGrid layout={layout} initialValues={sub.values || {}} editable={false} zoom={zoom} />
         </div>
       </motion.div>
@@ -115,7 +115,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
 
   return (
     <div className="space-y-6 max-w-4xl mx-auto pb-10">
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 shadow-glass dark:shadow-none">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 rounded-3xl border border-white/20 bg-white/70 backdrop-blur-xl p-5 shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70">
         <div>
           <label className={labelCls}>Filter by Sheet</label>
           <div className="relative">
@@ -144,7 +144,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
           <div className="h-8 w-8 animate-spin rounded-full border-4 border-brand border-t-transparent" />
         </div>
       ) : filteredRows.length === 0 ? (
-        <div className="rounded-3xl border-2 border-dashed border-slate-200 dark:border-slate-800 bg-transparent py-20 flex flex-col items-center justify-center text-slate-500 dark:text-slate-400">
+        <div className="rounded-3xl border-2 border-dashed border-slate-300/50 dark:border-slate-700/50 bg-white/40 dark:bg-slate-900/40 backdrop-blur-sm py-20 flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 shadow-glass">
           <div className="h-16 w-16 rounded-full bg-slate-100 dark:bg-slate-800 grid place-items-center mb-4">
             <FileX className="w-8 h-8 text-slate-400 dark:text-slate-500" />
           </div>
@@ -163,7 +163,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
               transition={{ delay: i * 0.05 }}
               key={i} 
               onClick={() => view(r)} 
-              className="flex w-full items-center gap-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 text-left hover:shadow-md hover:border-brand/30 dark:hover:border-brand/30 transition-all group active:scale-[.99] cursor-pointer"
+              className="flex w-full items-center gap-4 rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl p-4 text-left shadow-glass hover:shadow-md hover:border-brand/40 dark:border-slate-800/50 dark:bg-slate-900/70 transition-all group active:scale-[.99] cursor-pointer"
             >
               <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-brand/10 dark:bg-brand/20 text-[15px] font-black text-brand dark:text-brand-light">#{r.sheetId}</div>
               <div className="min-w-0 flex-1">

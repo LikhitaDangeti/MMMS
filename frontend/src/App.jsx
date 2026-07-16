@@ -7,7 +7,10 @@ import { Analytics } from './components/Analytics.jsx';
 import { LayoutDashboard, FileEdit, ClipboardCheck, Moon, Sun, AlertTriangle, BarChart2, ClipboardList } from 'lucide-react';
 
 export default function App() {
-  const [tab, setTab] = useState('home');
+  const [tab, setTab] = useState(() => {
+    const hash = typeof window !== 'undefined' ? window.location.hash.replace('#', '') : '';
+    return ['entry', 'dashboard', 'anomalies', 'analytics'].includes(hash) ? hash : 'home';
+  });
   const [editContext, setEditContext] = useState(null);
   const [sheets, setSheets] = useState([]);
   const [err, setErr] = useState(null);
@@ -34,14 +37,42 @@ export default function App() {
     api.sheets().then(setSheets).catch(() => setErr('Cannot reach the API on port 4000. Is the backend running?'));
   }, []);
 
+  useEffect(() => {
+    if (tab === 'home') {
+      window.history.replaceState(null, '', ' '); // clear hash
+    } else {
+      window.location.hash = tab;
+    }
+  }, [tab]);
+
+  useEffect(() => {
+    const onHashChange = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (['entry', 'dashboard', 'anomalies', 'analytics'].includes(hash)) {
+        setTab(hash);
+      } else {
+        setTab('home');
+      }
+    };
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
   if (tab === 'home') {
     return <HomePage onLaunch={() => setTab('entry')} />;
   }
 
   return (
-    <div className="min-h-full font-sans transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 pb-24">
+    <div className="min-h-full font-sans transition-colors duration-300 dark:bg-slate-950/50 dark:text-slate-100 pb-24 relative z-0">
+      {/* Animated Background Blobs */}
+      <div className="bg-blobs">
+        <div className="blob blob-1"></div>
+        <div className="blob blob-2"></div>
+        <div className="blob blob-3"></div>
+      </div>
+
       {/* Glassmorphic Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-xl bg-white/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800 shadow-glass dark:shadow-glass-dark">
+      <header className="sticky top-0 z-50 backdrop-blur-2xl bg-white/70 dark:bg-slate-950/70 border-b border-white/20 dark:border-slate-800/50 shadow-glass dark:shadow-glass-dark">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-4 py-3 sm:px-6">
           <div className="flex items-center gap-3">
             <div className="grid h-10 w-10 place-items-center rounded-xl bg-brand text-white shadow-md shadow-brand/20">

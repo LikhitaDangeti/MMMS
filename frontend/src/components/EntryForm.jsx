@@ -83,9 +83,9 @@ function Stand({ unit, store, onBump, bumpVer }) {
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.25, ease: "easeInOut" }}
           >
-            <div className="space-y-3 border-t border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-950/30 p-3 sm:p-4">
+            <div className="border-t border-white/20 dark:border-slate-800/50 p-3 sm:p-4">
               {unit.clusters.map((cl, i) => (
-                <div key={i} className="rounded-xl bg-white dark:bg-slate-900 px-4 py-2 shadow-sm border border-slate-100 dark:border-slate-800">
+                <div key={i} className="mb-6 last:mb-0 rounded-2xl bg-white/50 dark:bg-slate-950/30 px-4 py-2 shadow-sm border border-white/20 dark:border-slate-800">
                   {cl.subGroup && <div className="border-b border-dashed border-slate-200 dark:border-slate-700 py-2 text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">{cl.subGroup}</div>}
                   <div className="divide-y divide-slate-100 dark:divide-slate-800">
                     {cl.fields.map((f) => <CheckControl key={f.cell} field={f} store={store} onBump={onBump} />)}
@@ -107,8 +107,8 @@ function Section({ sec, store, onBump }) {
   const allOk = (e) => { e.stopPropagation(); sec.choiceCells.forEach((f) => (store.current[f.cell] = 'OK')); setVer((v) => v + 1); onBump(); setOpen(true); };
   
   return (
-    <div className="overflow-hidden rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-glass dark:shadow-none mb-4">
-      <button onClick={() => setOpen((o) => !o)} className="flex w-full items-center gap-3 bg-slate-50 dark:bg-slate-900 px-4 sm:px-5 py-4 text-left group">
+    <div className="overflow-hidden rounded-3xl border border-white/20 bg-white/70 backdrop-blur-xl shadow-glass dark:border-slate-800/50 dark:bg-slate-900/70 mb-4">
+      <button onClick={() => setOpen((o) => !o)} className="flex w-full items-center gap-3 bg-black/5 dark:bg-white/5 px-4 sm:px-5 py-4 text-left group">
         <motion.div animate={{ rotate: open ? 90 : 0 }} transition={{ type: "spring", stiffness: 300, damping: 20 }}>
           <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-brand dark:group-hover:text-brand-light transition-colors" />
         </motion.div>
@@ -125,7 +125,7 @@ function Section({ sec, store, onBump }) {
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.25, ease: "easeInOut" }}
           >
-            <div key={ver} className="space-y-1 border-t border-slate-100 dark:border-slate-800 p-3 sm:p-5">
+            <div key={ver} className="space-y-1 border-t border-white/20 dark:border-slate-800/50 p-3 sm:p-5">
               {sec.units.map((unit, i) => {
                 const prev = sec.units[i - 1];
                 const showEquip = unit.equipment && unit.equipment !== prev?.equipment;
@@ -144,7 +144,7 @@ function Section({ sec, store, onBump }) {
   );
 }
 
-const inputCls = "w-full rounded-xl border-[1.5px] border-slate-300 bg-white px-4 py-3 text-[14px] font-medium focus:border-brand focus:ring-1 focus:ring-brand outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:focus:border-brand transition-all";
+const inputCls = "w-full rounded-xl border-[1.5px] border-white/40 bg-white/50 px-4 py-2.5 text-[14px] font-medium focus:border-brand focus:bg-white focus:ring-1 focus:ring-brand outline-none transition-all dark:border-slate-700/50 dark:bg-slate-800/50 dark:text-slate-100 dark:focus:border-brand dark:focus:bg-slate-800 shadow-sm";
 const labelCls = "block text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1.5 ml-1";
 
 export default function EntryForm({ sheets, initialContext }) {
