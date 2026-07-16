@@ -159,38 +159,46 @@ export function Analytics({ sheets = [] }) {
         >
           <h3 className="mb-6 text-lg font-bold text-slate-900 dark:text-white">Anomalies by Shift</h3>
           <div className="flex h-[300px] w-full items-center justify-center">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-                  data={data.shiftData}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={70}
-                  outerRadius={100}
-                  paddingAngle={5}
-                  dataKey="value"
-                  stroke="none"
-                >
+            {data.totalAnomalies === 0 ? (
+              <div className="flex h-full items-center justify-center text-sm font-medium text-slate-400">
+                No anomalies recorded
+              </div>
+            ) : (
+              <>
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                    <Pie
+                      data={data.shiftData}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={70}
+                      outerRadius={100}
+                      paddingAngle={5}
+                      dataKey="value"
+                      stroke="none"
+                    >
+                      {data.shiftData.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={PIE_COLORS[index % PIE_COLORS.length]} />
+                      ))}
+                    </Pie>
+                    <Tooltip 
+                      contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                      itemStyle={{ fontWeight: 'bold', color: '#0f172a' }}
+                    />
+                  </PieChart>
+                </ResponsiveContainer>
+                
+                {/* Custom Legend */}
+                <div className="absolute flex flex-col gap-3 right-8">
                   {data.shiftData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={PIE_COLORS[index % PIE_COLORS.length]} />
+                    <div key={entry.name} className="flex items-center gap-2">
+                      <div className="h-3 w-3 rounded-full" style={{ backgroundColor: PIE_COLORS[index % PIE_COLORS.length] }} />
+                      <span className="text-sm font-medium text-slate-700 dark:text-slate-300">Shift {entry.name}</span>
+                    </div>
                   ))}
-                </Pie>
-                <Tooltip 
-                  contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
-                  itemStyle={{ fontWeight: 'bold', color: '#0f172a' }}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-            
-            {/* Custom Legend */}
-            <div className="absolute flex flex-col gap-3 right-8">
-              {data.shiftData.map((entry, index) => (
-                <div key={entry.name} className="flex items-center gap-2">
-                  <div className="h-3 w-3 rounded-full" style={{ backgroundColor: PIE_COLORS[index % PIE_COLORS.length] }} />
-                  <span className="text-sm font-medium text-slate-700 dark:text-slate-300">Shift {entry.name}</span>
                 </div>
-              ))}
-            </div>
+              </>
+            )}
           </div>
         </motion.div>
       </div>
