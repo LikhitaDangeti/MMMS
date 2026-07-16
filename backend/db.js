@@ -107,6 +107,38 @@ async function makePostgresStore() {
       const res = await pool.query(q, params);
       return res.rows.map(parseRow).map(toListRow).sort(listSort);
     },
+    async listWithValues({ sheetId, date, shift } = {}) {
+      let whereClause = [];
+      let params = [];
+      
+      if (sheetId) {
+        params.push(Number(sheetId));
+        whereClause.push(`"sheetId" = $${params.length}`);
+      }
+      if (date) {
+        params.push(date);
+        whereClause.push(`date = $${params.length}`);
+      }
+      if (shift) {
+        params.push(shift);
+        whereClause.push(`shift = $${params.length}`);
+      }
+      
+      let q = 'SELECT date, shift, "sheetId", meta, "valuesData" FROM submissions';
+      if (whereClause.length > 0) {
+        q += ' WHERE ' + whereClause.join(' AND ');
+      }
+      q += ' ORDER BY date ASC, shift ASC';
+      
+      const res = await pool.query(q, params);
+      return res.rows.map(row => ({
+        date: row.date,
+        shift: row.shift,
+        sheetId: row.sheetId,
+        meta: row.meta ? JSON.parse(row.meta) : {},
+        values: row.valuesData ? JSON.parse(row.valuesData) : {}
+      }));
+    },
     async upsert(payload) {
       const existing = await this.find(payload.date, payload.shift, payload.sheetId);
       const now = new Date().toISOString();
@@ -165,6 +197,7 @@ console.log(`[db] storage backend: ${store.backend}`);
 
 export const findSubmission = (date, shift, sheetId) => store.find(date, shift, sheetId);
 export const listSubmissions = (q) => store.list(q);
+export const listSubmissionsWithValues = (q) => store.listWithValues(q);
 export const upsertSubmission = (p) => store.upsert(p);
 export const deleteSubmission = (date, shift, sheetId) => store.delete(date, shift, sheetId);
 export const submissionCount = () => store.count();

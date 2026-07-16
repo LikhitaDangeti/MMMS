@@ -160,11 +160,23 @@ export default function EntryForm({ sheets, initialContext }) {
   const store = useRef({});
   const bump = useCallback(() => setFilled(Object.keys(store.current).length), []);
 
+  const abortRef = useRef(null);
+
   async function load() {
+    // Cancel any in-flight request from a previous selection
+    if (abortRef.current) abortRef.current.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+
     setLoading(true); setMsg(null);
     try {
-      const [lay, existing] = await Promise.all([api.layout(sheetId), api.get(date, shift, sheetId)]);
-      
+      const [lay, existing] = await Promise.all([
+        api.layout(sheetId),
+        api.get(date, shift, sheetId)
+      ]);
+
+      // If aborted (user changed selection), discard result
+      if (controller.signal.aborted) return;
       const newStore = { ...(existing?.values || {}) };
       // Auto-fill remarks fields
       lay.fields.forEach(f => {

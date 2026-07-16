@@ -4,7 +4,7 @@ import EntryForm from './components/EntryForm.jsx';
 import Dashboard from './components/Dashboard.jsx';
 import HomePage from './components/HomePage.jsx';
 import { Analytics } from './components/Analytics.jsx';
-import { LayoutDashboard, FileEdit, ClipboardCheck, Moon, Sun, AlertTriangle, BarChart2 } from 'lucide-react';
+import { LayoutDashboard, FileEdit, ClipboardCheck, Moon, Sun, AlertTriangle, BarChart2, ClipboardList } from 'lucide-react';
 
 export default function App() {
   const [tab, setTab] = useState('home');
@@ -76,7 +76,7 @@ export default function App() {
                 onClick={() => setTab('dashboard')} 
                 className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition-all ${tab === 'dashboard' ? 'bg-white dark:bg-slate-700 text-brand dark:text-brand-light shadow-sm' : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'}`}
               >
-                <LayoutDashboard className="h-4 w-4" /> <span className="hidden sm:inline">History</span>
+                <ClipboardList className="h-4 w-4" /> <span className="hidden sm:inline">Submissions</span>
               </button>
               <button 
                 onClick={() => { setEditContext(null); setTab('anomalies'); }} 

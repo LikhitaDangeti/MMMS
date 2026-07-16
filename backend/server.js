@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
+import compression from 'compression';
 import { securityHeaders, rateLimiter } from './src/middleware/security.js';
 import apiRoutes from './src/routes/api.js';
 
@@ -9,6 +10,7 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 
 // Middleware
+app.use(compression()); // gzip all responses — critical for large JSON layouts
 app.use(securityHeaders);
 app.use(cors());
 app.use(express.json({ limit: '5mb' }));

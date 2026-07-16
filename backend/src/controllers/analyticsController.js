@@ -1,4 +1,4 @@
-import { listSubmissions } from '../../db.js';
+import { listSubmissionsWithValues } from '../../db.js';
 import { getLayout } from '../services/schemaService.js';
 
 export async function getAnalytics(req, res) {
@@ -9,7 +9,7 @@ export async function getAnalytics(req, res) {
     const layout = getLayout(sheetId);
     if (!layout) return res.status(404).json({ error: 'sheet not found' });
 
-    const submissions = await listSubmissions({ sheetId });
+    const submissions = await listSubmissionsWithValues({ sheetId });
     
     // Sort submissions by date ascending, then shift for time series
     submissions.sort((a, b) => {

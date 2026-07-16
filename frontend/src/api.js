@@ -3,9 +3,18 @@ const J = (r) => {
   return r.json();
 };
 
+// In-memory cache so large layout JSONs are only fetched once per session
+const layoutCache = new Map();
+
 export const api = {
   sheets: () => fetch('/api/sheets').then(J),
-  layout: (id) => fetch(`/api/sheets/${id}/layout`).then(J),
+  layout: (id) => {
+    if (layoutCache.has(id)) return Promise.resolve(layoutCache.get(id));
+    return fetch(`/api/sheets/${id}/layout`).then(J).then((data) => {
+      layoutCache.set(id, data);
+      return data;
+    });
+  },
   get: (date, shift, sheetId) =>
     fetch(`/api/submissions?date=${date}&shift=${shift}&sheetId=${sheetId}`).then(J),
   list: (q = {}) => {

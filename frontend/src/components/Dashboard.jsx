@@ -24,8 +24,16 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
   const [rows, setRows] = useState([]);
   const [open, setOpen] = useState(null);
   const [zoom, setZoom] = useState(1);
+  const [loading, setLoading] = useState(false);
 
-  async function refresh() { setRows(await api.list({ sheetId: fSheet, date: fDate })); }
+  async function refresh() {
+    setLoading(true);
+    try {
+      setRows(await api.list({ sheetId: fSheet, date: fDate }));
+    } finally {
+      setLoading(false);
+    }
+  }
   useEffect(() => { refresh(); /* eslint-disable-next-line */ }, [fSheet, fDate]);
 
   async function view(r) {
@@ -131,7 +139,11 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
         </div>
       </div>
 
-      {filteredRows.length === 0 && (
+      {loading ? (
+        <div className="flex h-[300px] items-center justify-center">
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-brand border-t-transparent" />
+        </div>
+      ) : filteredRows.length === 0 ? (
         <div className="rounded-3xl border-2 border-dashed border-slate-200 dark:border-slate-800 bg-transparent py-20 flex flex-col items-center justify-center text-slate-500 dark:text-slate-400">
           <div className="h-16 w-16 rounded-full bg-slate-100 dark:bg-slate-800 grid place-items-center mb-4">
             <FileX className="w-8 h-8 text-slate-400 dark:text-slate-500" />
@@ -139,7 +151,7 @@ export default function Dashboard({ sheets, onEdit, anomaliesOnly }) {
           <div className="text-[16px] font-bold text-slate-700 dark:text-slate-300 mb-1">{anomaliesOnly ? 'No anomalies detected' : 'No submissions found'}</div>
           <div className="text-[14px]">Adjust your filters or fill a sheet in the Entry tab.</div>
         </div>
-      )}
+      ) : null}
 
       <div className="space-y-3">
         {filteredRows.map((r, i) => {
