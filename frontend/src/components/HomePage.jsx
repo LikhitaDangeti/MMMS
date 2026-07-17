@@ -408,6 +408,86 @@ export default function HomePage({ onLaunch }) {
             </div>
           </div>
 
+          {/* FINAL CTA / FEATURES (MOVED UP) */}
+          <div className="min-h-[120vh] flex flex-col justify-center items-center text-center pb-20 pointer-events-auto relative z-20">
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.95, y: 50 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              viewport={{ once: false }}
+              transition={{ duration: 1, type: "spring", bounce: 0.3 }}
+              className="w-full max-w-6xl rounded-[2rem] bg-black/80 backdrop-blur-3xl border border-[#0ea5e9]/30 p-6 sm:p-10 md:p-16 shadow-[0_0_100px_rgba(0,255,204,0.15)] relative overflow-hidden group"
+            >
+              {/* Animated Grid Background */}
+              <div className="absolute inset-0 opacity-20 transition-opacity group-hover:opacity-40" 
+                   style={{ backgroundImage: 'radial-gradient(#0ea5e9 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#0ea5e9]/10 via-transparent to-transparent pointer-events-none" />
+              
+              {/* Sweeping Light Effect */}
+              <motion.div 
+                animate={{ x: ['-100%', '200%'] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "linear", repeatDelay: 2 }}
+                className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-[#0ea5e9]/10 to-transparent skew-x-12"
+              />
+
+              <div className="relative z-10 mb-12 sm:mb-16">
+                <h2 className="text-4xl sm:text-6xl md:text-7xl font-black text-white mb-4 sm:mb-6 drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">
+                  Digital Twin Synced.
+                </h2>
+                <p className="text-lg sm:text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto font-light">
+                  We've mapped this entire complex physical process into a seamless digital workflow. The mill is now intelligent.
+                </p>
+              </div>
+
+              {/* Feature Grid with Animated Graphs */}
+              <style>{`.hide-scrollbar::-webkit-scrollbar { display: none; }`}</style>
+              <div className="flex overflow-x-auto pb-6 -mx-4 px-4 sm:-mx-10 sm:px-10 gap-6 mb-8 sm:mb-12 relative z-10 text-left snap-x snap-mandatory hide-scrollbar" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+                <div className="min-w-[280px] sm:min-w-[320px] flex-1 snap-center">
+                  <FeatureCard 
+                    title="13 Digital Checklists" 
+                    desc="Paper eliminated. Complete mobile-first data entry for all shift logs with real-time validation."
+                    icon={ClipboardCheck} color="#0ea5e9" delay={0.1}
+                  />
+                </div>
+                <div className="min-w-[280px] sm:min-w-[320px] flex-1 snap-center">
+                  <FeatureCard 
+                    title="Live Cloud Sync" 
+                    desc="High-performance PostgreSQL backend. No more lost data at the end of shifts. Zero latency."
+                    icon={Zap} color="#3b82f6" delay={0.2}
+                  />
+                </div>
+                <div className="min-w-[280px] sm:min-w-[320px] flex-1 snap-center">
+                  <FeatureCard 
+                    title="Smart Anomalies" 
+                    desc="Automated AI-driven alerts for out-of-bounds pressure and temperature readings."
+                    icon={ShieldAlert} color="#ff0055" delay={0.3}
+                  />
+                </div>
+                <div className="min-w-[280px] sm:min-w-[320px] flex-1 snap-center">
+                  <FeatureCard 
+                    title="Advanced Analytics" 
+                    desc="Interactive charts and deep insights powered by real-time plant data trends."
+                    icon={ActivitySquare} color="#a855f7" delay={0.4}
+                  />
+                </div>
+              </div>
+
+              {/* Upgraded Button */}
+              <div className="relative z-10 flex justify-center mt-8">
+                <MagneticButton onClick={onLaunch} className="group relative overflow-hidden rounded-full bg-[#0ea5e9] px-8 sm:px-16 py-4 sm:py-6 font-black text-black shadow-[0_0_40px_rgba(0,255,204,0.5)] transition-all hover:scale-105 sm:hover:scale-110 hover:shadow-[0_0_60px_rgba(0,255,204,0.8)] w-full sm:w-auto text-center flex justify-center items-center">
+                  <span className="relative z-10 flex items-center justify-center gap-2 sm:gap-3 text-lg sm:text-xl tracking-tight">
+                    Initialize Dashboard
+                    <ArrowRight className="h-5 w-5 sm:h-6 sm:w-6 transition-transform group-hover:translate-x-2 shrink-0" />
+                  </span>
+                  <motion.div 
+                    animate={{ x: ['-100%', '200%'] }}
+                    transition={{ duration: 2, repeat: Infinity, ease: "linear", repeatDelay: 1 }}
+                    className="absolute inset-0 z-0 bg-gradient-to-r from-transparent via-white/50 to-transparent skew-x-12"
+                  />
+                </MagneticButton>
+              </div>
+            </motion.div>
+          </div>
+
           {/* PHASE 1 */}
           <div className="relative min-h-[120vh] flex flex-col justify-center">
             <StoryPhase title="Heating & Cleaning" subtitle="Phase 01 • RHF & PDS" icon={Flame}>
@@ -464,72 +544,7 @@ export default function HomePage({ onLaunch }) {
             </div>
           </div>
 
-          {/* FINAL CTA / FEATURES */}
-          <div className="min-h-[120vh] flex flex-col justify-center items-center text-center pb-20 pointer-events-auto relative z-20">
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.95, y: 50 }}
-              whileInView={{ opacity: 1, scale: 1, y: 0 }}
-              viewport={{ once: false }}
-              transition={{ duration: 1, type: "spring", bounce: 0.3 }}
-              className="w-full max-w-6xl rounded-[2rem] bg-black/80 backdrop-blur-3xl border border-[#0ea5e9]/30 p-6 sm:p-10 md:p-16 shadow-[0_0_100px_rgba(0,255,204,0.15)] relative overflow-hidden group"
-            >
-              {/* Animated Grid Background */}
-              <div className="absolute inset-0 opacity-20 transition-opacity group-hover:opacity-40" 
-                   style={{ backgroundImage: 'radial-gradient(#0ea5e9 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#0ea5e9]/10 via-transparent to-transparent pointer-events-none" />
-              
-              {/* Sweeping Light Effect */}
-              <motion.div 
-                animate={{ x: ['-100%', '200%'] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear", repeatDelay: 2 }}
-                className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-[#0ea5e9]/10 to-transparent skew-x-12"
-              />
-
-              <div className="relative z-10 mb-12 sm:mb-16">
-                <h2 className="text-4xl sm:text-6xl md:text-7xl font-black text-white mb-4 sm:mb-6 drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-                  Digital Twin Synced.
-                </h2>
-                <p className="text-lg sm:text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto font-light">
-                  We've mapped this entire complex physical process into a seamless digital workflow. The mill is now intelligent.
-                </p>
-              </div>
-
-              {/* Feature Grid with Animated Graphs */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12 sm:mb-16 relative z-10 text-left">
-                <FeatureCard 
-                  title="13 Digital Checklists" 
-                  desc="Paper eliminated. Complete mobile-first data entry for all shift logs with real-time validation."
-                  icon={ClipboardCheck} color="#0ea5e9" delay={0.1}
-                />
-                <FeatureCard 
-                  title="Live Cloud Sync" 
-                  desc="High-performance PostgreSQL backend. No more lost data at the end of shifts. Zero latency."
-                  icon={Zap} color="#3b82f6" delay={0.3}
-                />
-                <FeatureCard 
-                  title="Smart Anomalies" 
-                  desc="Automated AI-driven alerts for out-of-bounds pressure and temperature readings."
-                  icon={ShieldAlert} color="#ff0055" delay={0.5}
-                />
-              </div>
-
-              {/* Upgraded Button */}
-              <div className="relative z-10 flex justify-center">
-                <MagneticButton onClick={onLaunch} className="group relative overflow-hidden rounded-full bg-[#0ea5e9] px-8 sm:px-16 py-4 sm:py-6 font-black text-black shadow-[0_0_40px_rgba(0,255,204,0.5)] transition-all hover:scale-105 sm:hover:scale-110 hover:shadow-[0_0_60px_rgba(0,255,204,0.8)] w-full sm:w-auto text-center flex justify-center items-center">
-                  <span className="relative z-10 flex items-center justify-center gap-2 sm:gap-3 text-lg sm:text-xl tracking-tight">
-                    Initialize Dashboard
-                    <ArrowRight className="h-5 w-5 sm:h-6 sm:w-6 transition-transform group-hover:translate-x-2 shrink-0" />
-                  </span>
-                  {/* Button internal sweeping light */}
-                  <motion.div 
-                    animate={{ x: ['-100%', '200%'] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "linear", repeatDelay: 1 }}
-                    className="absolute inset-0 z-0 bg-gradient-to-r from-transparent via-white/50 to-transparent skew-x-12"
-                  />
-                </MagneticButton>
-              </div>
-            </motion.div>
-          </div>
+          {/* END PHASE 4 */}
 
         </div>
       </div>
