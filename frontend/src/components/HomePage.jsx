@@ -77,7 +77,7 @@ const Scene = () => {
           onBeforeCompile={(shader) => {
             shader.uniforms.uTime = { value: 0 };
             shaderRef.current = shader;
-            shader.vertexShader = `varying vec2 vUv; varying vec3 vPos;` + shader.vertexShader.replace('#include <begin_vertex>', `#include <begin_vertex>\nvUv = uv;\nvPos = position;`);
+            shader.vertexShader = `varying vec2 vUv; varying vec3 vPos;\n` + shader.vertexShader.replace('#include <begin_vertex>', `#include <begin_vertex>\nvUv = uv;\nvPos = position;`);
             shader.fragmentShader = `
               uniform float uTime;
               varying vec2 vUv;
