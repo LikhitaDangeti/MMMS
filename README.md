@@ -10,7 +10,7 @@ Excel grid layout and downloads a **populated copy of the real `.xlsx` template*
 |-------|--------|
 | Frontend | React + Vite + Tailwind CSS (mobile-first), fully self-contained for Intranets |
 | Backend | Node.js + Express (Modular structure with zero external security dependencies) |
-| Database | Microsoft SQL Server |
+| Database | PostgreSQL |
 | Excel | Python + `openpyxl` stamps values into a copy of the original template |
 | Auth | Local Storage Caching — Inspector types Name + Employee ID (auto-fills on next visit) |
 
