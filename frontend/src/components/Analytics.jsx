@@ -72,6 +72,20 @@ export function Analytics({ sheets = [] }) {
     };
   }) : [];
 
+  const selectedFieldDef = data?.numericFields?.find(f => f.cell === selectedParam);
+  const unit = selectedFieldDef?.unit || '';
+
+  const validValues = paramChartData.map(d => d.value).filter(v => v !== null);
+  let yDomain = ['auto', 'auto'];
+  if (validValues.length === 0) {
+    yDomain = [0, 100];
+  } else {
+    const minVal = Math.min(...validValues);
+    const maxVal = Math.max(...validValues);
+    const padding = (maxVal - minVal) * 0.1 || 10;
+    yDomain = [Math.floor(minVal - padding), Math.ceil(maxVal + padding)];
+  }
+
   return (
     <div className="space-y-6 pb-20 pt-6">
       {/* Sheet Selector */}
@@ -148,8 +162,9 @@ export function Analytics({ sheets = [] }) {
               <LineChart data={paramChartData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#334155" opacity={0.2} />
                 <XAxis dataKey="label" stroke="#64748b" fontSize={12} tickMargin={10} minTickGap={30} />
-                <YAxis stroke="#64748b" fontSize={12} domain={['auto', 'auto']} />
+                <YAxis stroke="#64748b" fontSize={12} domain={yDomain} tickFormatter={(val) => `${val}${unit ? ` ${unit}` : ''}`} width={80} />
                 <Tooltip 
+                  formatter={(value) => [`${value}${unit ? ` ${unit}` : ''}`, 'Value']}
                   contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
                   itemStyle={{ color: '#0f172a', fontWeight: 'bold' }}
                   labelStyle={{ color: '#64748b', marginBottom: '4px' }}

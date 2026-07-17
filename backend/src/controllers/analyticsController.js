@@ -78,7 +78,8 @@ export async function getAnalytics(req, res) {
       .filter(f => f.ft === 'number')
       .map(f => ({
         cell: f.cell,
-        name: `${f.rowKey || ''} - ${f.colKey || ''}`.replace(/^- |- $/g, '').trim() || f.cell
+        name: `${f.rowKey || ''} - ${f.colKey || ''}`.replace(/^- |- $/g, '').trim() || f.cell,
+        unit: f.unit || f.suffix || ''
       }));
 
     res.json({
